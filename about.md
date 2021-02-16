@@ -43,7 +43,7 @@ Some random stuff / whoami:
 
 ### Hobbies
 
-Programming, reverse engineering (or rather looking under the hood), computer security, teaching others and iceskating.
+Programming, reverse engineering (or rather looking under the hood), computer security, teaching others and ice skating.
 
 ### PGP Key
 
