@@ -8,6 +8,12 @@ Below you can see a list of talks or workshops I have given for various events a
 
 The convention for a given event is `date - name, location`. The `[lightning talk]` tag means the talk took ~5 minutes and was probably prepared just before presenting it or during the event, as an idea to cotribute some more ;).
 
+### 2020.12.17 - A Midwinter Night's Con 2020 ([https://absoluteappsec.com/cons/midwinter-2020/]())[
+* Various interesting (and not) bugs case studies ([video](https://www.youtube.com/watch?v=cSb1ZWFhE1w), [slides](https://docs.google.com/presentation/d/1VpXqzPIPrfIPSIiua5ClNkjKAzM3uKlyAKUf0jBqoUI)) - In this talk I will present a "cstrnfinder" research where I found many (stupid) bugs related to string operations in C. Apart from that, we will look through an insufficient permission check that allowed for kASLR bypass within kernel modules in certain container environments. We will also analyse a not sufficient mitigation in glibc allocator, where changing a few lines of code can make it harder for attackers to exploit buggy applications.
+
+### 2020.04.25 - Python Pizza, remote @ your couch ([link](https://remote.python.pizza/))
+* [EN] [lightning talk] sudo python is a trap, use isolated mode ([video](https://www.youtube.com/watch?t=2530&v=sOXVxjPjF9E), [slides](https://docs.google.com/presentation/d/11HV4e0wqXxl_9xTpHBKfON6oUJP6MBaj9pUjNP6ETdw)) - a showcase of the "Readline module loading in interactive mode" Python security bug :)
+
 ### 2019.11.14-15 - Security PWNing Conference 2019, Warsaw, Poland ([link](https://www.instytutpwn.pl/konferencja/pwning/))
 * [PL] Attacking via Linux's procfs, and Countermeasures for App Developers ([slides](https://docs.google.com/presentation/d/1OmrIAxrfDoCFPd0Iw7uQYsUKJhDny-zYCN5F96K7DgY/)) - presentation about procfs, the things you can find there, some consequences of those (consider e.g. arbitrary file reads, directory listings with path traversals in both web apps and programs run by users on the system), weird corner cases when depending on `readlink /proc/PID/exe` or reading process name from comm or cmdline files, PIDs (which are not process handles) and PID-reuse attacks and some mitigations along with the new one - pidfd. Also talked about procfs mount options - hidepid and gid.
 
