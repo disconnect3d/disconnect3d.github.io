@@ -1,0 +1,31 @@
+<head>
+    {% if jekyll.environment == 'production' %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87478413-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-87478413-1');
+    </script>
+    {% endif %}
+
+    <!-- Main stuff -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <script src="https://use.fontawesome.com/4a31870267.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Orbitron:400,900" rel="stylesheet"> 
+    <!-- RSS feed -->
+    <link rel="alternate" type="application/rss+xml" title="Disconnect3d; Feed" href="/feed" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/posts.css">
+
+</head>

@@ -1,0 +1,14 @@
+# Site settings
+title: disconnect3d's blog
+email: dominik.b.czarnota@gmail.com
+description: "Disconnect3d's blog."
+baseurl: ""
+url: "http://disconnect3d.pl/"
+twitter_username: 
+github_username:  disconnect3d
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+timezone: Europe/Warsaw
+

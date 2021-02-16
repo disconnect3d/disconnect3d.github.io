@@ -1,0 +1,230 @@
+---
+layout:     post
+title:      "C++ Boost.Preprocessor and template loops"
+date:       2016-04-01 18:16:33
+tags:       cpp, boost, preprocessor, macros
+---
+
+Today I will write a story about how I saved myself a lot of writing with just a few lines of code (that doesn't mean it took little time :P).
+
+Usually, when you want to iterate over something, you write a loop.
+But what if you want to use the loop counter as a template argument, like this?:
+
+```c++
+#include <array>
+int main() {
+    for(int i=0; i<10; ++i)
+        std::array<int, i> a;
+}
+```
+
+Compilation of above code fails with such compilation errors:
+```
+$ g++ -std=c++14 m.cpp 
+m.cpp: In function ‘int main()’:
+m.cpp:4:25: error: the value of ‘i’ is not usable in a constant expression
+         std::array<int, i> a;
+                         ^
+m.cpp:3:13: note: ‘int i’ is not const
+     for(int i=0; i<10; ++i) {
+             ^
+m.cpp:4:26: error: the value of ‘i’ is not usable in a constant expression
+         std::array<int, i> a;
+                          ^
+m.cpp:3:13: note: ‘int i’ is not const
+     for(int i=0; i<10; ++i) {
+             ^
+m.cpp:4:26: note: in template argument for type ‘long unsigned int’ 
+         std::array<int, i> a;
+```
+
+To solve this problem we can make a loop using templates. This may end up with such code:
+
+```c++
+#include <iostream>
+#include <array>
+ 
+template<size_t c>
+struct ForLoop {
+    template<template <size_t> class Func>
+    static void iterate() {
+        Func<c>()();
+        ForLoop<c-1>::template iterate<Func>();
+    }
+};
+ 
+template<>
+struct ForLoop<0> {
+    template<template <size_t> class Func>
+    static void iterate() {
+        Func<0>()();
+    }
+};
+
+template <size_t size>
+struct Foo {
+    void operator()() {
+        std::array<int, size> arr;
+        std::cout << "Array size: " << arr.size() << std::endl;
+    }
+};
+
+int main() {
+    ForLoop<4>::iterate<Foo>();
+}
+```
+
+And... everything is fine with this technique unless you aren't using a macro, to which you pass a template with arguments as a token and the macro prints it to the screen. This is what `BENCHMARK_TEMPLATE` macro does in [google benchmark](https://github.com/google/benchmark) framework:
+
+**EDIT: This was valid around december of 2015. Currently, things can be done better. For more information see my issue: [https://github.com/google/benchmark/issues/167](https://github.com/google/benchmark/issues/167).**
+
+
+```c++
+// above the ForLoop structure and includes for google benchmark framework
+// ...
+template <size_t size>
+struct Foo {
+    void operator()() {
+        // the arguments are: template function to benchmark, template argument
+        BENCHMARK_TEMPLATE(BM_SimulationSplit, DodSimulation<size, size>);
+    }
+};
+
+// normally we would use this macro for main but since we need to use 
+// our template for loop, we have to write main manually
+//BENCHMARK_MAIN();
+
+int main(int argc, char** argv) {
+    ForLoop<10>::iterate<Foo>();
+    ::benchmark::Initialize(&argc, argv);
+    ::benchmark::RunSpecifiedBenchmarks();
+}
+
+
+// It turns out that the Google Benchmark output is not so cool
+// launched with --color_print=false --benchmark_format=csv
+//
+/*name,iterations,real_time,cpu_time,bytes_per_second,items_per_second,label
+Run on (8 X 3380.81 MHz CPU s)
+2015-12-01 00:35:12
+"BM_SimulationSplit<DodSimulation<size, size>>",833,475924,619448,,,
+"BM_SimulationSplit<DodSimulation<size, size>>",1167,726188,589546,,,
+"BM_SimulationSplit<DodSimulation<size, size>>",1496,355430,465241,,,
+"BM_SimulationSplit<DodSimulation<size, size>>",1509,357407,466534,,,
+"BM_SimulationSplit<DodSimulation<size, size>>",1471,659624,464990,,,
+"BM_SimulationSplit<DodSimulation<size, size>>",1509,543499,461233,,,
+"BM_SimulationSplit<DodSimulation<size, size>>",1823,290969,379594,,,
+"BM_SimulationSplit<DodSimulation<size, size>>",1842,581460,384365,,,
+"BM_SimulationSplit<DodSimulation<size, size>>",1823,435162,379594,,,
+"BM_SimulationSplit<DodSimulation<size, size>>",1842,295108,384365,,,
+"BM_SimulationSplit<DodSimulation<size, size>>",2397,433502,290363,,,
+*/
+```
+
+As you can see, the output from google benchmark is not so good - we have no idea what parameters were used for which run. It would be much better to see lines like this:
+
+```
+"BM_SimulationSplit<DodSimulation<0, 0>>",2188,312266,297989,,,
+```
+
+
+And that's what can be done by manually using `BENCHMARK_TEMPLATE` macro.
+
+And... this is actually achievable by using [Boost.Preprocessor](http://www.boost.org/doc/libs/1_59_0/libs/preprocessor/doc/index.html). This library allows you to do a lot of magic with preprocessor.
+
+One of the things you can do with it is a preprocessor loop.
+
+Let's look at a modified example from the documentation for [`BOOST_PP_SEQ_FOR_EACH`](http://www.boost.org/doc/libs/1_38_0/libs/preprocessor/doc/ref/seq_for_each.html):
+
+
+```c++
+#include <iostream>
+
+#include <boost/preprocessor/cat.hpp>
+#include <boost/preprocessor/seq/for_each.hpp>
+
+#define SEQ (foo)(bar)
+#define MACRO(r, data, elem) std::cout << BOOST_PP_CAT(data, elem)();
+
+const char* prefix_foo() { return "foo"; }
+const char* prefix_bar() { return "bar"; }
+
+int main() {
+    BOOST_PP_SEQ_FOR_EACH(MACRO, prefix_, SEQ)
+    std::cout << std::endl;
+}
+```
+
+And the compilation and execution:
+```
+$ g++ -std=c++14 -Wall -Wextra -Wpedantic foo.cpp
+$ ./a.out
+foobar
+$
+```
+
+As you can see, the preprocessor macro iterated over the `SEQ` sequence elements - `foo` and `bar` and generated `prefix_foo()` and `prefix_bar()` calls.
+
+Back to the title of the post. The above trick allowed me to change 800 lines of code into 8. The thing I wanted to do was to benchmark a template function with range of template arguments and as the google benchmark itself doesn't have a mechanism to do that (it lets you iterate over range of arguments but not template arguments as you can't use normal loop for that) I had to either use template loop or Boost.Preprocessor.
+I have decided to use the latter, since it allows me to see the template arguments as well.
+
+Below you can see the code I have finally used for my benchmark:
+
+```c++
+#include "benchmark/benchmark.h"
+
+#include "dod/dod_simulation.cpp"
+#include "oop/oop_simulation.cpp"
+
+template <typename SimulationType>
+static void BM_SimulationSplit(benchmark::State &state) {
+    SimulationType s{100000};
+
+    while (state.KeepRunning()) {
+        s.iterationX();
+        s.iterationY();
+        s.iterationZ();
+    }
+}
+
+template <typename SimulationType>
+static void BM_SimulationNoSplit(benchmark::State &state) {
+    SimulationType s{100000};
+
+    while (state.KeepRunning())
+        s.iteration();
+}
+
+
+#include <boost/preprocessor/seq/for_each.hpp>
+
+#define FILL_SEQ (0)(4)(8)(12)(16)(20)(24)(28)(32)(36)(40)(44)(48)(52)(56)(60)(64)(68)(72)(76)(80)(84)(88)(92)(96)(100)(104)(108)(112)(116)(120)(124)(128)(132)(136)(140)(144)(148)(152)(156)(160)(164)(168)(172)(176)(180)(184)(188)(192)(196)(200)(204)(208)(212)(216)(220)(224)(228)(232)(236)(240)(244)(248)(252)(256)(260)(264)(268)(272)(276)(280)(284)(288)(292)(296)(300)(304)(308)(312)(316)(320)(324)(328)(332)(336)(340)(344)(348)(352)(356)(360)(364)(368)(372)(376)(380)(384)(388)(392)(396)(400)(404)(408)(412)(416)(420)(424)(428)(432)(436)(440)(444)(448)(452)(456)(460)(464)(468)(472)(476)(480)(484)(488)(492)(496)(500)(504)(508)(512)
+#define SIMULATION_SPLIT(_dummy, SIMULATION_TYPE, FILL) BENCHMARK_TEMPLATE(BM_SimulationSplit, SIMULATION_TYPE<FILL, FILL>);
+#define SIMULATION_NO_SPLIT(_dummy, SIMULATION_TYPE, FILL) BENCHMARK_TEMPLATE(BM_SimulationNoSplit, SIMULATION_TYPE<FILL, FILL>);
+
+BOOST_PP_SEQ_FOR_EACH(SIMULATION_SPLIT, DodSimulation, FILL_SEQ)
+BOOST_PP_SEQ_FOR_EACH(SIMULATION_SPLIT, OopSimulation, FILL_SEQ)
+
+BOOST_PP_SEQ_FOR_EACH(SIMULATION_NO_SPLIT, DodSimulation, FILL_SEQ)
+BOOST_PP_SEQ_FOR_EACH(SIMULATION_NO_SPLIT, OopSimulation, FILL_SEQ)
+
+BENCHMARK_MAIN();
+```
+
+...and in the end I have my expected output with that:
+
+```
+"BM_SimulationSplit<DodSimulation<0, 0>>",2134,313182,313027,,,
+"BM_SimulationSplit<DodSimulation<4, 4>>",1716,396065,398601,,,
+"BM_SimulationSplit<DodSimulation<8, 8>>",1346,524012,523031,,,
+"BM_SimulationSplit<DodSimulation<12, 12>>",1094,676046,680073,,,
+"BM_SimulationSplit<DodSimulation<16, 16>>",795,840854,840252,,,
+...
+```
+
+To sum up:
+
+* Templates can do a lot (and even more, they are turing complete)
+* There is an interesting library called Boost.Preprocessor which may save you time typing or rather generating the code from e.g. Python script
+* As said among the internet "use the right tool for the job" - don't use preprocessor loops just because you can - in the end it is not so easy maintainable, so avoid it without having a really good excuse.
+
