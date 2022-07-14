@@ -8,7 +8,7 @@ Below you can see a list of talks or workshops I have given for various events a
 
 The convention for a given event is `date - name, location`. The `[lightning talk]` tag means the talk took ~5 minutes and was probably prepared just before presenting it or during the event, as an idea to cotribute some more ;).
 
-### 2022.07.13-14 - EuroPython 2022
+### 2022.07.13-14 - EuroPython 2022 ([link](https://ep2022.europython.eu/))
 
 * CPython bugs ([video](https://youtu.be/tRtxCCRdZOs?t=12251), [slides](https://docs.google.com/presentation/d/1gHBsvxK9QgYOSeAnOFuN7R2B_zoZVhGlUeUHwT7nI5E))
 * [lightning talk] Programming is hard pt. 1 ([video](https://youtu.be/tRtxCCRdZOs?t=35227), [slides](https://docs.google.com/presentation/d/16eZwKTKfLdTsMwca-238dw1qKsGol6-azNki7pJephQ))
