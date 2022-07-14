@@ -8,6 +8,14 @@ Below you can see a list of talks or workshops I have given for various events a
 
 The convention for a given event is `date - name, location`. The `[lightning talk]` tag means the talk took ~5 minutes and was probably prepared just before presenting it or during the event, as an idea to cotribute some more ;).
 
+### 2022.07.13-14 - EuroPython 2022
+
+* CPython bugs ([video](https://youtu.be/tRtxCCRdZOs?t=12251), [slides](https://docs.google.com/presentation/d/1gHBsvxK9QgYOSeAnOFuN7R2B_zoZVhGlUeUHwT7nI5E))
+* [lightning talk] Programming is hard pt. 1 ([video](https://youtu.be/tRtxCCRdZOs?t=35227), [slides](https://docs.google.com/presentation/d/16eZwKTKfLdTsMwca-238dw1qKsGol6-azNki7pJephQ))
+
+### 2022.06.24 - WarCon V ([link](https://warcon.pl/))
+* Extending AddressSanitizer support for C++ collections - a talk given along with Tacet about a research project done in Trail of Bits
+
 ### 2021, 2022 - AGH University of Science and Technology, talks for KNI Kernel students club
 * [PL][2021.11.15] Linux & Security ([event link](https://www.facebook.com/events/223808806522924), [slides](https://docs.google.com/presentation/d/1VT1-6HLrTebluk5TdFu9Z-kWCGshcdurJ6salQo2aOI/)) - a talk about Linux security where we described things like user vs kernel space isolation, syscalls, what exactly is a "user", uid or pid in the system, an issue with PIDs being incremental (pid-reuse attack), file types and file permissions + weird cases with those, suid binaries and other file attributes
 * [PL][2021.12.16] Linux & Security part 2 ([event link](https://www.facebook.com/events/694784598091948), [slides](https://docs.google.com/presentation/d/1pZXTmdZuFEOhhWmtZnNVoP0LkhbW9hKBlhgFtFL1RX4/) video: TBD) - a talk about logs (dmesg, rsyslogd, journald), useful logs examples, log injection problem (or: when you read logs with tail, cat or adb logcat), a logrotate race condition bug and a safer proc filesystem mount options
