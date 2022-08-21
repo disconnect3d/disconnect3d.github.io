@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Pwndbg coding sprints report"
-date:       2022-08-21 22:13:37
+date:       2022-08-21 20:13:37
 tags:       pwndbg, conferences
 ---
 
