@@ -8,6 +8,13 @@ Below you can see a list of talks or workshops I have given for various events a
 
 The convention for a given event is `date - name, location`. The `[lightning talk]` tag means the talk took ~5 minutes and was probably prepared just before presenting it or during the event, as an idea to cotribute some more ;).
 
+### 2022 - AGH University of Science and Technology, talks for KNI Kernel students club
+* [PL][2022.10.25] C/C++ vs Security? ([event](https://www.facebook.com/events/629485885547366/), [slides](https://docs.google.com/presentation/d/1PTuHvXSDbFhv9LeyP5Oosu-JY0Qrshu8pfod5sjZWJg/), [video](https://www.youtube.com/watch?v=VS2tcmFcfGc)) 
+* [PL][] Hacking a single player game on Linux ([event](https://www.facebook.com/events/630252765263412)) - a live demo of applying cheats to games with GDB and Pwndbg
+
+### 2022.08.12-13 AlligatorCon Europe 2022, Budapest, Hungary ([link](https://www.alligatorcon.eu/))
+* Hacking a single player game on Linux - a live demo of applying cheats to games with GDB and Pwndbg
+
 ### 2022.07.13-14 - EuroPython 2022 ([link](https://ep2022.europython.eu/))
 
 * CPython bugs ([video](https://youtu.be/tRtxCCRdZOs?t=12251), [slides](https://docs.google.com/presentation/d/1gHBsvxK9QgYOSeAnOFuN7R2B_zoZVhGlUeUHwT7nI5E))
@@ -16,10 +23,14 @@ The convention for a given event is `date - name, location`. The `[lightning tal
 ### 2022.06.24 - WarCon V ([link](https://warcon.pl/))
 * Extending AddressSanitizer support for C++ collections - a talk given along with Tacet about a research project done in Trail of Bits
 
+### 2022.06.04 - Noc Informatyka 1.3 ([link](https://nocinformatyka.pl/))
+* Hacking a single player game on Linux - a live demo of applying cheats to games with GDB and Pwndbg
+
 ### 2021, 2022 - AGH University of Science and Technology, talks for KNI Kernel students club
-* [PL][2021.11.15] Linux & Security ([event link](https://www.facebook.com/events/223808806522924), [slides](https://docs.google.com/presentation/d/1VT1-6HLrTebluk5TdFu9Z-kWCGshcdurJ6salQo2aOI/)) - a talk about Linux security where we described things like user vs kernel space isolation, syscalls, what exactly is a "user", uid or pid in the system, an issue with PIDs being incremental (pid-reuse attack), file types and file permissions + weird cases with those, suid binaries and other file attributes
-* [PL][2021.12.16] Linux & Security part 2 ([event link](https://www.facebook.com/events/694784598091948), [slides](https://docs.google.com/presentation/d/1pZXTmdZuFEOhhWmtZnNVoP0LkhbW9hKBlhgFtFL1RX4/) video: TBD) - a talk about logs (dmesg, rsyslogd, journald), useful logs examples, log injection problem (or: when you read logs with tail, cat or adb logcat), a logrotate race condition bug and a safer proc filesystem mount options
 * [PL][2022.03.29] How does Docker work under the hood? ([event](https://www.facebook.com/events/447764623792488), [slides](https://docs.google.com/presentation/d/1VY9Y2yqdU4magBpIVyIlpsXTFY-oX0RDJF4oVviLICA/), [video](https://www.youtube.com/watch?v=HEuOcIolwiw)) - the talk starts with an overview of Docker (CLI & daemon interaction) and goes deep into some of the Docker internals (namespaces, cgroups, capabilities); it also describes security & insecurity Docker run flags; no time was left to cover seccomp or AppArmor in much details ;)
+* [PL][2021.12.16] Linux & Security part 2 ([event link](https://www.facebook.com/events/694784598091948), [slides](https://docs.google.com/presentation/d/1pZXTmdZuFEOhhWmtZnNVoP0LkhbW9hKBlhgFtFL1RX4/) video: TBD) - a talk about logs (dmesg, rsyslogd, journald), useful logs examples, log injection problem (or: when you read logs with tail, cat or adb logcat), a logrotate race condition bug and a safer proc filesystem mount options
+* [PL][2021.11.15] Linux & Security ([event link](https://www.facebook.com/events/223808806522924), [slides](https://docs.google.com/presentation/d/1VT1-6HLrTebluk5TdFu9Z-kWCGshcdurJ6salQo2aOI/)) - a talk about Linux security where we described things like user vs kernel space isolation, syscalls, what exactly is a "user", uid or pid in the system, an issue with PIDs being incremental (pid-reuse attack), file types and file permissions + weird cases with those, suid binaries and other file attributes
+* [PL][2021.10.25] How to learn IT ([slides](https://docs.google.com/presentation/d/1ed4RgmuZRrZ0rLS4DIeG1TyGG4EI4B8_33-VkAi8uPQ/)) - a non-technical talk on how to learn IT/CS
 
 ### 2021.11.25 - Pykonik Tech Talks #55 ([link](https://www.pykonik.org/tech-talks/55/))
 * CPython bugs review ([video](https://www.youtube.com/watch?v=4VQzvoknjt0), [slides](https://docs.google.com/presentation/d/1UwOEHJKraoHNMqhU-O07UHTIoYOPiTaEFMoTLtnpFaI)) - In this talk we will look into a few bug cases in CPython, some of which are still present and may impose a security risk for admins or organizations.
