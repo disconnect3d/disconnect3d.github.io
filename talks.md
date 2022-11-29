@@ -8,9 +8,13 @@ Below you can see a list of talks or workshops I have given for various events a
 
 The convention for a given event is `date - name, location`. The `[lightning talk]` tag means the talk took ~5 minutes and was probably prepared just before presenting it or during the event, as an idea to cotribute some more ;).
 
+### 2022.11.03 [Pykonik Tech Talks #58](https://www.pykonik.org/tech-talks/58/#talk-secure-your-python-code-with-fuzz-testing)] 
+* Secure your Python code with fuzz testing ([slides](https://docs.googl    e.com/presentation/d/1xeoZHTnUMvCN0jYmIZNSRbclbU0egFf6Twc8r1Ta0PU/), [video](https://www.youtube.com/watch?v=s7r0iooKGHY))
+
 ### 2022 - AGH University of Science and Technology, talks for KNI Kernel students club
+* [PL][2022.11.17] What the CTF? ([event](https://www.facebook.com/events/1347340702669345/), [slides](https://docs.google.com/presentation/d/1kwknEby7c0tbz4n5Pc-vVz-k3m14fNJ_5M3xazp_wv8), [video](https://www.youtube.com/watch?v=QBP1uOKb-dA))
 * [PL][2022.10.25] C/C++ vs Security? ([event](https://www.facebook.com/events/629485885547366/), [slides](https://docs.google.com/presentation/d/1PTuHvXSDbFhv9LeyP5Oosu-JY0Qrshu8pfod5sjZWJg/), [video](https://www.youtube.com/watch?v=VS2tcmFcfGc)) 
-* [PL][] Hacking a single player game on Linux ([event](https://www.facebook.com/events/630252765263412)) - a live demo of applying cheats to games with GDB and Pwndbg
+* [PL][2022.10.13] Hacking a single player game on Linux ([event](https://www.facebook.com/events/630252765263412)) - a live demo of applying cheats to games with GDB and Pwndbg
 
 ### 2022.08.12-13 AlligatorCon Europe 2022, Budapest, Hungary ([link](https://www.alligatorcon.eu/))
 * Hacking a single player game on Linux - a live demo of applying cheats to games with GDB and Pwndbg
