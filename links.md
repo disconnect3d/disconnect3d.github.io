@@ -23,7 +23,7 @@ permalink: /links/
 * [LiveOverflow yt channel](https://www.youtube.com/LiveOverflowCTF)
 * [MurmusCTF yt channel](https://www.youtube.com/channel/UCUB9vOGEUpw7IKJRoR4PK-A)
 
-### Some cool projects
+### Cool projects
 * [Pwndbg ❤](https://github.com/pwndbg/pwndbg)
 * [Pwntools ❤](https://github.com/Gallopsled/pwntools)
 * [nsjail - light-weight process isolation tool](https://github.com/google/nsjail)
@@ -32,3 +32,5 @@ permalink: /links/
 * [Manticore - symbolic execution tool](https://github.com/trailofbits/manticore)
 * [Z3 - The Z3 Theorem Prover](https://github.com/Z3Prover/z3)
 
+### Utility links
+* [marc.info - mailing lists archives](https://marc.info/)
