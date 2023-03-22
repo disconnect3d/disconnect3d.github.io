@@ -8,6 +8,9 @@ Below you can see a list of talks or workshops I have given for various events a
 
 The convention for a given event is `date - name, location`. The `[lightning talk]` tag means the talk took ~5 minutes and was probably prepared just before presenting it or during the event, as an idea to cotribute some more ;).
 
+### 2023 - AGH University of Science and Technology, talks for KNI Kernel students club
+* [PL][2023.03.21] Virtualization and security ([event](https://www.facebook.com/events/651663106718022/), [video](https://www.youtube.com/watch?v=iZ9NEiCSLtk), [slides](https://docs.google.com/presentation/d/1BgC1pwLG85CuwMDZlpoGDKPnCeoOTU6ti-WiWa1LvoQ/edit?usp=sharing)) - a talk with two parts: first, it gives background information on emulation, virtualization, tools used for that and "why would you even need a VM" and then we go over a challenge from HXP CTF 2022 called "Hypersecure" where we need to exploit a buggy hypervisor to escalate privileges on Linux.
+
 ### 2022.11.03 [Pykonik Tech Talks #58](https://www.pykonik.org/tech-talks/58/#talk-secure-your-python-code-with-fuzz-testing)
 * Secure your Python code with fuzz testing ([slides](https://docs.google.com/presentation/d/1xeoZHTnUMvCN0jYmIZNSRbclbU0egFf6Twc8r1Ta0PU/), [video](https://www.youtube.com/watch?v=s7r0iooKGHY))
 
