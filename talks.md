@@ -9,7 +9,7 @@ Below you can see a list of talks or workshops I have given for various events a
 The convention for a given event is `date - name, location`. The `[lightning talk]` tag means the talk took ~5 minutes and was probably prepared just before presenting it or during the event, as an idea to cotribute some more ;).
 
 ### 2023.04.28 [Pykonik Tech Talks #63](https://www.pykonik.org/tech-talks/63/)
-* 4 not so lightning talks ([video](https://www.youtube.com/watch?v=XfyWDgczG7g&t=7464s)) - a talk about 1) defacing a conference website, 2) weird Postgres replica bug, 3) environment variables "hiding" and 4) CPython 3.11 speed improvements.
+* 4 not so lightning talks ([slides](https://docs.google.com/presentation/d/1Y7K_6yP8hdc8WprhvavZouF2l7UmhSY4txc4Nhxz6H0), [video](https://www.youtube.com/watch?v=XfyWDgczG7g&t=7464s)) - a talk about 1) defacing a conference website, 2) weird Postgres replica bug, 3) environment variables "hiding" and 4) CPython 3.11 speed improvements.
 
 ### 2023 - AGH University of Science and Technology, talks for KNI Kernel students club
 * [PL][2023.03.21] Virtualization and security ([event](https://www.facebook.com/events/651663106718022/), [video](https://www.youtube.com/watch?v=iZ9NEiCSLtk), [slides](https://docs.google.com/presentation/d/1BgC1pwLG85CuwMDZlpoGDKPnCeoOTU6ti-WiWa1LvoQ/edit?usp=sharing)) - a talk with two parts: first, it gives background information on emulation, virtualization, tools used for that and "why would you even need a VM" and then we go over a challenge from HXP CTF 2022 called "Hypersecure" where we need to exploit a buggy hypervisor to escalate privileges on Linux.
