@@ -8,10 +8,10 @@ Below you can see a list of talks or workshops I have given for various events a
 
 The convention for a given event is `date - name, location`. The `[lightning talk]` tag means the talk took ~5 minutes and was probably prepared just before presenting it or during the event, as an idea to cotribute some more ;).
 
-### 2023.09.20 Rust Cracow #1 meetup, Kraków, Poland ([link](https://www.meetup.com/krakow-rust-meetup-group/events/295974593/))
+### 2023.09.20 [Rust Cracow #1 meetup](https://www.meetup.com/krakow-rust-meetup-group/events/295974593/), Kraków, Poland
 * 2 Lightning talks about: Taint Tracking in Rust and about Serde's `serialize_struct` quirk ([slides](https://docs.google.com/presentation/d/1MHPJ_s7Dub-nS8-42B704rtBEvNGcUbKPLO-QRMyxU8))
 
-### 2023.08.23-25 AlligatorCon Europe 2023, Budapest, Hungary ([link](https://www.alligatorcon.eu/))
+### 2023.08.23-25 [AlligatorCon Europe 2023](https://www.alligatorcon.eu/), Budapest, Hungary
 * Hacking a toy hypervisor and finding a QEMU emulation 0day ([slides](https://docs.google.com/presentation/d/115BPgapOqfOBfvThK5poiobCMykWsRWaoE-P1Wnjg1o/edit?usp=sharing), though there were live demos too)
 * 3 Lightning talks:
   * Hacking kiosks ([slides](https://docs.google.com/presentation/d/1w__xPjgIu-K0vG6m8Bv8AX66m8DMxey0zUEdGirxo-4))
@@ -37,18 +37,18 @@ The convention for a given event is `date - name, location`. The `[lightning tal
 * [PL][2022.10.25] C/C++ vs Security? ([event](https://www.facebook.com/events/629485885547366/), [slides](https://docs.google.com/presentation/d/1PTuHvXSDbFhv9LeyP5Oosu-JY0Qrshu8pfod5sjZWJg/), [video](https://www.youtube.com/watch?v=VS2tcmFcfGc)) 
 * [PL][2022.10.13] Hacking a single player game on Linux ([event](https://www.facebook.com/events/630252765263412)) - a live demo of applying cheats to games with GDB and Pwndbg
 
-### 2022.08.12-13 AlligatorCon Europe 2022, Budapest, Hungary ([link](https://www.alligatorcon.eu/))
+### 2022.08.12-13 [AlligatorCon Europe 2022](https://www.alligatorcon.eu/index-2022.html#Talks), Budapest, Hungary
 * Hacking a single player game on Linux - a live demo of applying cheats to games with GDB and Pwndbg
 
-### 2022.07.13-14 - EuroPython 2022 ([link](https://ep2022.europython.eu/))
+### 2022.07.13-14 - [EuroPython 2022](https://ep2022.europython.eu/)
 
 * CPython bugs ([video](https://youtu.be/tRtxCCRdZOs?t=12251), [slides](https://docs.google.com/presentation/d/1gHBsvxK9QgYOSeAnOFuN7R2B_zoZVhGlUeUHwT7nI5E))
 * [lightning talk] Programming is hard pt. 1 ([video](https://youtu.be/tRtxCCRdZOs?t=35227), [slides](https://docs.google.com/presentation/d/16eZwKTKfLdTsMwca-238dw1qKsGol6-azNki7pJephQ))
 
-### 2022.06.24 - WarCon V ([link](https://warcon.pl/))
+### 2022.06.24 - [WarCon V](https://warcon.pl/)
 * Extending AddressSanitizer support for C++ collections - a talk given along with Tacet about a research project done in Trail of Bits ([slides](https://docs.google.com/presentation/d/1Wnn1Vmt5OwTra619j2_QiP1QA8XpWi4qTT9p9lMDR-8/edit?usp=sharing))
 
-### 2022.06.04 - Noc Informatyka 1.3 ([link](https://nocinformatyka.pl/))
+### 2022.06.04 - [Noc Informatyka 1.3](https://nocinformatyka.pl/)
 * Hacking a single player game on Linux - a live demo of applying cheats to games with GDB and Pwndbg
 
 ### 2021, 2022 - AGH University of Science and Technology, talks for KNI Kernel students club
@@ -57,25 +57,25 @@ The convention for a given event is `date - name, location`. The `[lightning tal
 * [PL][2021.11.15] Linux & Security ([event link](https://www.facebook.com/events/223808806522924), [slides](https://docs.google.com/presentation/d/1VT1-6HLrTebluk5TdFu9Z-kWCGshcdurJ6salQo2aOI/)) - a talk about Linux security where we described things like user vs kernel space isolation, syscalls, what exactly is a "user", uid or pid in the system, an issue with PIDs being incremental (pid-reuse attack), file types and file permissions + weird cases with those, suid binaries and other file attributes
 * [PL][2021.10.25] How to learn IT ([slides](https://docs.google.com/presentation/d/1ed4RgmuZRrZ0rLS4DIeG1TyGG4EI4B8_33-VkAi8uPQ/)) - a non-technical talk on how to learn IT/CS
 
-### 2021.11.25 - Pykonik Tech Talks #55 ([link](https://www.pykonik.org/tech-talks/55/))
+### 2021.11.25 - [Pykonik Tech Talks #55](https://www.pykonik.org/tech-talks/55/)
 * CPython bugs review ([video](https://www.youtube.com/watch?v=4VQzvoknjt0), [slides](https://docs.google.com/presentation/d/1UwOEHJKraoHNMqhU-O07UHTIoYOPiTaEFMoTLtnpFaI)) - In this talk we will look into a few bug cases in CPython, some of which are still present and may impose a security risk for admins or organizations.
 
-### 2020.12.17 - A Midwinter Night's Con 2020 ([link](https://absoluteappsec.com/cons/midwinter-2020/))
+### 2020.12.17 - [A Midwinter Night's Con 2020](https://absoluteappsec.com/cons/midwinter-2020/)
 * Various interesting (and not) bugs case studies ([video](https://www.youtube.com/watch?v=cSb1ZWFhE1w), [slides](https://docs.google.com/presentation/d/1VpXqzPIPrfIPSIiua5ClNkjKAzM3uKlyAKUf0jBqoUI)) - In this talk I will present a "cstrnfinder" research where I found many (stupid) bugs related to string operations in C. Apart from that, we will look through an insufficient permission check that allowed for kASLR bypass within kernel modules in certain container environments. We will also analyse a not sufficient mitigation in glibc allocator, where changing a few lines of code can make it harder for attackers to exploit buggy applications.
 
-### 2020.04.25 - Python Pizza, remote @ your couch ([link](https://remote.python.pizza/))
+### 2020.04.25 - [Python Pizza, remote @ your couch](https://remote.python.pizza/)
 * [lightning talk] sudo python is a trap, use isolated mode ([video](https://www.youtube.com/watch?t=2530&v=sOXVxjPjF9E), [slides](https://docs.google.com/presentation/d/11HV4e0wqXxl_9xTpHBKfON6oUJP6MBaj9pUjNP6ETdw)) - a showcase of the "Readline module loading in interactive mode" Python security bug :)
 
-### 2019.11.14-15 - Security PWNing Conference 2019, Warsaw, Poland ([link](https://www.instytutpwn.pl/konferencja/pwning/))
+### 2019.11.14-15 - [Security PWNing Conference 2019](https://www.instytutpwn.pl/konferencja/pwning/), Warsaw, Poland
 * [PL] Attacking via Linux's procfs, and Countermeasures for App Developers ([slides](https://docs.google.com/presentation/d/1OmrIAxrfDoCFPd0Iw7uQYsUKJhDny-zYCN5F96K7DgY/)) - presentation about procfs, the things you can find there, some consequences of those (consider e.g. arbitrary file reads, directory listings with path traversals in both web apps and programs run by users on the system), weird corner cases when depending on `readlink /proc/PID/exe` or reading process name from comm or cmdline files, PIDs (which are not process handles) and PID-reuse attacks and some mitigations along with the new one - pidfd. Also talked about procfs mount options - hidepid and gid.
 
-### 2019.11.07 - Affinity Tech Talks, Kraków, Poland ([link](https://www.akamaiaffinity.com/))
+### 2019.11.07 - [Akamai Affinity Tech Talks](https://www.akamaiaffinity.com/), Kraków, Poland
 * Semantic safety won't save you ([slides](https://docs.google.com/presentation/d/1AZp7ovWBwBHm4UcsPsr1zIuwkNiY2AO68WhzK1m1q0w/)) showed a sample of security traps in Python, Go and C programming languages. The topic comes from the fact that both Python and Go handle the hard stuff (e.g. memory/threading/errors/etc) for us and people often consider them "safe" because of the semantics of the language. Though... we still shoot ourself in the foot despite that "safety". Also thanks to [@b0bbytabl3s](https://twitter.com/b0bbytabl3s) for helping up with this topic :).
 
-### 2019.09.28 - Noc Informatyka 1.2, Kraków, Poland ([link](https://nocinformatyka.pl/))
+### 2019.09.28 - [Noc Informatyka 1.2](https://nocinformatyka.pl/poprzednie-edycje/), Kraków, Poland
 * [PL] Bebechy kontenerów Dockerowych oraz Grand Theft Ucieczki z uprzywilejowanych kontenerów ([slides](https://docs.google.com/presentation/d/1CZiv5QpAKYqox5eGyrITk712l6cPybZrq3msH5g4gv8/)) - the same presentation as the one made on AlligatorCon. The title ended up too baity though.
 
-### 2019.09.12-15 - PyConPL 2019, Zawiercie, Poland ([link](https://pl.pycon.org/2019/en/))
+### 2019.09.12-15 - [PyConPL 2019](https://pl.pycon.org/2019/en/), Zawiercie, Poland
 
 * Python internals - how does CPython work? ([slides](https://docs.google.com/presentation/d/1EZlxdYMLykCFd9BYz6ZnnbebKmIs4LCD4xkGixkfwGs/)) - a ~2h talk I gave in polish at AGH; it is a deep dive into CPython and its VM. From the original description: "We will learn about CPython bytecode, PYC files, how to disassemble a Python function or decompile it back from bytecode to Python code. We will look at the flow between launching and executing a Python script. We will also go through CPython VM execution by emulating the execution of a short Python function.".
 * Python internals - let's talk about dicts - the same talk I gave at Pykonik Tech Talks #43.
@@ -85,11 +85,11 @@ The convention for a given event is `date - name, location`. The `[lightning tal
 * [lightning talk] Pyyaml WT# (no slides) - a rant about PyYaml module: there was a 4.1 relase that changed `safe_load` into `load` which was [reverted](https://github.com/yaml/pyyaml/commit/ccc40f3e2ba384858c0d32263ac3e3a6626ab15e) and [removed](https://github.com/yaml/pyyaml/issues/192) from [pypi...](https://github.com/yaml/pyyaml/issues/190), then 5.1 was supposed to make `load` safer by default but not necessarily disallowing it to deserialize Python objects, [so it is stil insecure](https://github.com/yaml/pyyaml/issues/321).
 * [lightning talk] A story of a 3d nickname ([slides](https://docs.google.com/presentation/d/1MhsfHxMWtfedxBPWIgE53oHb-5WOg82RahIqKafuGSo/) - a story about '3d' origin in my nickname and something about IRC communities o/.
 
-### 2019.08.16-17 - AlligatorCon Europe 2019, Budapest, Hungary ([link](https://www.alligatorcon.eu/))
+### 2019.08.16-17 - [AlligatorCon Europe 2019](https://www.alligatorcon.eu/index-2019.html#Talks), Budapest, Hungary
 
 * Fancy "privileged" Docker container escapes ([slides](https://docs.google.com/presentation/d/1tCqmGSOJJzi6ZK7TNhbzVFsTekvjvQR8GGPoaYBrM1o)) - a detailed introduction to the Linux kernel features used by Docker (namespaces, cgroups, capabilities, seccomp, AppArmor) and some info about "privileged" escapes. Note: What does privileged mean? I discuss this matter and show that one of escapes can be pointed down to `--cap-add=SYS_ADMIN --security-opt apparmor=unconfined` and explore this environnment more.
 
-### 2019.05.30 - AGH, Kraków, Poland ([event link](https://www.facebook.com/events/2192736794372737/))
+### 2019.05.30 - Lecture for KNI Kernel student club at AGH, Kraków, Poland ([event link](https://www.facebook.com/events/2192736794372737/))
 
 * [PL] How does CPython work ([slides](https://docs.google.com/presentation/d/1JWRcds_nJByQTz9JaS5ijhjYqbu9W3NkFbt8BUOKZJ0)) - a ~2h talk going deeply into how CPython VM works, giving an example of emulating it and explaining some of the CPython internals.
 
