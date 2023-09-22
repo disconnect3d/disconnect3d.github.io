@@ -8,6 +8,17 @@ Below you can see a list of talks or workshops I have given for various events a
 
 The convention for a given event is `date - name, location`. The `[lightning talk]` tag means the talk took ~5 minutes and was probably prepared just before presenting it or during the event, as an idea to cotribute some more ;).
 
+### 2023.09.20 Rust Cracow #1 meetup, Kraków, Poland ([link](https://www.meetup.com/krakow-rust-meetup-group/events/295974593/))
+* 2 Lightning talks about: Taint Tracking in Rust and about Serde's `serialize_struct` quirk ([slides](https://docs.google.com/presentation/d/1MHPJ_s7Dub-nS8-42B704rtBEvNGcUbKPLO-QRMyxU8))
+
+### 2023.08.23-25 AlligatorCon Europe 2023, Budapest, Hungary ([link](https://www.alligatorcon.eu/))
+* Hacking a toy hypervisor and finding a QEMU emulation 0day ([slides](https://docs.google.com/presentation/d/115BPgapOqfOBfvThK5poiobCMykWsRWaoE-P1Wnjg1o/edit?usp=sharing), though there were live demos too)
+* 3 Lightning talks:
+  * Hacking kiosks ([slides](https://docs.google.com/presentation/d/1w__xPjgIu-K0vG6m8Bv8AX66m8DMxey0zUEdGirxo-4))
+  * GDB & QEMU improvements and `set scheduler-locking on` feature ([slides](https://docs.google.com/presentation/d/1olgtAqNX4--Iwnd9RNABt4zF_uuWzGlsB5R7kD11-a8/))
+  * "Collector" task from PlaidCTF 2023 aka Postgres replica "bug" ([slides from here](https://docs.google.com/presentation/d/1Y7K_6yP8hdc8WprhvavZouF2l7UmhSY4txc4Nhxz6H0))
+
+
 ### 2023.05.25 [Pykonik Tech Talks #64](https://www.pykonik.org/tech-talks/64/)
 * 4 not so lightning talks ([slides](https://docs.google.com/presentation/d/13_MmzSS6ciBE9oTiDOtB8tXedRv8ZpVfRMGUf6_nJt4/), [stream](https://www.youtube.com/live/y4gQJus-K5g)) - a case of optimizing Pwndbg "vis_heap_chunk" command, LibCST: CodeMods and QRinception
 
@@ -35,7 +46,7 @@ The convention for a given event is `date - name, location`. The `[lightning tal
 * [lightning talk] Programming is hard pt. 1 ([video](https://youtu.be/tRtxCCRdZOs?t=35227), [slides](https://docs.google.com/presentation/d/16eZwKTKfLdTsMwca-238dw1qKsGol6-azNki7pJephQ))
 
 ### 2022.06.24 - WarCon V ([link](https://warcon.pl/))
-* Extending AddressSanitizer support for C++ collections - a talk given along with Tacet about a research project done in Trail of Bits
+* Extending AddressSanitizer support for C++ collections - a talk given along with Tacet about a research project done in Trail of Bits ([slides](https://docs.google.com/presentation/d/1Wnn1Vmt5OwTra619j2_QiP1QA8XpWi4qTT9p9lMDR-8/edit?usp=sharing))
 
 ### 2022.06.04 - Noc Informatyka 1.3 ([link](https://nocinformatyka.pl/))
 * Hacking a single player game on Linux - a live demo of applying cheats to games with GDB and Pwndbg
