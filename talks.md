@@ -8,6 +8,9 @@ Below you can see a list of talks or workshops I have given for various events a
 
 The convention for a given event is `date - name, location`. The `[lightning talk]` tag means the talk took ~5 minutes and was probably prepared just before presenting it or during the event, as an idea to cotribute some more ;).
 
+### 2023.10.20 [The H@ck Summit](https://thehacksummit.com/), Warsaw, Poland
+* [PL] Hakowanie CTFowego hypervisora (x86-64) i przypadkowy 0day - a talk about a QEMU emulation 0day related to nested VMs ([slides](https://docs.google.com/presentation/d/1ryHtxmnSlieoZqkq6ndAl9nloNDUkqRQHzKwyOTcxZ8))
+
 ### 2023.09.20 [Rust Cracow #1 meetup](https://www.meetup.com/krakow-rust-meetup-group/events/295974593/), Kraków, Poland
 * 2 Lightning talks about: Taint Tracking in Rust and about Serde's `serialize_struct` quirk ([slides](https://docs.google.com/presentation/d/1MHPJ_s7Dub-nS8-42B704rtBEvNGcUbKPLO-QRMyxU8))
 
