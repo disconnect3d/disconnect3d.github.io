@@ -1,9 +1,9 @@
 /* Base */
 /* ----------------------------------------------------------*/
 
----
+/* ---
 layout: default
----
+--- */
 
 * {
   margin: 0;
@@ -11,7 +11,7 @@ layout: default
 }
 
 body {
-	margin: 0;
+  margin: 0;
 }
 
 html, body { height: 100%; }
@@ -277,9 +277,9 @@ margin-left: 150px;
 }
 
 .back-to-top a {
-	font-size: 16px;
-	font-weight: bold;
-	text-decoration: none !important;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none !important;
 }
 
 .post code { padding: 1px 5px; }
@@ -453,6 +453,11 @@ margin-left: 150px;
     margin: 0;
   }
 
+  .siteinfo {
+    display: flex;
+    flex-direction: column;
+  }
+
 
 
   .post-header h1 { font-size: 36px; }
@@ -476,3 +481,4 @@ margin-left: 150px;
     margin: 0 0 15px; }
 
 }
+
