@@ -88,7 +88,7 @@ The convention for a given event is `date - name, location`. The `[lightning tal
 * [lightning talk] PagedOut! ([slides](https://docs.google.com/presentation/d/1zv2mhLRJUfYaDSUClAd5Kg4iQFwrkDw1K37FtLs21Sc/) - described the [PagedOut! free zine](https://pagedout.institute/) and my article about hacking Python's ellipsis
 * [lightning talk] Python security issues ([slides](https://docs.google.com/presentation/d/15VI1Uilukb6bCw6wEhNQxAw85dc5f-zLToZoxH8IL7o/) - an overview over random existing Python security bugs.
 * [lightning talk] Pyyaml WT# (no slides) - a rant about PyYaml module: there was a 4.1 relase that changed `safe_load` into `load` which was [reverted](https://github.com/yaml/pyyaml/commit/ccc40f3e2ba384858c0d32263ac3e3a6626ab15e) and [removed](https://github.com/yaml/pyyaml/issues/192) from [pypi...](https://github.com/yaml/pyyaml/issues/190), then 5.1 was supposed to make `load` safer by default but not necessarily disallowing it to deserialize Python objects, [so it is stil insecure](https://github.com/yaml/pyyaml/issues/321).
-* [lightning talk] A story of a 3d nickname ([slides](https://docs.google.com/presentation/d/1MhsfHxMWtfedxBPWIgE53oHb-5WOg82RahIqKafuGSo/) - a story about '3d' origin in my nickname and something about IRC communities o/.
+* [lightning talk] A story of a 3d nickname ([slides](https://docs.google.com/presentation/d/1MhsfHxMWtfedxBPWIgE53oHb-5WOg82RahIqKafuGSo/, [video](https://youtu.be/OFOHSCnvUwQ?t=6)) - a story about '3d' origin in my nickname and something about IRC communities o/.
 
 ### 2019.08.16-17 - [AlligatorCon Europe 2019](https://www.alligatorcon.eu/index-2019.html#Talks), Budapest, Hungary
 
