@@ -49,4 +49,4 @@ Programming, reverse engineering (or rather looking under the hood), computer se
 
 ### Work
 
-Having an interesting project I, or my CTF team may be interested in? Consider contacting [Trail of Bits](https://www.trailofbits.com/contact/) or me directly :).
+Looking for a presentation, training, workshop, or just having an interesting project I may be interested in? Contact me or [Trail of Bits](https://www.trailofbits.com/contact/).
