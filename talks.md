@@ -8,6 +8,17 @@ Below you can see a list of talks or workshops I have given for various events a
 
 The convention for a given event is `date - name, location`. The `[lightning talk]` tag means the talk took ~5 minutes and was probably prepared just before presenting it or during the event, as an idea to cotribute some more ;).
 
+### 2024.05.28 [Confidence Conference 2024](https://confidence-conference.org/bio-2024/#id=55600), Cracow, Poland
+* Linux privesc via arbitrary x86 MSRs read/write bug: case study from a CTF challenge ([slides](https://docs.google.com/presentation/d/16r6gJSRvoa7DaDxixn8Pi-En2rcWujwX_vuqh7kz8u0/), video soon) - a walkthrough over a "MSRable" challenge from [KalmarCTF 2024](https://ctftime.org/event/2227/). It is a X86-64 Linux kernel exploitation challenge where unprivileged users were allowed to read and write arbitrary MSR registers.
+
+### 2024.04.04 [Pykonik Tech Talks #69](https://www.pykonik.org/tech-talks/69/)
+* [PL] Lightning talks ([video](https://youtu.be/EkjVMlaOF9w?t=6627)) about:
+  * Django admin used for CTF management
+  * Attaching into and debugging already running Python scripts
+  * xz backdoor case
+  * Google Summer of Code 2024 and Python Summer of Code 2024
+  * SFI - Studencki Festiwal Informatyczny 2024
+
 ### 2023.10.20 [The H@ck Summit](https://thehacksummit.com/), Warsaw, Poland
 * [PL] Hakowanie CTFowego hypervisora (x86-64) i przypadkowy 0day - a talk about a QEMU emulation 0day related to nested VMs ([slides](https://docs.google.com/presentation/d/1ryHtxmnSlieoZqkq6ndAl9nloNDUkqRQHzKwyOTcxZ8))
 
