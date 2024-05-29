@@ -15,7 +15,7 @@ We also added support for all allocators for all the containers that have contai
 Apart from that, we also improved some other internals of ASan.
 
 
-When we did this research, we initially made a talk about this on the [WarCon conference in 2022](https://docs.google.com/presentation/d/1Wnn1Vmt5OwTra619j2_QiP1QA8XpWi4qTT9p9lMDR-8/). 
+When we did this research, we initially made a talk about this on the [WarCon conference in 2022](https://docs.google.com/presentation/d/1cVoQUtB9d0kNPZMx1EsQ5C37ElDmg29s4mSpi6g3vyM/). 
 Now, when we got our improvements merged into LLVM, we wrote a full blog post about all of the improvements made, ASan internals, its limitations and quirks.
 
 
