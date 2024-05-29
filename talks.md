@@ -62,7 +62,7 @@ The convention for a given event is `date - name, location`. The `[lightning tal
 * [lightning talk] Programming is hard pt. 1 ([video](https://youtu.be/tRtxCCRdZOs?t=35227), [slides](https://docs.google.com/presentation/d/16eZwKTKfLdTsMwca-238dw1qKsGol6-azNki7pJephQ))
 
 ### 2022.06.24 - [WarCon V](https://warcon.pl/)
-* Extending AddressSanitizer support for C++ collections - a talk given along with Tacet about a research project done in Trail of Bits ([slides](https://docs.google.com/presentation/d/1Wnn1Vmt5OwTra619j2_QiP1QA8XpWi4qTT9p9lMDR-8/edit?usp=sharing))
+* Extending AddressSanitizer support for C++ collections - a talk given along with Tacet about a research project done in Trail of Bits ([slides](https://docs.google.com/presentation/d/1cVoQUtB9d0kNPZMx1EsQ5C37ElDmg29s4mSpi6g3vyM)) (EDIT 2024: see also [this blog post](https://blog.trailofbits.com/2024/05/16/understanding-addresssanitizer-better-memory-safety-for-your-code/))
 
 ### 2022.06.04 - [Noc Informatyka 1.3](https://nocinformatyka.pl/)
 * Hacking a single player game on Linux - a live demo of applying cheats to games with GDB and Pwndbg
