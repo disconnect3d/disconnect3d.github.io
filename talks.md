@@ -8,6 +8,15 @@ Below you can see a list of talks or workshops I have given for various events a
 
 The convention for a given event is `date - name, location`. The `[lightning talk]` tag means the talk took ~5 minutes and was probably prepared just before presenting it or during the event, as an idea to cotribute some more ;).
 
+### 2024.06.13 [Pykonik Tech Talks #70](https://www.pykonik.org/tech-talks/70/)
+* Python specialized bytecode: hacking a Python jail ((slides)[https://docs.google.com/presentation/d/13ZiJPzQrNVC5azJPlryfrPtHulCvohts0rZJFepTmis], (video)[https://youtu.be/RlNM5n5C_wg?t=5034]) - In this talk we will learn what Python's specialized bytecode is and we will solve a challenge from Angstrom CTF 2024, a capture the flag cybersecurity competition where we had to hack a so called "pycjail returns" which was an attempt to isolate or limit arbitary Python code execution. We will also learn where we can find such jails in real life code and how to do them better (hint: usually, don't do them at all, but if you must...).
+  * Including lightning talks about:
+    * justCTF 2024 Teaser competition
+    * Zero gravity flight
+    * Research paper/code developed for the Interstellar movie ([paper](https://iopscience.iop.org/article/10.1088/0264-9381/32/6/065001))
+
+
+
 ### 2024.05.28 [Confidence Conference 2024](https://confidence-conference.org/bio-2024/#id=55600), Cracow, Poland
 * Linux privesc via arbitrary x86 MSRs read/write bug: case study from a CTF challenge ([slides](https://docs.google.com/presentation/d/16r6gJSRvoa7DaDxixn8Pi-En2rcWujwX_vuqh7kz8u0/), video soon) - a walkthrough over a "MSRable" challenge from [KalmarCTF 2024](https://ctftime.org/event/2227/). It is a X86-64 Linux kernel exploitation challenge where unprivileged users were allowed to read and write arbitrary MSR registers.
 
