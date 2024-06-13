@@ -37,6 +37,8 @@ Some random stuff / whoami:
   * [Pwn2Win CTF 2021 - atak Spectre](https://programistamag.pl/programista-3-2021-97/#:~:text=Pwn2Win%20CTF%202021%20%E2%80%93%20atak%20Spectre) - write-up of a CTF challenge where we had to exploit Spectre vulnerability. Written with [Arusekk](https://github.com/Arusekk).
   * [Przegląd błędów w CPythonie](https://szukaj.programistamag.pl/uuid/8202ea027c6b7810f4b62ec56f088cb478a53e9f) - A review of known CPython bugs that were reported before in the official Python bugtracker - bugs.python.org.
   * [Pułapki w języku Go](https://szukaj.programistamag.pl/uuid/34796811fe73d50f4615a76ba993dba1c1ae383b) - Go programming language traps that may lead to security vulnerabilities.
+  * [Debugowanie niskopoziomowe z Pwndbg](https://programistamag.pl/programista-42023-109-wrzesienpazdziernik-2023-debugowanie-niskopoziomowe-z-pwndbg/) - An article about [Pwndbg](https://github.com/pwndbg/pwndbg), a plugin for GDB for security research, reverse engineering and exploit development.
+
 
 ### Work
 
