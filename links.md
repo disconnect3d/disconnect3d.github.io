@@ -20,7 +20,7 @@ permalink: /links/
 * [Trail of Bits](https://blog.trailofbits.com/)
 * [Invisible Things Lab](https://blog.invisiblethings.org/)
 * [Paweł Goleń](https://wampir.mroczna-zaloga.org/)
-* [LiveOverflow yt channel](https://www.youtube.com/LiveOverflowCTF)
+* [LiveOverflow yt channel](https://www.youtube.com/LiveOverflow)
 * [MurmusCTF yt channel](https://www.youtube.com/channel/UCUB9vOGEUpw7IKJRoR4PK-A)
 * [Troubles.md](http://troubles.md/) - cool blog posts about WebAssembly
 * [research!rsc](https://research.swtch.com/) - Russ Cox's blog; cool stuff about history of programming and various tricks or quirks in different programming langs ([C/C++ UB](https://research.swtch.com/ub), [Uninit memory for sparse arrays](https://research.swtch.com/sparse))
