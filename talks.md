@@ -8,6 +8,10 @@ Below you can see a list of talks or workshops I have given for various events a
 
 The convention for a given event is `date - name, location`. The `[lightning talk]` tag means the talk took ~5 minutes and was probably prepared just before presenting it or during the event, as an idea to cotribute some more ;).
 
+### 2024.06.14 [WarCon 2024](https://warcon.pl/)
+* Linux privesc via arbitrary x86 MSRs read/write bug: case study from a CTF challenge ([slides](https://docs.google.com/presentation/d/1sMTfGfO1pWFyiwnZq4XZLKQC7ola2PUhb1D0huA4Bgg/)) - a walkthrough over a "MSRable" challenge from [KalmarCTF 2024](https://ctftime.org/event/2227/). It is a X86-64 Linux kernel exploitation challenge where unprivileged users were allowed to read and write arbitrary MSR registers.
+
+
 ### 2024.06.13 [Pykonik Tech Talks #70](https://www.pykonik.org/tech-talks/70/)
 * Python specialized bytecode: hacking a Python jail ([slides](https://docs.google.com/presentation/d/13ZiJPzQrNVC5azJPlryfrPtHulCvohts0rZJFepTmis), [video](https://youtu.be/RlNM5n5C_wg?t=5034)) - In this talk we will learn what Python's specialized bytecode is and we will solve a challenge from Angstrom CTF 2024, a capture the flag cybersecurity competition where we had to hack a so called "pycjail returns" which was an attempt to isolate or limit arbitary Python code execution. We will also learn where we can find such jails in real life code and how to do them better (hint: usually, don't do them at all, but if you must...).
   * Including lightning talks about:
@@ -70,7 +74,7 @@ The convention for a given event is `date - name, location`. The `[lightning tal
 * CPython bugs ([video](https://youtu.be/tRtxCCRdZOs?t=12251), [slides](https://docs.google.com/presentation/d/1gHBsvxK9QgYOSeAnOFuN7R2B_zoZVhGlUeUHwT7nI5E))
 * [lightning talk] Programming is hard pt. 1 ([video](https://youtu.be/tRtxCCRdZOs?t=35227), [slides](https://docs.google.com/presentation/d/16eZwKTKfLdTsMwca-238dw1qKsGol6-azNki7pJephQ))
 
-### 2022.06.24 - [WarCon V](https://warcon.pl/)
+### 2022.06.24 - [WarCon V](https://warcon.pl/2022/)
 * Extending AddressSanitizer support for C++ collections - a talk given along with Tacet about a research project done in Trail of Bits ([slides](https://docs.google.com/presentation/d/1cVoQUtB9d0kNPZMx1EsQ5C37ElDmg29s4mSpi6g3vyM)) (EDIT 2024: see also [this blog post](https://blog.trailofbits.com/2024/05/16/understanding-addresssanitizer-better-memory-safety-for-your-code/))
 
 ### 2022.06.04 - [Noc Informatyka 1.3](https://nocinformatyka.pl/)
