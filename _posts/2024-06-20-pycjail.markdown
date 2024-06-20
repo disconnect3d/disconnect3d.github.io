@@ -85,7 +85,7 @@ In [7]: dis.dis(add, adaptive=True, show_caches=True)
              10 RETURN_VALUE
 ```
 
-As we can see, the function got optimized for another case and so `BINARY_OP_ADD_UNICODE` is used.
+As we can see, the function got optimized for a case when both arguments are unicode strings and so `BINARY_OP_ADD_UNICODE` is used.
 
 ## Want to learn more?
 
