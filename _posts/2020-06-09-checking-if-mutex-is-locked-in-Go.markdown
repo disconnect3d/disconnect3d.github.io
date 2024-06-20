@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Checking if a mutex is locked"
+title:      "Checking if a mutex is locked in Go"
 date:       2020-06-09 05:13:37
 tags:       go, programming
 ---
