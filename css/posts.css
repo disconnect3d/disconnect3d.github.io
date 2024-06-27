@@ -3,3 +3,9 @@
     margin: 0 auto;
     display: block;
 }
+
+.comments h3 {
+  margin-top:100px;
+  padding-top:30px;
+  border-top:1px solid #e8e8e8;
+}
