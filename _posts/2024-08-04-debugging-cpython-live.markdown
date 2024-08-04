@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Debugging already running Python scripts via GDB" 
+title:      "Debugging running Python scripts via GDB" 
 date:       2024-08-04 17:13:37
 tags:       python, debugging, programming
 ---
