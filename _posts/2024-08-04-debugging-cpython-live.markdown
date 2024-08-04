@@ -62,4 +62,4 @@ Another issue is that if the Python script is running without a terminal, we wou
 Written all this, I still find this trick interesting and I bet we could create some solution that would work properly and would be more convenient. 
 But that's maybe for another time :).
 
-I would also like to thanks Ian Smith from Trail of Bits for an interesting problem to solve :)
+I would also like to thanks [Ian Smith](https://www.linkedin.com/in/ian-smith-awareio/) from Trail of Bits for an interesting problem to solve and [ptrtofuture](https://github.com/ptrtofuture) from justCatTheFish team for showing me a similar technique in the past :)
