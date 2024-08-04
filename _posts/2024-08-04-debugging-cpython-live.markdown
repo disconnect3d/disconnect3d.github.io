@@ -5,11 +5,9 @@ date:       2024-08-04 17:13:37
 tags:       python, debugging, programming
 ---
 
-A friend of mine had an interesting case recently where they wanted to debug an already running Python script on Linux:
+A friend of mine had an interesting case recently where they wanted to debug an already running Python script on Linux and after some testing it turned out this is possible, so let's see how it can be done in CPython :).
 
 ![friend post]({{ site.url }}assets/posts/ian-attach-python-debugger.png)
-
-And after some testing it turned out this is possible, so let's see how it can be done in CPython :).
 
 ## Few notes on CPython
 
