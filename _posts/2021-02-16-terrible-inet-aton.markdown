@@ -5,10 +5,7 @@ date:       2021-02-16 01:00:00
 tags:       c, security, python
 ---
 
-TLDR: man `inet_aton` states:
-> `inet_aton()` returns nonzero if the address is valid, zero if not
-
-...and so it is sometimes used to check if a string is a valid IP address. **Which should be fine, but isn't, because some implementations are weird**.
+TLDR: man `inet_aton` states "`inet_aton()` returns nonzero if the address is valid, zero if not" ...and so it is sometimes used to check if a string is a valid IP address. **Which should be fine, but isn't, because some implementations are weird**.
 
 
 
