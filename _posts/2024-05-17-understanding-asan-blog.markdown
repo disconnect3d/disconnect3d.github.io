@@ -5,10 +5,10 @@ date:       2024-05-16 17:00:00
 tags:       posts, publications
 ---
 
-Some time ago during an audit I found an out-of-bounds bug that was not detected by AddressSanitizer.
+Some time ago during an audit I found an out-of-bounds bug that was not detected by AddressSanitizer. This spawned a whole research at Trail of Bits which I talked and wrote about in details!
 
 
-I wondered why this happened and this spawned a whole research in Trail of Bits where we extended the 
+I wondered why this happened and we decided at Trail of Bits to extended the 
 AddressSanitizer bug detection capabilities in LLVM (libc++) for the `std::string` and `std::deque` collections 
 by annotating them (so ASan is aware of their size vs capacity bounds). 
 We also added support for all allocators for all the containers that have container overflow detections (vector, string, deque). 
