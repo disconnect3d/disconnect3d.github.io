@@ -8,6 +8,9 @@ Below you can see a list of talks or workshops I have given for various events a
 
 The convention for a given event is `date - name, location`. The `[lightning talk]` tag means the talk took ~5 minutes and was probably prepared just before presenting it or during the event, as an idea to cotribute some more ;).
 
+### 2024.09.14 [PraSec 10](https://prasec.cz/)
+* CTF lightning talk ([slides](https://docs.google.com/presentation/d/1ejD-ZOzmXzPD9B7ERmikJ7XK2G_G-lXxOF1jhrvTxb4/)) - a lightning talk about CTFTime name squatting and a "Funny LFR" web challenge walkthrough from the [SEKAI CTF 2024](), where we had to leak environment variables by exploiting a TOCTOU vulnerability
+
 ### 2024.06.14 [WarCon 2024](https://warcon.pl/)
 * Linux privesc via arbitrary x86 MSRs read/write bug: case study from a CTF challenge ([slides](https://docs.google.com/presentation/d/1sMTfGfO1pWFyiwnZq4XZLKQC7ola2PUhb1D0huA4Bgg/)) - a walkthrough over a "MSRable" challenge from [KalmarCTF 2024](https://ctftime.org/event/2227/). It is a X86-64 Linux kernel exploitation challenge where unprivileged users were allowed to read and write arbitrary MSR registers.
 
