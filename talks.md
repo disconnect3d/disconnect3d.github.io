@@ -49,7 +49,7 @@ The convention for a given event is `date - name, location`. The `[lightning tal
   * "Collector" task from PlaidCTF 2023 aka Postgres replica "bug" ([slides from here](https://docs.google.com/presentation/d/1Y7K_6yP8hdc8WprhvavZouF2l7UmhSY4txc4Nhxz6H0))
 
 ### 2023.06.28 [Pykonik Tech Talks #65](https://www.pykonik.org/tech-talks/65/)
-* The curious case of (not) removing files on Linux & others -- A talk on testdisk, weird case of big files on disk, WebAssembly and a Google CTF challenge Chrome/V8 pwn exploitation ([video](https://www.youtube.com/watch?t=8075&v=0KjHaZyxpMM)
+* The curious case of (not) removing files on Linux & others -- A talk on testdisk, weird case of big files on disk, WebAssembly and a Google CTF challenge Chrome/V8 pwn exploitation ([video](https://www.youtube.com/watch?t=8075&v=0KjHaZyxpMM))
 
 ### 2023.05.25 [Pykonik Tech Talks #64](https://www.pykonik.org/tech-talks/64/)
 * 4 not so lightning talks ([slides](https://docs.google.com/presentation/d/13_MmzSS6ciBE9oTiDOtB8tXedRv8ZpVfRMGUf6_nJt4/), [stream](https://www.youtube.com/live/y4gQJus-K5g)) - a case of optimizing Pwndbg "vis_heap_chunk" command, LibCST: CodeMods and QRinception
