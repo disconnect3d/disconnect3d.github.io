@@ -8,6 +8,9 @@ Below you can see a list of talks or workshops I have given for various events a
 
 The convention for a given event is `date - name, location`. The `[lightning talk]` tag means the talk took ~5 minutes and was probably prepared just before presenting it or during the event, as an idea to cotribute some more ;).
 
+### 2024.09.14 [PraSec 10](https://prasec.cz/)
+* CTF lightning talk ([slides](https://docs.google.com/presentation/d/1ejD-ZOzmXzPD9B7ERmikJ7XK2G_G-lXxOF1jhrvTxb4/)) - a lightning talk about CTFTime name squatting and a "Funny LFR" web challenge walkthrough from the [SEKAI CTF 2024](), where we had to leak environment variables by exploiting a TOCTOU vulnerability
+
 ### 2024.06.14 [WarCon 2024](https://warcon.pl/)
 * Linux privesc via arbitrary x86 MSRs read/write bug: case study from a CTF challenge ([slides](https://docs.google.com/presentation/d/1sMTfGfO1pWFyiwnZq4XZLKQC7ola2PUhb1D0huA4Bgg/)) - a walkthrough over a "MSRable" challenge from [KalmarCTF 2024](https://ctftime.org/event/2227/). It is a X86-64 Linux kernel exploitation challenge where unprivileged users were allowed to read and write arbitrary MSR registers.
 
@@ -45,6 +48,8 @@ The convention for a given event is `date - name, location`. The `[lightning tal
   * GDB & QEMU improvements and `set scheduler-locking on` feature ([slides](https://docs.google.com/presentation/d/1olgtAqNX4--Iwnd9RNABt4zF_uuWzGlsB5R7kD11-a8/))
   * "Collector" task from PlaidCTF 2023 aka Postgres replica "bug" ([slides from here](https://docs.google.com/presentation/d/1Y7K_6yP8hdc8WprhvavZouF2l7UmhSY4txc4Nhxz6H0))
 
+### 2023.06.28 [Pykonik Tech Talks #65](https://www.pykonik.org/tech-talks/65/)
+* The curious case of (not) removing files on Linux & others -- A talk on testdisk, weird case of big files on disk, WebAssembly and a Google CTF challenge Chrome/V8 pwn exploitation ([video](https://www.youtube.com/watch?t=8075&v=0KjHaZyxpMM))
 
 ### 2023.05.25 [Pykonik Tech Talks #64](https://www.pykonik.org/tech-talks/64/)
 * 4 not so lightning talks ([slides](https://docs.google.com/presentation/d/13_MmzSS6ciBE9oTiDOtB8tXedRv8ZpVfRMGUf6_nJt4/), [stream](https://www.youtube.com/live/y4gQJus-K5g)) - a case of optimizing Pwndbg "vis_heap_chunk" command, LibCST: CodeMods and QRinception
