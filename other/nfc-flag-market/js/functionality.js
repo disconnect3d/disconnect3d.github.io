@@ -361,19 +361,23 @@ ndef.addEventListener("readingerror", (err) => {
 
 ndef.addEventListener("reading", handleReading);
 
-ndef.scan();
-info('!', "NFC scanner initialized");
+try {
+    ndef.scan();
+    info('!', "NFC scanner initialized");
 
-console.log('Registering service worker');
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/service-worker.js')
-        .then(registration => {
-          console.log('ServiceWorker registration successful with scope: ', registration.scope);
-        })
-        .catch(error => {
-          console.log('ServiceWorker registration failed: ', error);
+    console.log('Registering service worker');
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js')
+            .then(registration => {
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            })
+            .catch(error => {
+            console.log('ServiceWorker registration failed: ', error);
+            });
         });
-    });
-  }
+    }
   
+} catch (error) {
+    log("Argh! " + error);
+  }
