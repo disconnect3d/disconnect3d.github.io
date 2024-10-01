@@ -214,53 +214,6 @@ function validPaddingBytes(data, idxFrom, idxTo) {
     return true;
 }
 
-async function writeUserToCard(serial, userData, resetted) {
-    if (resetted) {
-        msg = `Card resetted: funds=${userData.funds}`;
-    }
-    else {
-        msg = `Card updated w/flag & funds=${userData.funds}`;
-    }
-
-    const rawData = userData.serialize();
-    await ndef.write(rawData, {overwrite: true})
-    .then(() => {
-        log(`Write succeeded; funds=${userData.funds}`);
-        info(serial, msg);
-        // log(`writeUserToCard succeeded; funds=${userData.funds}`);
-    })
-    .catch((error) => {
-        log(`[${serial}] writeUserToCard error: ${error}`);
-        // updatePageTexts('', `ERROR writing to the NFC card: ${error}`);
-        info(serial, `NFC write error`); //: ${error}`)
-    });
-}
-
-const FLAG_PREFIX = 'https://www.youtube.com/watch?v=Sagg08DrO5U&flag=';
-const DEFAULT_FAKE_FLAG = FLAG_PREFIX + 'justWTF{you_need_to_buy_the_real_flag}';
-const REAL_FLAG = 'justCTF{50M3_NFC_B453D_4PP5_4R3_50_BR0K3N}'
-
-async function resetUserData(serial) {
-    const ud = new UserData(
-        'User' + serial.slice(-2),
-        100,
-        DEFAULT_FAKE_FLAG,
-    );
-
-    await writeUserToCard(serial, ud, true);
-}
-
-function blockNfcForMoment(isGood) {
-    if (isGood) setGoodBackground();
-    else setBadBackground();
-
-    ndef.removeEventListener("reading", handleReading);
-    setTimeout(() => {
-        setDefaultBackground();
-        ndef.addEventListener("reading", handleReading);
-    }, 1000);
-}
-
 function debugLog(message, serialNumber) {
     const len = message.records.length;
     log(`> Records: ${len} SN: ${serialNumber}`);
@@ -270,114 +223,167 @@ function debugLog(message, serialNumber) {
     }
 }
 
-const fake_flags = [
-    "justWTF{n0_easy_f1ag_h3re}",
-    "justWTF{w3lc0m3_t0_th3_g4m3}",
-    "justWTF{pr0t3ct_y0ur_w34kn3ss3s}",
-    "justWTF{1ts_a_tr4p!}",
-    "justWTF{pwn3d_y0ur_br41n}",
-    "justWTF{n0_such_luck}",
-    "justWTF{u_g0t_th1s!}",
-    "justWTF{0v3rcl0ck_th3_ctf}",
-    "justWTF{wh0_said_th1s_was_3asy}",
-    "justWTF{catch_m3_if_y0u_c4n}"
-  ];
-
-async function handleReading({ message, serialNumber }) {
-    // Get the last 6 characters of serialNumber
-    serialNumber = serialNumber.slice(-5);
-    // debugLog(message, serialNumber);
-
-    if (message.records.length != 1) {
-        blockNfcForMoment(false);
-        log(`[handleReading] message.records.length (${message.records.length}) =! 1`);
-
-        info(serialNumber, `Data error: records.length != 1 (resetting card)`);
-        await resetUserData(serialNumber);
-
-        return;
-    }
-
-    const data = new Uint8Array(message.records[0].data.buffer);
-    
-    const result = UserData.deserialize(data);
-    if (result.err !== null) {
-        blockNfcForMoment(false);
-        log(`[handleReading] err=${result.err}, resetting card`);
-
-        info(serialNumber, `Data error: ${result.err} (resetting card)`);
-        await resetUserData(serialNumber);
-
-        return;
-    }
-
-    const ud = result.obj;
-
-    if (ud.funds > 1000) {
-        blockNfcForMoment(true);
-        log(`Giving flag to ${ud.name} for ${ud.funds} funds`);
-
-	ud.comment = FLAG_PREFIX + REAL_FLAG;
-	await writeUserToCard(serialNumber, ud);
-        info(serialNumber, `${ud.name} bought a justCTF{REDACTED} flag (for >1000 funds)`);
-
-        return;
-    }
-
-    ud.funds -= 10;
-    if (ud.funds < 0) {
-        blockNfcForMoment(false);
-        log(`[handleReading] insufficient funds: resetting card`);
-
-        info(serialNumber, `${ud.name}: insufficient funds to buy any flag (<0). resetting card`);
-        await resetUserData(serialNumber);
-
-        return;
-    }
-
-    log(`[handleReading] user is fine, updating their funds to: ${ud.funds}`);
-    blockNfcForMoment(true);
-
-    const randomIndex = Math.floor(Math.random() * fake_flags.length);
-    const randomFlag = fake_flags[randomIndex];
-
-    ud.comment = FLAG_PREFIX + randomFlag;
-
-    info(serialNumber, `${ud.name} buys a random flag (saving new funds: ${ud.funds})`);
-    await writeUserToCard(serialNumber, ud);
-}
-
 if (!('NDEFReader' in window)) {
-  info('!','window.NDEFReader is not defined. This browser seems to not support Web NFC API and this task will not work on it.');
-  info('!','See https://developer.mozilla.org/en-US/docs/Web/API/Web_NFC_API');
-}
-const ndef = new NDEFReader();
-
-ndef.addEventListener("readingerror", (err) => {
-    const errText = `Error reading the NFC tag: ${err.toString()}`;
-    log(errText);
-    info('', `NFC Read error`); //: ${errText}`);
-});
-
-ndef.addEventListener("reading", handleReading);
-
-try {
-    ndef.scan();
-    info('!', "NFC scanner initialized");
-
-    console.log('Registering service worker');
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/service-worker.js')
-            .then(registration => {
-            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    info('!', 'window.NDEFReader is not defined. This browser seems to not support Web NFC API and this task will not work on it.');
+    info('!', 'See https://developer.mozilla.org/en-US/docs/Web/API/Web_NFC_API');
+} else {
+    document.getElementById('scan-button').addEventListener("click", async () => {
+        log("User clicked scan button");
+      
+        try {
+          const ndef = new NDEFReader();
+          ndef.scan();
+      
+          async function writeUserToCard(serial, userData, resetted) {
+            if (resetted) {
+                msg = `Card resetted: funds=${userData.funds}`;
+            }
+            else {
+                msg = `Card updated w/flag & funds=${userData.funds}`;
+            }
+        
+            const rawData = userData.serialize();
+            await ndef.write(rawData, {overwrite: true})
+            .then(() => {
+                log(`Write succeeded; funds=${userData.funds}`);
+                info(serial, msg);
+                // log(`writeUserToCard succeeded; funds=${userData.funds}`);
             })
-            .catch(error => {
-            console.log('ServiceWorker registration failed: ', error);
+            .catch((error) => {
+                log(`[${serial}] writeUserToCard error: ${error}`);
+                // updatePageTexts('', `ERROR writing to the NFC card: ${error}`);
+                info(serial, `NFC write error`); //: ${error}`)
             });
+        }
+        
+        const FLAG_PREFIX = 'https://www.youtube.com/watch?v=Sagg08DrO5U&flag=';
+        const DEFAULT_FAKE_FLAG = FLAG_PREFIX + 'justWTF{you_need_to_buy_the_real_flag}';
+        const REAL_FLAG = 'justCTF{50M3_NFC_B453D_4PP5_4R3_50_BR0K3N}'
+        
+        async function resetUserData(serial) {
+            const ud = new UserData(
+                'User' + serial.slice(-2),
+                100,
+                DEFAULT_FAKE_FLAG,
+            );
+        
+            await writeUserToCard(serial, ud, true);
+        }
+        
+        async function blockNfcForMoment(isGood) {
+            if (isGood) setGoodBackground();
+            else setBadBackground();
+        
+            ndef.removeEventListener("reading", handleReading);
+            setTimeout(() => {
+                setDefaultBackground();
+                ndef.addEventListener("reading", handleReading);
+            }, 1000);
+        }
+        
+        const fake_flags = [
+            "justWTF{n0_easy_f1ag_h3re}",
+            "justWTF{w3lc0m3_t0_th3_g4m3}",
+            "justWTF{pr0t3ct_y0ur_w34kn3ss3s}",
+            "justWTF{1ts_a_tr4p!}",
+            "justWTF{pwn3d_y0ur_br41n}",
+            "justWTF{n0_such_luck}",
+            "justWTF{u_g0t_th1s!}",
+            "justWTF{0v3rcl0ck_th3_ctf}",
+            "justWTF{wh0_said_th1s_was_3asy}",
+            "justWTF{catch_m3_if_y0u_c4n}"
+          ];
+        
+        async function handleReading({ message, serialNumber }) {
+            // Get the last 6 characters of serialNumber
+            serialNumber = serialNumber.slice(-5);
+            // debugLog(message, serialNumber);
+        
+            if (message.records.length != 1) {
+                blockNfcForMoment(false);
+                log(`[handleReading] message.records.length (${message.records.length}) =! 1`);
+        
+                info(serialNumber, `Data error: records.length != 1 (resetting card)`);
+                await resetUserData(serialNumber);
+        
+                return;
+            }
+        
+            const data = new Uint8Array(message.records[0].data.buffer);
+            
+            const result = UserData.deserialize(data);
+            if (result.err !== null) {
+                blockNfcForMoment(false);
+                log(`[handleReading] err=${result.err}, resetting card`);
+        
+                info(serialNumber, `Data error: ${result.err} (resetting card)`);
+                await resetUserData(serialNumber);
+        
+                return;
+            }
+        
+            const ud = result.obj;
+        
+            if (ud.funds > 1000) {
+                blockNfcForMoment(true);
+                log(`Giving flag to ${ud.name} for ${ud.funds} funds`);
+        
+            ud.comment = FLAG_PREFIX + REAL_FLAG;
+            await writeUserToCard(serialNumber, ud);
+                info(serialNumber, `${ud.name} bought a justCTF{REDACTED} flag (for >1000 funds)`);
+        
+                return;
+            }
+        
+            ud.funds -= 10;
+            if (ud.funds < 0) {
+                blockNfcForMoment(false);
+                log(`[handleReading] insufficient funds: resetting card`);
+        
+                info(serialNumber, `${ud.name}: insufficient funds to buy any flag (<0). resetting card`);
+                await resetUserData(serialNumber);
+        
+                return;
+            }
+        
+            log(`[handleReading] user is fine, updating their funds to: ${ud.funds}`);
+            blockNfcForMoment(true);
+        
+            const randomIndex = Math.floor(Math.random() * fake_flags.length);
+            const randomFlag = fake_flags[randomIndex];
+        
+            ud.comment = FLAG_PREFIX + randomFlag;
+        
+            info(serialNumber, `${ud.name} buys a random flag (saving new funds: ${ud.funds})`);
+            await writeUserToCard(serialNumber, ud);
+        }
+        
+
+          ndef.addEventListener("readingerror", (err) => {
+            const errText = `Error reading the NFC tag: ${err.toString()}`;
+            log(errText);
+            info('', `NFC Read error`); //: ${errText}`);
         });
-    }
-  
-} catch (error) {
-    log("Argh! " + error);
-  }
+          
+        ndef.addEventListener("reading", handleReading);
+    
+        info('!', "NFC scanner initialized");
+
+        } catch (error) {
+          log("Argh! " + error);
+        }
+      });
+    
+        console.log('Registering service worker');
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js')
+                .then(registration => {
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                })
+                .catch(error => {
+                console.log('ServiceWorker registration failed: ', error);
+                });
+            });
+        }
+}
