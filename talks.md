@@ -8,12 +8,15 @@ Below you can see a list of talks or workshops I have given for various events a
 
 The convention for a given event is `date - name, location`. The `[lightning talk]` tag means the talk took ~5 minutes and was probably prepared just before presenting it or during the event, as an idea to cotribute some more ;).
 
-### 2024.09.28 [HackYeah](https://hackyeah.pl/)
+### 2024.10.03 Meet.js meetup, Cracow, Poland
+* [lightning talk] justCTF 2024 Finals and NFC Flag Market challenge ([slides](https://docs.google.com/presentation/d/1iLIuosc1LYuHGtznc1t69Qb-8vahoq2uSZH5rT5rba8))
+
+### 2024.09.28 [HackYeah](https://hackyeah.pl/), Tauron Arena, Cracow, Poland
 * Challenges and finalists announcements from justCTF 2024 Finals capture the flag cybersecurity competition - [slides](https://docs.google.com/presentation/d/1LSGTmwGJrmWxbgDxEyMfSjcCRhIg3zK968Gt7dkn3OM) - this is a talk made by me and my CTF team on justCTF 2024 Finals that happened on HackYeah, the biggest hackathon in EU on Tauron Arena in Cracow, Poland
 * Security pitfalls case studies from real life bugs and CTFs ([slides](https://docs.google.com/presentation/d/1nxzjuWtp-BBPfQyNLM3NvSjxhP7QOJWMOjaAoE2-Rk4)) - a talk on HackYeah about some cool case studies from infosec/CTFs/real life :)
 
 ### 2024.09.14 [PraSec 10](https://prasec.cz/)
-* CTF lightning talk ([slides](https://docs.google.com/presentation/d/1ejD-ZOzmXzPD9B7ERmikJ7XK2G_G-lXxOF1jhrvTxb4/)) - a lightning talk about CTFTime name squatting and a "Funny LFR" web challenge walkthrough from the [SEKAI CTF 2024](), where we had to leak environment variables by exploiting a TOCTOU vulnerability
+* [lightning talk] CTFTime name squatting and "Funny LFR" web challenge (SEKAI CTF 2024) walkthrough ([slides](https://docs.google.com/presentation/d/1ejD-ZOzmXzPD9B7ERmikJ7XK2G_G-lXxOF1jhrvTxb4/)) - in the latter, I showed a bit on leaking environment variables in local-file-inclusion case by exploiting a TOCTOU vulnerability
 
 ### 2024.06.14 [WarCon 2024](https://warcon.pl/)
 * Linux privesc via arbitrary x86 MSRs read/write bug: case study from a CTF challenge ([slides](https://docs.google.com/presentation/d/1sMTfGfO1pWFyiwnZq4XZLKQC7ola2PUhb1D0huA4Bgg/)) - a walkthrough over a "MSRable" challenge from [KalmarCTF 2024](https://ctftime.org/event/2227/). It is a X86-64 Linux kernel exploitation challenge where unprivileged users were allowed to read and write arbitrary MSR registers.
