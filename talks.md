@@ -29,8 +29,6 @@ The convention for a given event is `date - name, location`. The `[lightning tal
     * Zero gravity flight
     * Research paper/code developed for the Interstellar movie ([paper](https://iopscience.iop.org/article/10.1088/0264-9381/32/6/065001))
 
-
-
 ### 2024.05.28 [Confidence Conference 2024](https://confidence-conference.org/bio-2024/#id=55600), Cracow, Poland
 * Linux privesc via arbitrary x86 MSRs read/write bug: case study from a CTF challenge ([slides](https://docs.google.com/presentation/d/16r6gJSRvoa7DaDxixn8Pi-En2rcWujwX_vuqh7kz8u0/), video soon) - a walkthrough over a "MSRable" challenge from [KalmarCTF 2024](https://ctftime.org/event/2227/). It is a X86-64 Linux kernel exploitation challenge where unprivileged users were allowed to read and write arbitrary MSR registers.
 
@@ -62,6 +60,7 @@ The convention for a given event is `date - name, location`. The `[lightning tal
 * 4 not so lightning talks ([slides](https://docs.google.com/presentation/d/13_MmzSS6ciBE9oTiDOtB8tXedRv8ZpVfRMGUf6_nJt4/), [stream](https://www.youtube.com/live/y4gQJus-K5g)) - a case of optimizing Pwndbg "vis_heap_chunk" command, LibCST: CodeMods and QRinception
 
 ### 2023 - AGH University of Science and Technology, talks for KNI Kernel students club
+* [PL][2023.12.07] Information Security - ([event](https://www.facebook.com/events/359725210079331), [slides](https://docs.google.com/presentation/d/14A2vWTtFr3y3lZQK8NKOz5JLYQf-C7ZVGlHWCEMzZT0)) - an intro talk about cybersecurity/information security
 * [PL][2023.11.27] AddressSanitizer - tool to detect memory corruption bugs in native programs ([event](https://www.facebook.com/events/333721859389867), [video](https://youtube.com/live/UGX852Fpf4s)) - talk about ASan, its internals, container overflows, Valgrind, sanitizers and fuzzing
 * [PL][2023.10.30] Blockchains 101 ([event](https://www.facebook.com/events/727456802767643/), [slides](https://docs.google.com/presentation/d/1-zJK2NGr8fI2lN8-SuRSZSStdo43m-Frzh_XOMhTniw)): entry level talk about blockchains, consensus, PoW vs PoS, mining, wallets, EVM smart contracts and various security pitfalls or issues in blockchain technologies
 * [PL][2023.05.10] Close to low level: from CPU and compilers to fast code ([event](https://www.facebook.com/events/664242619046690/), [slides](https://docs.google.com/presentation/d/11l3_oJVp-U1iMEQIq-epa5rPMKD1IOWiMAOJ6A7TKPA), [video](https://www.youtube.com/watch?v=APeHuKs3Gnk)) - a talk that first goes over how CPU works under the hood or/and why they are fast and then we go over benchmarks from my bachelor thesis to see why certain things were fast or slow 
