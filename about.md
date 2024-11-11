@@ -46,7 +46,7 @@ Looking for a presentation, training, workshop, or just having an interesting pr
 
 ### Hobbies
 
-Programming, reverse engineering (or rather looking under the hood), computer security, teaching others and ice skating.
+Programming, reverse engineering (or rather looking under the hood to understand how things work), computer security, teaching others, climbing and ice skating.
 
 ### Contact
 
