@@ -8,6 +8,10 @@ Below you can see a list of talks or workshops I have given for various events a
 
 The convention for a given event is `date - name, location`. The `[lightning talk]` tag means the talk took ~5 minutes and was probably prepared just before presenting it or during the event, as an idea to cotribute some more ;).
 
+### 2024.11.21 [Pykonik Tech Talks #72](https://www.pykonik.org/tech-talks/72/)
+* [PL] Python 3.13 JIT experiment: hot or not? ([slides](https://docs.google.com/presentation/d/1OaPR5b86FkzefKhZmq-XZm7t1h6EMZH7cc706uSbz5k/), [video](https://youtu.be/YNnnr7G9IP0?t=5282)) - a talk on the recently added experimental JIT to CPython (which is disabled by default)
+* [PL][lightning talk] Pdb vs ipdb import time and peephole optimizer ([video](https://www.youtube.com/watch?v=YNnnr7G9IP0&t=9377s))
+
 ### 2024.10.03 Meet.js meetup, Cracow, Poland
 * [lightning talk] justCTF 2024 Finals and NFC Flag Market challenge ([slides](https://docs.google.com/presentation/d/1iLIuosc1LYuHGtznc1t69Qb-8vahoq2uSZH5rT5rba8))
 
