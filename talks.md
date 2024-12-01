@@ -74,7 +74,7 @@ The convention for a given event is `date - name, location`. The `[lightning tal
 * 4 not so lightning talks ([slides](https://docs.google.com/presentation/d/1Y7K_6yP8hdc8WprhvavZouF2l7UmhSY4txc4Nhxz6H0), [video](https://www.youtube.com/watch?v=XfyWDgczG7g&t=7464s)) - a talk about 1) defacing a conference website, 2) weird Postgres replica bug, 3) environment variables "hiding" and 4) CPython 3.11 speed improvements.
 
 ### 2023.03.30 [Pykonik Tech Talks #62](https://www.pykonik.org/tech-talks/62/)
-* Lightning talk about weird pyc file that executes unexpected code due to a bug in zip importer in Python from a tweet from David Buchanan ([video](https://www.youtube.com/watch?v=gM7Jz85pDLw))
+* Lightning talk about weird pyc file that executes unexpected code due to a bug in zip importer in Python from a tweet from David Buchanan ([video](https://www.youtube.com/watch?v=gM7Jz85pDLw)) - see also: https://x.com/disconnect3d_pl/status/1641712283565928448
 
 ### 2022.11.03 [Pykonik Tech Talks #58](https://www.pykonik.org/tech-talks/58/#talk-secure-your-python-code-with-fuzz-testing)
 * Secure your Python code with fuzz testing ([slides](https://docs.google.com/presentation/d/1xeoZHTnUMvCN0jYmIZNSRbclbU0egFf6Twc8r1Ta0PU/), [video](https://www.youtube.com/watch?v=s7r0iooKGHY))
