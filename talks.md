@@ -4,9 +4,7 @@ title: My talks
 permalink: /talks/
 ---
 
-Below you can see a list of talks or workshops I have given for various events along with slides/videos/materials links. If the particular record has a `[PL]` before it - it means it was made in Polish language.
-
-The convention for a given event is `date - name, location`. The `[lightning talk]` tag means the talk took ~5 minutes and was probably prepared just before presenting it or during the event, as an idea to cotribute some more ;).
+Below you can see a list of talks I gave on various events with slides/videos links. The `[PL]` tag means it was in Polish and `[lightning talk]` means it was a quick, usually <5 min talk, likely improvised or prepared just before giving it.
 
 ### 2024.11.21 [Pykonik Tech Talks #72](https://www.pykonik.org/tech-talks/72/)
 * [PL] Python 3.13 JIT experiment: hot or not? ([slides](https://docs.google.com/presentation/d/1OaPR5b86FkzefKhZmq-XZm7t1h6EMZH7cc706uSbz5k/), [video](https://youtu.be/YNnnr7G9IP0?t=5282)) - a talk on the recently added experimental JIT to CPython (which is disabled by default)
