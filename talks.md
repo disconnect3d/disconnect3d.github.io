@@ -14,8 +14,8 @@ Below you can see a list of talks I gave on various events with slides/videos li
 * [lightning talk] justCTF 2024 Finals and NFC Flag Market challenge ([slides](https://docs.google.com/presentation/d/1iLIuosc1LYuHGtznc1t69Qb-8vahoq2uSZH5rT5rba8))
 
 ### 2024.09.28 [HackYeah](https://hackyeah.pl/), Tauron Arena, Cracow, Poland
-* Security pitfalls case studies from real life bugs and CTFs ([slides](https://docs.google.com/presentation/d/1nxzjuWtp-BBPfQyNLM3NvSjxhP7QOJWMOjaAoE2-Rk4)) - a talk on HackYeah about some cool case studies from infosec/CTFs/real life :)
-* Challenges and finalists announcements from justCTF 2024 Finals capture the flag cybersecurity competition - [slides](https://docs.google.com/presentation/d/1LSGTmwGJrmWxbgDxEyMfSjcCRhIg3zK968Gt7dkn3OM) - this is a talk made by me and my CTF team on justCTF 2024 Finals that happened on HackYeah, the biggest hackathon in EU on Tauron Arena in Cracow, Poland
+* Security pitfalls case studies from real life bugs and CTFs ([slides](https://docs.google.com/presentation/d/1nxzjuWtp-BBPfQyNLM3NvSjxhP7QOJWMOjaAoE2-Rk4)) - a talk about some cool case studies from infosec/CTFs/real life :)
+* Challenges and finalists announcements from justCTF 2024 Finals capture the flag cybersecurity competition - [slides](https://docs.google.com/presentation/d/1LSGTmwGJrmWxbgDxEyMfSjcCRhIg3zK968Gt7dkn3OM) - talk given by me and my CTF team on the [justCTF 2024 Finals competition](https://hackyeah.pl/justctf/) that we organized during HackYeah, the biggest hackathon in EU on Tauron Arena in Cracow, Poland
 
 ### 2024.09.14 [PraSec 10](https://prasec.cz/)
 * [lightning talk] CTFTime name squatting and "Funny LFR" web challenge (SEKAI CTF 2024) walkthrough ([slides](https://docs.google.com/presentation/d/1ejD-ZOzmXzPD9B7ERmikJ7XK2G_G-lXxOF1jhrvTxb4/)) - in the latter, I showed a bit on leaking environment variables in local-file-inclusion case by exploiting a TOCTOU vulnerability
