@@ -16,8 +16,8 @@ The convention for a given event is `date - name, location`. The `[lightning tal
 * [lightning talk] justCTF 2024 Finals and NFC Flag Market challenge ([slides](https://docs.google.com/presentation/d/1iLIuosc1LYuHGtznc1t69Qb-8vahoq2uSZH5rT5rba8))
 
 ### 2024.09.28 [HackYeah](https://hackyeah.pl/), Tauron Arena, Cracow, Poland
-* Challenges and finalists announcements from justCTF 2024 Finals capture the flag cybersecurity competition - [slides](https://docs.google.com/presentation/d/1LSGTmwGJrmWxbgDxEyMfSjcCRhIg3zK968Gt7dkn3OM) - this is a talk made by me and my CTF team on justCTF 2024 Finals that happened on HackYeah, the biggest hackathon in EU on Tauron Arena in Cracow, Poland
 * Security pitfalls case studies from real life bugs and CTFs ([slides](https://docs.google.com/presentation/d/1nxzjuWtp-BBPfQyNLM3NvSjxhP7QOJWMOjaAoE2-Rk4)) - a talk on HackYeah about some cool case studies from infosec/CTFs/real life :)
+* Challenges and finalists announcements from justCTF 2024 Finals capture the flag cybersecurity competition - [slides](https://docs.google.com/presentation/d/1LSGTmwGJrmWxbgDxEyMfSjcCRhIg3zK968Gt7dkn3OM) - this is a talk made by me and my CTF team on justCTF 2024 Finals that happened on HackYeah, the biggest hackathon in EU on Tauron Arena in Cracow, Poland
 
 ### 2024.09.14 [PraSec 10](https://prasec.cz/)
 * [lightning talk] CTFTime name squatting and "Funny LFR" web challenge (SEKAI CTF 2024) walkthrough ([slides](https://docs.google.com/presentation/d/1ejD-ZOzmXzPD9B7ERmikJ7XK2G_G-lXxOF1jhrvTxb4/)) - in the latter, I showed a bit on leaking environment variables in local-file-inclusion case by exploiting a TOCTOU vulnerability
@@ -34,7 +34,7 @@ The convention for a given event is `date - name, location`. The `[lightning tal
     * Research paper/code developed for the Interstellar movie ([paper](https://iopscience.iop.org/article/10.1088/0264-9381/32/6/065001))
 
 ### 2024.05.28 [Confidence Conference 2024](https://confidence-conference.org/bio-2024/#id=55600), Cracow, Poland
-* Linux privesc via arbitrary x86 MSRs read/write bug: case study from a CTF challenge ([slides](https://docs.google.com/presentation/d/16r6gJSRvoa7DaDxixn8Pi-En2rcWujwX_vuqh7kz8u0/), video soon) - a walkthrough over a "MSRable" challenge from [KalmarCTF 2024](https://ctftime.org/event/2227/). It is a X86-64 Linux kernel exploitation challenge where unprivileged users were allowed to read and write arbitrary MSR registers.
+* Linux privesc via arbitrary x86 MSRs read/write bug: case study from a CTF challenge ([slides](https://docs.google.com/presentation/d/16r6gJSRvoa7DaDxixn8Pi-En2rcWujwX_vuqh7kz8u0/), [video](https://www.youtube.com/watch?v=aCNM_ub7XR8)) - a walkthrough over a "MSRable" challenge from [KalmarCTF 2024](https://ctftime.org/event/2227/). It is a X86-64 Linux kernel exploitation challenge where unprivileged users were allowed to read and write arbitrary MSR registers.
 
 ### 2024.04.04 [Pykonik Tech Talks #69](https://www.pykonik.org/tech-talks/69/)
 * [PL] Lightning talks ([video](https://youtu.be/EkjVMlaOF9w?t=6627)) about:
