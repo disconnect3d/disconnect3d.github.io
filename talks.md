@@ -6,9 +6,14 @@ permalink: /talks/
 
 Below you can see a list of talks I gave on various events with slides/videos links. The `[PL]` tag means it was in Polish and `[lightning talk]` means it was a quick, usually <5 min talk, likely improvised or prepared just before giving it.
 
+
 ### 2024.11.21 [Pykonik Tech Talks #72](https://www.pykonik.org/tech-talks/72/)
 * [PL] Python 3.13 JIT experiment: hot or not? ([slides](https://docs.google.com/presentation/d/1OaPR5b86FkzefKhZmq-XZm7t1h6EMZH7cc706uSbz5k/), [video](https://youtu.be/YNnnr7G9IP0?t=5282)) - a talk on the recently added experimental JIT to CPython (which is disabled by default)
 * [PL][lightning talk] Pdb vs ipdb import time and peephole optimizer ([video](https://www.youtube.com/watch?v=YNnnr7G9IP0&t=9377s))
+
+### 2024.10.24 [The H@ck Summit](https://thehacksummit.com/), Warsaw, Poland
+* Python specialized bytecode: hacking a Python jail
+
 
 ### 2024.10.03 Meet.js meetup, Cracow, Poland
 * [lightning talk] justCTF 2024 Finals and NFC Flag Market challenge ([slides](https://docs.google.com/presentation/d/1iLIuosc1LYuHGtznc1t69Qb-8vahoq2uSZH5rT5rba8))
