@@ -39,7 +39,7 @@ Suprisingly, the answer is **yes**, under certain conditions.
 
 On Linux, memory allocations are handled by the `mmap` system call which is internally used by the `malloc` or `new` C or C++ functions. With `mmap` it is possible to explicitly request the memory to be allocated at address 0x0, but whether the system grants this request depends on it configuration.
 
-This configuration is the `vm.mmap_min_addr` sysctl config which determines the minimum possible address at which `mmap` can allocate memory. It can be read either with the `sysctl` command or by reading a corresponding file in the procfs filesystem, as follows:
+This configuration is the `vm.mmap_min_addr` sysctl parameter which determines the minimum possible address at which `mmap` can allocate memory. It can be read either with the `sysctl` command or by reading a corresponding file in the procfs filesystem, as follows:
 
 ```bash
 $ sysctl vm.mmap_min_addr
@@ -53,7 +53,7 @@ Of course we can modify this setting if we were a root (with the `sudo sysctl -w
 
 ## But why is there such config?
 
-I believe the reason for introducing this config was mitigating security vulnerabilities such as null pointer dereferences in Linux kernel code which could be exploited by unprivileged user space programs to escalate privileges and become root. In other words, an attacker could allocate memory on address 0x0 and then trigger a Linux kernel null pointer dereference to access this memory from the kernel. Then they used this to hijack the control flow of the kernel and become root.
+I believe the reason for introducing this sysctl parameter was mitigating security vulnerabilities such as null pointer dereferences in Linux kernel code which could be exploited by unprivileged user space programs to escalate privileges and become root. In other words, an attacker could allocate memory on address 0x0 and then trigger a Linux kernel null pointer dereference to access this memory from the kernel. Then they used this to hijack the control flow of the kernel and become root.
 
 Nowadays, this is rather a relic of the past due to [SMAP](https://en.wikipedia.org/wiki/Supervisor_Mode_Access_Prevention) and [SMEP](https://en.wikipedia.org/wiki/Control_register#SMEP) mitigations on x86-64 and [PAN](https://en.wikipedia.org/wiki/AArch64#:~:text=A%20new%20Privileged%20Access%20Never%20(PAN)%20state%20bit%20provides%20control%20that%20prevents%20privileged%20access%20to%20user%20data%20unless%20explicitly%20enabled.) on Arm64 architectures (though, [PAN was or is broken?](https://blog.siguza.net/PAN/)) as those mitigations prevent the kernel from accessing (SMAP) or excecuting (SMEP) user-space addresses (such as 0x0 address).
 
