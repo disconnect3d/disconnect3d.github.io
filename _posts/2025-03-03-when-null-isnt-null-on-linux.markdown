@@ -49,11 +49,11 @@ $ cat /proc/sys/vm/mmap_min_addr
 65536
 ```
 
-Of course we can modify this setting if we were a root (with the `sudo sysctl -w vm.mmap_min_addr=0` command).
+Of course we can modify this setting if we were a root user (with the `sudo sysctl -w vm.mmap_min_addr=0` command).
 
 ## But why is there such config?
 
-I believe the reason for introducing this sysctl parameter was mitigating security vulnerabilities such as null pointer dereferences in Linux kernel code which could be exploited by unprivileged user space programs to escalate privileges and become root. In other words, an attacker could allocate memory on address 0x0 and then trigger a Linux kernel null pointer dereference to access this memory from the kernel. Then they used this to hijack the control flow of the kernel and become root.
+I believe the reason for introducing this sysctl parameter was mitigating security vulnerabilities such as null pointer dereferences in Linux kernel code which could be exploited by unprivileged user space programs to escalate privileges and become root. In other words, an attacker could allocate memory on address 0x0 in a user-space program and then trigger a Linux kernel null pointer dereference to access this memory from the kernel. Then they used this to hijack the control flow of the kernel and become root.
 
 Nowadays, this is rather a relic of the past due to [SMAP](https://en.wikipedia.org/wiki/Supervisor_Mode_Access_Prevention) and [SMEP](https://en.wikipedia.org/wiki/Control_register#SMEP) mitigations on x86-64 and [PAN](https://en.wikipedia.org/wiki/AArch64#:~:text=A%20new%20Privileged%20Access%20Never%20(PAN)%20state%20bit%20provides%20control%20that%20prevents%20privileged%20access%20to%20user%20data%20unless%20explicitly%20enabled.) on Arm64 architectures (though, [PAN was or is broken?](https://blog.siguza.net/PAN/)) as those mitigations prevent the kernel from accessing (SMAP) or excecuting (SMEP) user-space addresses (such as 0x0 address).
 
