@@ -105,7 +105,7 @@ Value written to and read from address (nil): 0x41424344
 ## Final thoughts
 
 While null pointers are generally assumed to be invalid, their actual behavior depends on the system's memory management rules. 
-The `vm.mmap_min_addr` sysctl parameter is one such rule that allows us to prevent mapping memory at 0x0. H
+The `vm.mmap_min_addr` sysctl parameter is one such rule that allows us to prevent mapping memory at 0x0. 
 However, if modified, a null pointer could indeed point to a valid, accessible memory location.
 
 So next time someone says a null pointer is always invalid -- well, you know better!
