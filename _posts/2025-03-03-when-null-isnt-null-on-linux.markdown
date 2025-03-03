@@ -14,6 +14,7 @@ When we think of a null pointer, `NULL` in C or `nullptr` in C++, we typically a
 When conducting technical interviews, I have been assessing candidates' depth of knowledge through a particular question:
 
 > What happens when the following C or C++ code executes: `*(int*)(rand_int()) = 0x41424344;`
+> 
 > Assume that `rand_int` returns any valid integer.
 
 I don't specify a CPU architecture, operating system, privilege level (user vs kernel space) or compiler version but if asked, I clarify that we are considering x86-64, user-space Linux, and either GCC or Clang.
