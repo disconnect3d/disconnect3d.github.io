@@ -58,7 +58,7 @@ Of course we can modify this setting if we were a root user (with the `sudo sysc
 
 ## Why using the value of 65536?
 
-I got asked by some folks from Hackerspace Cracow why isn't the value just 1? This is because we don't only care about strict null pointer dereferences. For example, if we have code like this in C that calls a function pointer that is pointed by the `func` field of some structure - `ptr->func()` and `ptr` is `0` - then the code will actually dereference memory at address `0 + offsetof(SomeStruct, func)` and take the address to jump to from there.
+I got asked by some folks from Hackerspace Cracow why isn't the value just 1? This is because we don't only care about strict null pointer dereferences. For example, if we have code like this in C that calls a function pointer that is pointed by the `func` field of some structure - `ptr->func()` and `ptr` is `0` - then the code will actually dereference memory at address `0 + offsetof(SomeStruct, func)` and take the address to jump to from there. And this offset may be even bigger than e.g. 1024 since there are some big structures in the kernel code.
 
 In other words, we don't want to protect just the address zero. We want to protect all potential small addresses that a kernel code bug could hit.
 
