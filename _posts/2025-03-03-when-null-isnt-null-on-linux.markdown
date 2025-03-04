@@ -30,6 +30,10 @@ When executed, the code attempts to write a 4-byte value of 0x41424344 to a rand
 
 Or at least this is what some candidates say. In practice, this is more nuanced. The invalid memory access is intercepted by the CPU, which triggers an exception. The Linux kernel then handles this by sending a `SIGSEGV` (Segmentation Fault) signal to the process. At this point if the process has a registered signal handler for `SIGSEGV`, that handler is executed. Otherwise, the process is terminated.
 
+**(EDIT)** Actually, there is yet another case. If the address happens to be before the main thread stack, the kernel will expand the stack and then the first case apply. (Thanks to MrQubo from justCatTheFish for pointing this out!) This can be seen on the screenshot from the [Pwndbg](https://github.com/pwndbg/pwndbg) plugin for GDB below. We first show the stack memory mapping, then patch the next instruction executed by the program to write value to memory at address defined by register RAX, then we set RAX register to address before main thread stack and we execute a single instruction. Finally, we can see that the stack got expanded.
+
+![Screenshot of stack expanded by the kernel]({{ site.url }}assets/posts/vmmap-expand-stack.png)
+
 *Fun fact: the JVM (Java Virtual Machine) uses this exact mechanism to detect invalid memory accesses and to throw its `NullPointerException` errors.*
 
 ## What if rand\_int returns 0?
@@ -51,6 +55,12 @@ $ cat /proc/sys/vm/mmap_min_addr
 ```
 
 Of course we can modify this setting if we were a root user (with the `sudo sysctl -w vm.mmap_min_addr=0` command).
+
+## Why using the value of 65536?
+
+I got asked by some folks from Hackerspace Cracow why isn't the value just 1? This is because we don't only care about strict null pointer dereferences. For example, if we have code like this in C that calls a function pointer that is pointed by the `func` field of some structure - `ptr->func()` and `ptr` is `0` - then the code will actually dereference memory at address `0 + offsetof(SomeStruct, func)` and take the address to jump to from there.
+
+In other words, we don't want to protect just the address zero. We want to protect all potential small addresses that a kernel code bug could hit.
 
 ## But why is there such config?
 
