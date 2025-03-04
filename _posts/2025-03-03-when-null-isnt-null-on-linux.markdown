@@ -113,10 +113,12 @@ So next time someone says a null pointer is always invalid -- well, you know bet
 
 ### Like this post?
 
-If you like this post, please share this further! Also, if Linux or C/C++ security mitigations are of your interest, you may also want to read other content I wrote:
+If you like this post, please share my posts on [X/Twitter](https://x.com/disconnect3d_pl/status/1896662642267488621), [InfoSec.exchange](https://infosec.exchange/@disconnect3d/114100443532352547) or [LinkedIn](https://www.linkedin.com/posts/dominik-czarnota_i-wrote-a-blog-post-about-null-pointers-activity-7302433908619382786-OoCn) posts! Also, if Linux or C/C++ security mitigations are of your interest, you may also want to read other content I wrote:
 * On [`_FORTIFY_SOURCE` typos bugs](https://blog.trailofbits.com/2023/04/20/typos-that-omit-security-features-and-how-to-test-for-them/)
 * On [cstrnfinder tool I wrote to find stupid C bugs](http://github.com/disconnect3d/cstrnfinder)
 * On [a KASLR bypass in privilege-less containers I reported to Linux kernel back then](https://blog.trailofbits.com/2024/03/08/out-of-the-kernel-into-the-tokens/#:~:text=of%20expected%20algorithms.-,KASLR%20bypass%20in%20privilege%2Dless%20containers,-Next%20is%20a)
 * On [Understanding AddressSanitizer: Better memory safety for your code](https://blog.trailofbits.com/2024/05/16/understanding-addresssanitizer-better-memory-safety-for-your-code/)
 * On [Sanitizing your C++ containers: ASan annotations step-by-step](https://blog.trailofbits.com/2024/09/10/sanitize-your-c-containers-asan-annotations-step-by-step/)
 * On [Understanding Docker escapes](https://blog.trailofbits.com/2019/07/19/understanding-docker-container-escapes/) (though that's about Linux kernel features that build containers rather than C or C++ code)
+
+
