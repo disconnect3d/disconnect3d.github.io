@@ -132,4 +132,4 @@ If you like this post, please share my posts on [X/Twitter](https://x.com/discon
 * On [Understanding Docker escapes](https://blog.trailofbits.com/2019/07/19/understanding-docker-container-escapes/) (though that's about Linux kernel features that build containers rather than C or C++ code)
 
 
-EDIT 2025.03.04: Added two things to the blog post - information about stack expansion and the "Why using the value of 65536?" paragraph. Thanks to MrQubo for info on the first one and folks from Cracow Hackerspace for some interesting questions.
+EDIT 2025.03.04: Added two things to the blog post - information about stack expansion and the "Why using the value of 65536?" paragraph. Thanks to MrQubo for info on the first one and folks from Hackerspace Kraków for some interesting questions.
