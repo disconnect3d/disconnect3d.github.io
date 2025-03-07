@@ -6,7 +6,10 @@ permalink: /talks/
 
 Below you can see a list of talks I gave on various events with slides/videos links. The `[PL]` tag means it was in Polish and `[lightning talk]` means it was a quick, usually <5 min talk, likely improvised or prepared just before giving it.
 
-### 2025.01.30 [Pykonik Tech Talks #73]()
+### 2025.03.06 [Pykonik Tech Talks #74](https://www.pykonik.org/tech-talks/74/)
+* [PL][lightning talk] vimdiff-ing GitHub roles and CPython 3.14 tail call interpreter (that it exists) ([video](https://youtu.be/OdL2woO5N8A?t=2262))
+
+### 2025.01.30 [Pykonik Tech Talks #73](https://www.pykonik.org/tech-talks/73/)
 * [PL][lightning talk] Linux kernel 6.14rc - new kernel feature to protect interpreters from executing random code (`AT_EXECVE_CHECK` flag for `execveat` + securebits) ([video](https://youtu.be/RhI4tWJ2hfE?t=8682))
 
 ### 2024.11.21 [Pykonik Tech Talks #72](https://www.pykonik.org/tech-talks/72/)
