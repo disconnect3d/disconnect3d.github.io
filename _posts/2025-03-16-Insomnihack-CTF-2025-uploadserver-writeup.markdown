@@ -7,7 +7,7 @@ tags:       linux, security, programming, python
 
 This blog post is a write up of an "Upload Server" challenge where we had to hack a simple server written in Python and steal a secret file (flag) from it. The task comes from the Insomni'hack CTF 2025 competition that I played with my team, justCatTheFish in Lausanne, Switzerland. Overall, we scored 4th place (or 5th overall, though academic teams had separate ranking). Below you can see how it looked like :).
 
-Venue:
+Venue (photo from Insomni'hack twitter):
 ![Venue photo]({{ site.url }}assets/posts/inso2025/inso2025-venue1.jpeg)
 
 Final CTF competition scoreboard:
