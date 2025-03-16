@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Hijacking a Python upload server: writeup from Insomni'hack CTF 2025"
-date:       2025-03-16 18:00:00
+date:       2025-03-16 13:00:00
 tags:       linux, security, programming, python
 ---
 
