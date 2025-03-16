@@ -8,7 +8,7 @@ tags:       linux, security, programming, python
 This blog post is a write up of an "Upload Server" challenge where we had to hack a simple server written in Python and steal a secret file (flag) from it. The task comes from the Insomni'hack CTF 2025 competition that I played with my team, justCatTheFish in Lausanne, Switzerland. Overall, we scored 4th place (or 5th overall, though academic teams had separate ranking). Below you can see how it looked like :).
 
 Venue:
-![Venue photo]({{ site.url }}assets/posts/inso2025/inso2025-venue1.jpe)
+![Venue photo]({{ site.url }}assets/posts/inso2025/inso2025-venue1.jpeg)
 
 Final CTF competition scoreboard:
 ![Final scoreboard]({{ site.url }}assets/posts/inso2025/inso2025-scoreboard.png)
@@ -308,14 +308,12 @@ This can be seen below, where we show the output of strace on the server when we
 Strace outputs:
 
 1. When we get a file that exists (`curl -vvv -u admin:password localhost:9000/server.py`):
-
 ```
 strace: Process 165954 attached
 [pid 165954] openat(AT_FDCWD, "/etc/mime.types", O_RDONLY|O_CLOEXEC) = 5
 [pid 165954] openat(AT_FDCWD, "/app/server.py", O_RDONLY|O_CLOEXEC) = 5
 [pid 165954] +++ exited with 0 +++
 ```
-
 2. When we send a valid file (`curl -v -F "a=@plik" -X POST -u admin:password localhost:9000/server.py`):
 ```
 strace: Process 165990 attached
@@ -325,9 +323,7 @@ strace: Process 165990 attached
 [pid 165990] openat(AT_FDCWD, "/app/a", O_WRONLY|O_CREAT|O_TRUNC|O_CLOEXEC, 0666) = 5
 [pid 165990] +++ exited with 0 +++
 ```
-
 3. And when we send a file that causes the server to raise an exception (`curl -v -F "a=content" -X POST -u admin:password localhost:9000/server.py`):
-
 ```
 [pid 165990] +++ exited with 0 +++
 strace: Process 166018 attached
