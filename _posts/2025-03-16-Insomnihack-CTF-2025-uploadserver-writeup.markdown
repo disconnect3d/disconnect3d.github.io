@@ -232,7 +232,7 @@ class SecureHandler(http.server.SimpleHTTPRequestHandler):
 
 Just for completeness, we can interact with the server in the following three ways:
 
-1. We can download files via: `curl -u 'admin:password' --path-as-is -v http://localhost:9000/path-here`. Note that we pass the `--path-as-is` so that the `curl` tool do not normal paths like `../../flag.txt` into `/flag.txt`.
+1. We can download files via: `curl -u 'admin:password' --path-as-is -v http://localhost:9000/path-here`. Note that we pass the `--path-as-is` so that the `curl` tool do not resolve paths like `../../flag.txt` into `/flag.txt`.
 2. We can send files via: `curl -v -F "filename=@file" -X POST -u admin:password http://localhost:9000/` where this will sent the content from the `file` file from current directory.
 3. We can actually crash the server via: `curl -v -F "lol=plik" -X POST -u admin:password http://localhost:9000/`.
 
