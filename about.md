@@ -8,25 +8,20 @@ permalink: /about/
 
 This blog contains my private/personal notes on random topics I found worth to write about.
 
-### About me
+### Contact
 
-Some random stuff / whoami:
+* e-mail: dominik.b.czarnota+dc@gmail.com
+* twitter: https://twitter.com/disconnect3d_pl (prefer e-mail)
+
+### About me
 
 * Name: Dominik 'disconnect3d' Czarnota
 
 * Staff Security Engineer @ [Trail of Bits](https://www.trailofbits.com/)
 
-* CTF team: captain of [justCatTheFish](https://ctftime.org/team/33893) (previously captain of [Just Hit the Core](https://ctftime.org/team/13830))
+* Captain of [justCatTheFish](https://ctftime.org/team/33893) CTF team (previously captain of [Just Hit the Core](https://ctftime.org/team/13830))
 
 * Maintainer of [Pwndbg -- a plugin for GDB for reverse engineering and exploit development](https://github.com/pwndbg/pwndbg)
-
-* Education: Applied Computer Science at AGH University of Science and Technology in Cracow, Poland
-
-  * Master thesis (in Polish): [Reverse engineering, finding and exploiting bugs in native apps on x86 and x86-64]({{ site.url }}assets/about_me/disconnect3d_master_thesis.pdf). The reviews are inside.
-
-  * Bachelor thesis (in Polish): [Impact of memory layout organization of complicated data structures on binary code efficiency]({{ site.url }}assets/about_me/disconnected_bachelor_thesis.pdf). Reviews: [supervisor’s]({{ site.url }}assets/about_me/bachelor_thesis_review1.pdf), [reviewer’s]({{ site.url }}assets/about_me/bachelor_thesis_review2.pdf).
-
-  * (Past) Member and a president (for 2 years) of [KNI Kernel](http://kernel.fis.agh.edu.pl/)
 
 * I am a reviewer of [Paged Out!](https://pagedout.institute/) free magazine about programming, security, hacking, computers, electronics, demoscene and other similar topics.
 
@@ -39,16 +34,20 @@ Some random stuff / whoami:
   * [Pułapki w języku Go](https://szukaj.programistamag.pl/uuid/34796811fe73d50f4615a76ba993dba1c1ae383b) - Go programming language traps that may lead to security vulnerabilities.
   * [Debugowanie niskopoziomowe z Pwndbg](https://programistamag.pl/programista-42023-109-wrzesienpazdziernik-2023-debugowanie-niskopoziomowe-z-pwndbg/) - An article about [Pwndbg](https://github.com/pwndbg/pwndbg), a plugin for GDB for security research, reverse engineering and exploit development.
 
+* Education: Applied Computer Science at AGH University of Science and Technology in Cracow, Poland
+
+  * Master thesis (in Polish): [Reverse engineering, finding and exploiting bugs in native apps on x86 and x86-64]({{ site.url }}assets/about_me/disconnect3d_master_thesis.pdf). The reviews are inside.
+
+  * Bachelor thesis (in Polish): [Impact of memory layout organization of complicated data structures on binary code efficiency]({{ site.url }}assets/about_me/disconnected_bachelor_thesis.pdf). Reviews: [supervisor’s]({{ site.url }}assets/about_me/bachelor_thesis_review1.pdf), [reviewer’s]({{ site.url }}assets/about_me/bachelor_thesis_review2.pdf).
+
+  * (Past) Member and a president (for 2 years) of [KNI Kernel](http://kernel.fis.agh.edu.pl/)
 
 ### Work
 
 Looking for a presentation, training, workshop, or just having an interesting project I may be interested in? Contact me or [Trail of Bits](https://www.trailofbits.com/contact/).
 
+
 ### Hobbies
 
-Programming, reverse engineering (or rather looking under the hood to understand how things work), computer security, teaching others, climbing and ice skating.
+Programming, reverse engineering (or rather looking under the hood to understand how things work), computer security, teaching others, climbing (bouldering) and ice skating.
 
-### Contact
-
-* e-mail: dominik.b.czarnota+dc@gmail.com
-* twitter: https://twitter.com/disconnect3d_pl (prefer e-mail)
