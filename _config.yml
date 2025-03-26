@@ -1,7 +1,7 @@
 # Site settings
-title: disconnect3d's blog
+title: Disconnect3d's blog
 email: dominik.b.czarnota+dc@gmail.com
-description: "Disconnect3d's blog."
+description: "Disconnect3d's Security Blog: low level security, CTF writeups and others"
 baseurl: ""
 url: "https://disconnect3d.pl/"
 twitter_username: disconnect3d_pl
