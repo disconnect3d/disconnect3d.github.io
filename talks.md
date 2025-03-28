@@ -6,6 +6,16 @@ permalink: /talks/
 
 Below you can see a list of talks I gave on various events with slides/videos links. The `[PL]` tag means it was in Polish and `[lightning talk]` means it was a quick, usually <5 min talk, likely improvised or prepared just before giving it.
 
+### 2025.03.27 [Pykonik Tech Talks #75](https://www.pykonik.org/tech-talks/75/)
+* [lightning talks] 6-7 lightning talks in EN & PL ([slides](https://docs.google.com/presentation/d/1gKJE_1JAEXMCyi-TsTKlJh584RM9bcnBCVO4hNZYcdE)) about:
+  * Han's clever horse story (non-technical)
+  * A talk from Insomni'hack 2025 conference about hacking "non-touch" buttons
+  * Mocking the "Linux Session" conference as "18th Windows Session" (from Pykonik #63)
+  * Solution to "UploadServer" Python challenge from Insomni'hack CTF 2025 where we scored 5th place as justCatTheFish (read about the challenge solution [here](https://disconnect3d.pl/2025/03/16/Insomnihack-CTF-2025-uploadserver-writeup/))
+  * Google Summer of Code and Python Summer of Code 2025 
+  * Docker Desktop for macOS and `--privileged` containers -- whether they are safer or not (than on pure linux; tldr: I don't know *yet*)
+  * Teaser about "Model Context Protocol" for LLMs
+
 ### 2025.03.06 [Pykonik Tech Talks #74](https://www.pykonik.org/tech-talks/74/)
 * [PL][lightning talk] vimdiff-ing GitHub roles and CPython 3.14 tail call interpreter (that it exists) ([video](https://youtu.be/OdL2woO5N8A?t=2262))
 
