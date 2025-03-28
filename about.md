@@ -10,8 +10,8 @@ This blog contains my private/personal notes on random topics I found worth to w
 
 ### Contact
 
-* e-mail: dominik.b.czarnota+dc@gmail.com
-* twitter: https://twitter.com/disconnect3d_pl (prefer e-mail)
+* e-mail: [dominik.b.czarnota+dc@gmail.com](mailto:dominik.b.czarnota+dc@gmail.com)
+* Twitter/X: [@disconnect3d_pl](https://twitter.com/disconnect3d_pl) (prefer e-mail)
 
 ### About me
 
