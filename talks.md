@@ -27,7 +27,7 @@ Below you can see a list of talks I gave on various events with slides/videos li
 * [PL][lightning talk] Pdb vs ipdb import time and peephole optimizer ([video](https://www.youtube.com/watch?v=YNnnr7G9IP0&t=9377s))
 
 ### 2024.10.24 [The H@ck Summit](https://thehacksummit.com/), Warsaw, Poland
-* Python specialized bytecode: hacking a Python jail
+* Python specialized bytecode: hacking a Python jail ([slides](https://docs.google.com/presentation/d/12zAGOkKKdZgKiGgBbUABykHHR1hnn-kw8N0WNG8RvbE))
 
 
 ### 2024.10.03 Meet.js meetup, Cracow, Poland
