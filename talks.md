@@ -8,7 +8,7 @@ Below you can see a list of talks I gave on various events with slides/videos li
 
 ### 2025.04.24 [Pykonik Tech Talks #76](https://www.pykonik.org/tech-talks/76/)
 * Open source development study: Pwndbg ([slides](https://docs.google.com/presentation/d/1lSrd-Brf0D9bRejP15d7xmuWHya7O2j4SjodHg-EWPY), [video](https://www.youtube.com/watch?t=4922&v=euK_S81Qnuo)) - TL;DR a talk about my journey of open source dev and maintaining of Pwndbg, free & open source plugin for GDB and LLDB written in Python that helps with security research, low level debugging, reverse engineering and exploit development.
-
+* [lightning talk] (Extension from the talk) Vermin (Python tool), GitHub Copiltot reviews, MyPy annotations ([video](https://youtu.be/euK_S81Qnuo?t=8820))
 
 ### 2025.03.27 [Pykonik Tech Talks #75](https://www.pykonik.org/tech-talks/75/)
 * [lightning talks] 6-7 lightning talks in EN & PL ([slides](https://docs.google.com/presentation/d/1gKJE_1JAEXMCyi-TsTKlJh584RM9bcnBCVO4hNZYcdE)) about:
