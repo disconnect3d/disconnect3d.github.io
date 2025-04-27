@@ -6,6 +6,10 @@ permalink: /talks/
 
 Below you can see a list of talks I gave on various events with slides/videos links. The `[PL]` tag means it was in Polish and `[lightning talk]` means it was a quick, usually <5 min talk, likely improvised or prepared just before giving it.
 
+### 2025.04.24 [Pykonik Tech Talks #76](https://www.pykonik.org/tech-talks/76/)
+* Open source development study: Pwndbg ([slides](https://docs.google.com/presentation/d/1lSrd-Brf0D9bRejP15d7xmuWHya7O2j4SjodHg-EWPY), [video](https://www.youtube.com/watch?t=4922&v=euK_S81Qnuo)) - TL;DR a talk about my journey of open source dev and maintaining of Pwndbg, free & open source plugin for GDB and LLDB written in Python that helps with security research, low level debugging, reverse engineering and exploit development.
+
+
 ### 2025.03.27 [Pykonik Tech Talks #75](https://www.pykonik.org/tech-talks/75/)
 * [lightning talks] 6-7 lightning talks in EN & PL ([slides](https://docs.google.com/presentation/d/1gKJE_1JAEXMCyi-TsTKlJh584RM9bcnBCVO4hNZYcdE)) about:
   * Han's clever horse story (non-technical)
