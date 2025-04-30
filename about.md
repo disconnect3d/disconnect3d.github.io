@@ -1,21 +1,22 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
-### Blog
-
 This blog contains my private/personal notes on random topics I found worth to write about.
 
-### Contact
-
-* e-mail: [dominik.b.czarnota+dc@gmail.com](mailto:dominik.b.czarnota+dc@gmail.com)
-* Twitter/X: [@disconnect3d_pl](https://twitter.com/disconnect3d_pl) (prefer e-mail)
-
-### About me
+Here is also a bunch of info on me ;).
 
 * Name: Dominik 'disconnect3d' Czarnota
+ 
+* E-mail: [dominik.b.czarnota+dc@gmail.com](mailto:dominik.b.czarnota+dc@gmail.com)
+
+* Twitter/X: [@disconnect3d_pl](https://twitter.com/disconnect3d_pl) (prefer e-mail)
+
+* Infosec.exchange: [@disconnect3d](https://infosec.exchange/@disconnect3d)
+ 
+* GitHub: [disconnect3d](https://github.com/disconnect3d)
 
 * Staff Security Engineer @ [Trail of Bits](https://www.trailofbits.com/)
 
