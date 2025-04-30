@@ -12,11 +12,14 @@ Here is also a bunch of info on me ;).
  
 * E-mail: [dominik.b.czarnota+dc@gmail.com](mailto:dominik.b.czarnota+dc@gmail.com)
 
+* GitHub: [disconnect3d](https://github.com/disconnect3d)
+
+ 
 * Twitter/X: [@disconnect3d_pl](https://twitter.com/disconnect3d_pl) (prefer e-mail)
 
 * Infosec.exchange: [@disconnect3d](https://infosec.exchange/@disconnect3d)
  
-* GitHub: [disconnect3d](https://github.com/disconnect3d)
+* LinkedIn: [Dominik Czarnota](https://www.linkedin.com/in/dominik-czarnota-55b2a78a/)
 
 * Staff Security Engineer @ [Trail of Bits](https://www.trailofbits.com/)
 
