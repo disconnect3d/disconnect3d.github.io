@@ -6,6 +6,9 @@ permalink: /talks/
 
 Below you can see a list of talks I gave on various events with slides/videos links. The `[PL]` tag means it was in Polish and `[lightning talk]` means it was a quick, usually <5 min talk, likely improvised or prepared just before giving it.
 
+### 2025.05.15 [Sekurak Cyberstart 2025](https://sklep.securitum.pl/sekurak-cyberstarter-2025)
+* [PL] "Ciekawe przykłady insecurity z życia i CTF-ów. W tej prezentacji przyjrzymy się różnym przypadkom błędów bezpieczeństwa – na przykładach."
+
 ### 2025.04.24 [Pykonik Tech Talks #76](https://www.pykonik.org/tech-talks/76/)
 * Open source development study: Pwndbg ([slides](https://docs.google.com/presentation/d/1lSrd-Brf0D9bRejP15d7xmuWHya7O2j4SjodHg-EWPY), [video](https://www.youtube.com/watch?t=4922&v=euK_S81Qnuo)) - TL;DR a talk about my journey of open source dev and maintaining of Pwndbg, free & open source plugin for GDB and LLDB written in Python that helps with security research, low level debugging, reverse engineering and exploit development.
 * [lightning talk] (Extension from the talk) Vermin (Python tool), GitHub Copiltot reviews, MyPy annotations ([video](https://youtu.be/euK_S81Qnuo?t=8820))
