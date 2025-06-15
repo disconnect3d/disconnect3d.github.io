@@ -23,6 +23,9 @@ Below you can see a list of talks I gave on various events with slides/videos li
   * Docker Desktop for macOS and `--privileged` containers -- whether they are safer or not (than on pure linux; tldr: I don't know *yet*)
   * Teaser about "Model Context Protocol" for LLMs
 
+### 2025.03.18 Trail of Bits offsite
+* Insomni'hack 2025 conference and CTF wrap-up ([slides](https://docs.google.com/presentation/d/1pQFLPBLf8Kw5qYW6B4aWryIT0kjSqMRww4ZUOnE7CJ4)) - interesting takes from the conference and a solution to one of the CTF tasks from it
+
 ### 2025.03.06 [Pykonik Tech Talks #74](https://www.pykonik.org/tech-talks/74/)
 * [PL][lightning talk] vimdiff-ing GitHub roles and CPython 3.14 tail call interpreter (that it exists) ([video](https://youtu.be/OdL2woO5N8A?t=2262))
 
