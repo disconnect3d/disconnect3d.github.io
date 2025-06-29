@@ -41,6 +41,7 @@ Here is also a bunch of info on me ;).
 **Blog posts written for Trail of Bits blog:**
 * [[2024.09.10] Sanitize your C++ containers: ASan annotations step-by-step](https://blog.trailofbits.com/2024/09/10/sanitize-your-c-containers-asan-annotations-step-by-step/)
 * [[2024.05.16] Understanding AddressSanitizer: Better memory safety for your code](https://blog.trailofbits.com/2024/05/16/understanding-addresssanitizer-better-memory-safety-for-your-code/) - written with Dominik Klemba
+* [[2024.03.08] KASLR bypass in privilege-less containers](https://blog.trailofbits.com/2024/03/08/out-of-the-kernel-into-the-tokens/#:~:text=of%20expected%20algorithms.-,KASLR%20bypass%20in%20privilege%2Dless%20containers,-Next%20is%20a) - detailing a Linux  vulnerability which allowed for leaking kernel modules addresses and bypassing the kernel address space layout randomization (KASLR) mitigation
 * [[2023.04.20] Typos that omit security features and how to test for them](https://blog.trailofbits.com/2023/04/20/typos-that-omit-security-features-and-how-to-test-for-them/) - about some `_FORTIFY_SOURCE` compiler mitigations typos
 * [[2020.06.09] How to check if a mutex is locked in Go](https://blog.trailofbits.com/2020/06/09/how-to-check-if-a-mutex-is-locked-in-go/)
 * [[2019.07.19] Understanding Docker container escapes](https://blog.trailofbits.com/2019/07/19/understanding-docker-container-escapes/) - a post where I broke down a privileged Docker escape technique published by Felix Wilhelm (@_fel1x) on Twitter/X
