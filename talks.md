@@ -6,6 +6,12 @@ permalink: /talks/
 
 Below you can see a list of talks I gave on various events with slides/videos links. The `[PL]` tag means it was in Polish and `[lightning talk]` means it was a quick, usually <5 min talk, likely improvised or prepared just before giving it.
 
+### 2025.07.17 [EuroPython 2025](https://ep2025.europython.eu/)
+* ["Pwndbg: Low level debugging and exploit development with Python"](https://ep2025.europython.eu/session/pwndbg-low-level-debugging-and-exploit-development-with-python) ([slides](https://docs.google.com/presentation/d/1m9yYOeHxkKznseTakYeKixOUcCEjk7e-goirNE93ISs/), [video](https://www.youtube.com/watch?v=hRvjre7AH-o&t=7100s))
+
+### 2025.07.17 [Invited talk for Applied Binary Exploitation course at University of Bonn (remote)](https://abe.seclab-bonn.de/)
+* "Escaping the matrix: exploiting custom QEMU cpu bugs from a HXP CTF 2024 task with Pwndbg" ([slides](https://docs.google.com/presentation/d/1u0koAAJ5ssjVOY-DLt2h9GOqInNxfFHZ98Ld8nti_O4/)) - talk about a QEMU escape challenge from HXP CTF 2024 + some tips and tricks about Pwndbg
+
 ### 2025.05.15 [Sekurak Cyberstart 2025](https://sklep.securitum.pl/sekurak-cyberstarter-2025)
 * [PL] "Ciekawe przykłady insecurity z życia i CTF-ów. W tej prezentacji przyjrzymy się różnym przypadkom błędów bezpieczeństwa – na przykładach."
 
@@ -76,7 +82,7 @@ Below you can see a list of talks I gave on various events with slides/videos li
 * [PL] Hakowanie CTFowego hypervisora (x86-64) i przypadkowy 0day - a talk about a QEMU emulation 0day related to nested VMs ([slides](https://docs.google.com/presentation/d/1ryHtxmnSlieoZqkq6ndAl9nloNDUkqRQHzKwyOTcxZ8))
 
 ### 2023.09.20 [Rust Cracow #1 meetup](https://www.meetup.com/krakow-rust-meetup-group/events/295974593/), Kraków, Poland
-* 2 Lightning talks about: Taint Tracking in Rust and about Serde's `serialize_struct` quirk ([slides](https://docs.google.com/presentation/d/1MHPJ_s7Dub-nS8-42B704rtBEvNGcUbKPLO-QRMyxU8))
+* 2 Lightning talks about: Taint Tracking in Rust and about Serde's `serialize_struct` quirk ([slides](https://docs.google.com/presentation/d/1MHPJ_s7Dub-nS8-42B704rtBEvNGcUbKPLO-QRMyxU8), [video](https://www.youtube.com/watch?v=zeI1MAVLZ7A))
 
 ### 2023.08.23-25 [AlligatorCon Europe 2023](https://www.alligatorcon.eu/), Budapest, Hungary
 * Hacking a toy hypervisor and finding a QEMU emulation 0day ([slides](https://docs.google.com/presentation/d/115BPgapOqfOBfvThK5poiobCMykWsRWaoE-P1Wnjg1o/edit?usp=sharing), though there were live demos too)
