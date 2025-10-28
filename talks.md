@@ -6,6 +6,16 @@ permalink: /talks/
 
 Below you can see a list of talks I gave on various events with slides/videos links. The `[PL]` tag means it was in Polish and `[lightning talk]` means it was a quick, usually <5 min talk, likely improvised or prepared just before giving it.
 
+### 2025.10.26 WolvSec community (remote)
+* Pwndbg - a walkthrough of Pwndbg features, commands, functions
+
+### 2025.10.20 AGH University of Science and Technology, talks for KNI Kernel students club
+* [PL] IT 101 - a talk for students from KNI Kernel club at AGH UST about IT/CS, how to learn, what can you do, etc. ([slides](https://docs.google.com/presentation/d/19vk305CfqWtjwActUqZ-_-Xlst5mD0J6BE8fOKi0F2s/))
+
+### 2025.10.11 [HexaCon 2025](https://www.hexacon.fr/)
+* [lightning talk] Pwndbg and escaping QEMU cpu bugs ([slides](https://docs.google.com/presentation/d/1WP3uUj340Ddhsd_b-3iyXU-jXasAKnWGFWd5kAXYNCo/))
+* Fwiw, I also played in HexaCon's "speed hacking challenge" where I scored 3rd place :)
+
 ### 2025.07.17 [EuroPython 2025](https://ep2025.europython.eu/)
 * ["Pwndbg: Low level debugging and exploit development with Python"](https://ep2025.europython.eu/session/pwndbg-low-level-debugging-and-exploit-development-with-python) ([slides](https://docs.google.com/presentation/d/1m9yYOeHxkKznseTakYeKixOUcCEjk7e-goirNE93ISs/), [video](https://www.youtube.com/watch?v=hRvjre7AH-o&t=7100s))
 
