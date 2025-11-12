@@ -6,6 +6,9 @@ permalink: /talks/
 
 Below you can see a list of talks I gave on various events with slides/videos links. The `[PL]` tag means it was in Polish and `[lightning talk]` means it was a quick, usually <5 min talk, likely improvised or prepared just before giving it.
 
+### 2025.10.30 [Pykonik Tech Talks #78](https://www.pykonik.org/tech-talks/78/)
+* GitHub Actions workflows are cool, so lets hack them ([slides](https://docs.google.com/presentation/d/1dRRmt_m9PxewFq-47_yjT_9z8UwhO_zqejZgHDJSSis/), [video part1](https://youtu.be/TrXsNiqJdm4?t=3345), [video part2](https://youtu.be/TrXsNiqJdm4?t=8118)) 
+
 ### 2025.10.26 WolvSec community (remote)
 * Pwndbg - a walkthrough of Pwndbg features, commands, functions
 
