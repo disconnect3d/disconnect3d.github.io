@@ -34,7 +34,7 @@ Below you can see a list of talks I gave on various events with slides/videos li
 
 ### 2025.03.27 [Pykonik Tech Talks #75](https://www.pykonik.org/tech-talks/75/)
 * [lightning talks] 6-7 lightning talks in EN & PL ([slides](https://docs.google.com/presentation/d/1gKJE_1JAEXMCyi-TsTKlJh584RM9bcnBCVO4hNZYcdE)) about:
-  * Han's clever horse story (non-technical)
+  * Han's clever horse story (non-technical, [source](https://en.wikipedia.org/wiki/Clever_Hans))
   * A talk from Insomni'hack 2025 conference about hacking "non-touch" buttons
   * Mocking the "Linux Session" conference as "18th Windows Session" (from Pykonik #63)
   * Solution to "UploadServer" Python challenge from Insomni'hack CTF 2025 where we scored 5th place as justCatTheFish (read about the challenge solution [here](https://disconnect3d.pl/2025/03/16/Insomnihack-CTF-2025-uploadserver-writeup/))
