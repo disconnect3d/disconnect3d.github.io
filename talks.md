@@ -6,6 +6,12 @@ permalink: /talks/
 
 Below you can see a list of talks I gave on various events with slides/videos links. The `[PL]` tag means it was in Polish and `[lightning talk]` means it was a quick, usually <5 min talk, likely improvised or prepared just before giving it.
 
+### 2025.11.27 [Pykonik Tech Talks #79](https://www.pykonik.org/tech-talks/79/)
+* [lightning talk] Let's talk about cool tools in da web - based on "Stop Putting Your Passwords on Random Websites" article ([slides](https://docs.google.com/presentation/d/1y5T9ijKyNDUnmn7bYVxwBbx8F21Tp8QAIJhg6Pf3rrI), [video](https://youtu.be/pm43V7ekkWo?t=8379))
+
+### 2025.11.20 Secure Coding Challenge 2025 event
+* Talk on "AI Security" split into 4 parts: 1) AI & LLM 101, 2) AI hygiene - data privacy & security, 3) security when developing w/LLMs or vibe coding, 4) AI products security (prompt injections, AI model attacks & issues, LLM vulnerability scanner, LLM guardrails)
+
 ### 2025.10.30 [Pykonik Tech Talks #78](https://www.pykonik.org/tech-talks/78/)
 * GitHub Actions workflows are cool, so lets hack them ([slides](https://docs.google.com/presentation/d/1dRRmt_m9PxewFq-47_yjT_9z8UwhO_zqejZgHDJSSis/), [video part1](https://youtu.be/TrXsNiqJdm4?t=3345), [video part2](https://youtu.be/TrXsNiqJdm4?t=8118)) 
 
