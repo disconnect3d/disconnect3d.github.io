@@ -25,6 +25,9 @@ Below you can see a list of talks I gave on various events with slides/videos li
 * [lightning talk] Pwndbg and escaping QEMU cpu bugs ([slides](https://docs.google.com/presentation/d/1WP3uUj340Ddhsd_b-3iyXU-jXasAKnWGFWd5kAXYNCo/))
 * Fwiw, I also played in HexaCon's "speed hacking challenge" where I scored 3rd place :)
 
+### 2025.09.11-13 [AlligatorCon EU 2025](https://alligatorcon.eu/)
+* "Escaping the matrix: exploiting custom QEMU cpu bugs in a HXP CTF 2024 task" ([slides](https://docs.google.com/presentation/d/1u0koAAJ5ssjVOY-DLt2h9GOqInNxfFHZ98Ld8nti_O4/))
+
 ### 2025.07.17 [EuroPython 2025](https://ep2025.europython.eu/)
 * ["Pwndbg: Low level debugging and exploit development with Python"](https://ep2025.europython.eu/session/pwndbg-low-level-debugging-and-exploit-development-with-python) ([slides](https://docs.google.com/presentation/d/1m9yYOeHxkKznseTakYeKixOUcCEjk7e-goirNE93ISs/), [video](https://www.youtube.com/watch?v=hRvjre7AH-o&t=7100s))
 
