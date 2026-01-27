@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominik Czarnota | TIME</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            line-height: 1.7;
+            color: #1a1a1a;
+            background: #fff;
+        }
+
+        header {
+            border-bottom: 4px solid #e90606;
+            padding: 16px 0;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 48px;
+            font-weight: bold;
+            letter-spacing: 8px;
+            color: #e90606;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0 24px 10px;
+        }
+
+        .category {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #e90606;
+            margin-bottom: 16px;
+        }
+
+        h1 {
+            font-size: 38px;
+            line-height: 1.15;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            color: #555;
+            font-style: italic;
+            margin-bottom: 24px;
+            line-height: 1.4;
+        }
+
+        .byline {
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 32px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .byline .author {
+            font-weight: bold;
+            color: #1a1a1a;
+        }
+
+        .featured-image {
+            width: 100%;
+            margin-bottom: 12px;
+        }
+
+        .featured-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .image-caption {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            color: #888;
+            margin-bottom: 32px;
+            font-style: italic;
+        }
+
+        .article-body p {
+            font-size: 19px;
+            margin-bottom: 24px;
+        }
+
+        .article-body p:first-of-type::first-letter {
+            font-size: 72px;
+            float: left;
+            line-height: 0.8;
+            padding-right: 12px;
+            padding-top: 4px;
+            font-weight: bold;
+            color: #e90606;
+        }
+
+        .pull-quote {
+            font-size: 28px;
+            font-style: italic;
+            color: #333;
+            border-left: 4px solid #e90606;
+            padding-left: 24px;
+            margin: 40px 0;
+            line-height: 1.4;
+        }
+
+        @media (max-width: 600px) {
+            .logo {
+                font-size: 36px;
+                letter-spacing: 4px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            .subtitle {
+                font-size: 18px;
+            }
+
+            .article-body p {
+                font-size: 17px;
+            }
+
+            .pull-quote {
+                font-size: 22px;
+            }
+
+            .article-body p:first-of-type::first-letter {
+                font-size: 56px;
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 10px;
+            font-size: 11px;
+            color: #ccc;
+        }
+
+        footer .hint {
+            font-size: 9px;
+            margin-top: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">TIME</div>
+    </header>
+
+    <article class="container">
+        <div class="category">Tech</div>
+
+        <h1>The Hacker Who Finds What Others Miss</h1>
+
+        <p class="subtitle">
+            Security researcher Dominik 'Disconnect3d' Czarnota has spent years uncovering vulnerabilities
+            in systems that millions depend on every day
+        </p>
+
+        <div class="byline">
+            By <span class="author">TIME Staff</span> | January 27, 2026
+        </div>
+
+        <figure class="featured-image">
+            <img src="/assets/me.png" alt="Dominik Czarnota">
+            <figcaption class="image-caption">Disconnect3d giving a talk at H@ckYeah 2024. "Digital dreams crossing over the sea, welcome to the deadlock of reality"</figcaption>
+        </figure>
+
+        <div class="article-body">
+            <p>
+                Disconnect3d sits at his desk, surrounded by multiple monitors displaying
+                lines of code. For most people, this would look like chaos.
+                For Disconnect3d, it's a puzzle waiting to be solved. As a security researcher,
+                his job is to think like an attacker - to find the cracks in digital armor
+                before malicious actors do.
+            </p>
+
+            <p>
+                "Security is fundamentally about understanding systems better than their
+                creators intended," Disconnect3d explains. "Every piece of software has
+                assumptions built into it. My job is to question those assumptions."
+            </p>
+
+            <div class="pull-quote">
+                "Every piece of software has assumptions built into it. My job is to
+                question those assumptions."
+            </div>
+
+            <p>
+                His approach has led to discoveries that have protected countless users.
+                From memory corruption vulnerabilities to logic flaws in authentication
+                systems, Disconnect3d's work spans the full spectrum of modern security
+                challenges. He's presented findings at major conferences and contributed
+                to making the digital world a safer place.
+            </p>
+
+            <p>
+                But for Disconnect3d, the work is never truly finished. "The landscape evolves
+                constantly," he says. "New technologies bring new attack surfaces. What
+                was secure yesterday might be vulnerable tomorrow. That's what keeps this
+                work interesting - and important."
+            </p>
+
+            <p>
+                In an age where digital infrastructure underpins nearly every aspect of
+                modern life, researchers like Disconnect3d serve as essential guardians.
+                Their curiosity and persistence help ensure that the systems we trust
+                are worthy of that trust.
+            </p>
+        </div>
+    </article>
+
+    <footer>
+        <div>&#x44;&#x69;&#x73;&#x63;&#x6C;&#x61;&#x69;&#x6D;&#x65;&#x72;&#x3A;&#x20;&#x54;&#x68;&#x69;&#x73;&#x20;&#x69;&#x73;&#x20;&#x6E;&#x6F;&#x74;&#x20;&#x72;&#x65;&#x61;&#x6C;&#x20;&#x54;&#x49;&#x4D;&#x45;&#x20;&#x61;&#x72;&#x74;&#x69;&#x63;&#x6C;&#x65;&#x2E;&#x20;&#x49;&#x74;&#x27;&#x73;&#x20;&#x61;&#x20;&#x74;&#x72;&#x69;&#x63;&#x6B;&#x20;&#x75;&#x73;&#x69;&#x6E;&#x67;&#x20;&#x61;&#x20;&#x72;&#x65;&#x66;&#x6C;&#x65;&#x63;&#x74;&#x65;&#x64;&#x20;&#x58;&#x53;&#x53;&#x20;&#x61;&#x76;&#x61;&#x69;&#x6C;&#x61;&#x62;&#x6C;&#x65;&#x20;&#x6F;&#x6E;&#x20;&#x74;&#x68;&#x65;&#x69;&#x72;&#x20;&#x73;&#x69;&#x74;&#x65;&#x2E;&#x20;&#x48;&#x6F;&#x70;&#x65;&#x20;&#x2A;&#x79;&#x6F;&#x75;&#x2A;&#x20;&#x65;&#x6E;&#x6A;&#x6F;&#x79;&#x65;&#x64;&#x2E;</div>
+        <div class="hint">[83, 116, 105, 108, 108, 32, 114, 101, 97, 100, 105, 110, 103, 63, 32, 67, 117, 114, 105, 111, 115, 105, 116, 121, 32, 119, 105, 110, 115, 46]</div>
+    </footer>
+</body>
+</html>
