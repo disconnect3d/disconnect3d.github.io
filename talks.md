@@ -6,6 +6,9 @@ permalink: /talks/
 
 Below you can see a list of talks I gave on various events with slides/videos links. The `[PL]` tag means it was in Polish and `[lightning talk]` means it was a quick, usually <5 min talk, likely improvised or prepared just before giving it.
 
+### 2025.12.26-29 39th Chaos Communication Congress (39C3)
+* Organized "All CTFers and PWNers welcome: Pwndbg meetup" with k4lizen ([event details](https://events.ccc.de/congress/2025/hub/de/event/detail/all-ctfers-and-pwners-welcome-pwndbg-meetup))
+
 ### 2025.11.27 [Pykonik Tech Talks #79](https://www.pykonik.org/tech-talks/79/)
 * [lightning talk] Let's talk about cool tools in da web - based on "Stop Putting Your Passwords on Random Websites" article ([slides](https://docs.google.com/presentation/d/1y5T9ijKyNDUnmn7bYVxwBbx8F21Tp8QAIJhg6Pf3rrI), [video](https://youtu.be/pm43V7ekkWo?t=8379))
 
@@ -29,7 +32,7 @@ Below you can see a list of talks I gave on various events with slides/videos li
 * "Escaping the matrix: exploiting custom QEMU cpu bugs in a HXP CTF 2024 task" ([slides](https://docs.google.com/presentation/d/1u0koAAJ5ssjVOY-DLt2h9GOqInNxfFHZ98Ld8nti_O4/))
 
 ### 2025.07.17 [EuroPython 2025](https://ep2025.europython.eu/)
-* ["Pwndbg: Low level debugging and exploit development with Python"](https://ep2025.europython.eu/session/pwndbg-low-level-debugging-and-exploit-development-with-python) ([slides](https://docs.google.com/presentation/d/1m9yYOeHxkKznseTakYeKixOUcCEjk7e-goirNE93ISs/), [video](https://www.youtube.com/watch?v=hRvjre7AH-o&t=7100s))
+* ["Pwndbg: Low level debugging and exploit development with Python"](https://ep2025.europython.eu/session/pwndbg-low-level-debugging-and-exploit-development-with-python) ([slides](https://docs.google.com/presentation/d/1m9yYOeHxkKznseTakYeKixOUcCEjk7e-goirNE93ISs/), [video](https://www.youtube.com/watch?v=3KAMNJgC_vw))
 
 ### 2025.07.17 [Invited talk for Applied Binary Exploitation course at University of Bonn (remote)](https://abe.seclab-bonn.de/)
 * "Escaping the matrix: exploiting custom QEMU cpu bugs from a HXP CTF 2024 task with Pwndbg" ([slides](https://docs.google.com/presentation/d/1u0koAAJ5ssjVOY-DLt2h9GOqInNxfFHZ98Ld8nti_O4/)) - talk about a QEMU escape challenge from HXP CTF 2024 + some tips and tricks about Pwndbg
@@ -99,6 +102,9 @@ Below you can see a list of talks I gave on various events with slides/videos li
   * xz backdoor case
   * Google Summer of Code 2024 and Python Summer of Code 2024
   * SFI - Studencki Festiwal Informatyczny 2024
+
+### 2023.12.26-29 37th Chaos Communication Congress (37C3)
+* Organized two PWNing meetups, about Pwndbg and Pwntools; read the recap in the [this Trail of Bits blog post](https://blog.trailofbits.com/2024/02/02/chaos-communication-congress-37c3-recap/#:~:text=recommend%20listening%20to.-,PWNing%20meetups,-Trail%20of%20Bits)
 
 ### 2023.10.20 [The H@ck Summit](https://thehacksummit.com/), Warsaw, Poland
 * [PL] Hakowanie CTFowego hypervisora (x86-64) i przypadkowy 0day - a talk about a QEMU emulation 0day related to nested VMs ([slides](https://docs.google.com/presentation/d/1ryHtxmnSlieoZqkq6ndAl9nloNDUkqRQHzKwyOTcxZ8))
