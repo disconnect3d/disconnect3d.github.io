@@ -6,6 +6,9 @@ permalink: /talks/
 
 Below you can see a list of talks I gave on various events with slides/videos links. The `[PL]` tag means it was in Polish and `[lightning talk]` means it was a quick, usually <5 min talk, likely improvised or prepared just before giving it.
 
+### 2026.01.29 [Pykonik Tech Talks #80](https://www.pykonik.org/tech-talks/80/)
+* Docker DNS wtf - a talk about "Folly" challenge from HXP CTF 2025 and a potential unintended solution ([slides](https://docs.google.com/presentation/d/1Qef7uKRktO-6GiqjjYNqqrCw3bWy4UPvrvGRIShFPcs/), [video](https://youtu.be/YPGz2NeGH0E?t=7682)) + lightning talks about a Time magazine XSS and about Claude Code context size
+
 ### 2025.12.26-29 39th Chaos Communication Congress (39C3)
 * Organized "All CTFers and PWNers welcome: Pwndbg meetup" with k4lizen ([event details](https://events.ccc.de/congress/2025/hub/de/event/detail/all-ctfers-and-pwners-welcome-pwndbg-meetup))
 
