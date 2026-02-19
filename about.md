@@ -24,7 +24,7 @@ Here is also a bunch of info on me ;).
 
 * Captain of [justCatTheFish](https://ctftime.org/team/33893) CTF team (previously captain of [Just Hit the Core](https://ctftime.org/team/13830))
 
-* Maintainer of [Pwndbg -- a plugin for GDB for reverse engineering and exploit development](https://github.com/pwndbg/pwndbg)
+* Maintainer of [Pwndbg -- a plugin for GDB and LLDB for low level debugging, security research, reverse engineering and exploit development](https://github.com/pwndbg/pwndbg)
 
 * I am a reviewer of [Paged Out!](https://pagedout.institute/) free magazine about programming, security, hacking, computers, electronics, demoscene and other similar topics.
 
@@ -39,8 +39,9 @@ Here is also a bunch of info on me ;).
 ### Some publications
 
 **Blog posts written for Trail of Bits blog:**
-* [[2024.09.10] Sanitize your C++ containers: ASan annotations step-by-step](https://blog.trailofbits.com/2024/09/10/sanitize-your-c-containers-asan-annotations-step-by-step/)
-* [[2024.05.16] Understanding AddressSanitizer: Better memory safety for your code](https://blog.trailofbits.com/2024/05/16/understanding-addresssanitizer-better-memory-safety-for-your-code/) - written with Dominik Klemba
+* [[2025.12.16] Use GWP-ASan to detect exploits in production environments](https://blog.trailofbits.com/2025/12/16/use-gwp-asan-to-detect-exploits-in-production-environments/) - co-authored with Dominik Klemba
+* [[2024.09.10] Sanitize your C++ containers: ASan annotations step-by-step](https://blog.trailofbits.com/2024/09/10/sanitize-your-c-containers-asan-annotations-step-by-step/) - co-authored with Dominik Klemba
+* [[2024.05.16] Understanding AddressSanitizer: Better memory safety for your code](https://blog.trailofbits.com/2024/05/16/understanding-addresssanitizer-better-memory-safety-for-your-code/) - co-authored with Dominik Klemba
 * [[2024.03.08] KASLR bypass in privilege-less containers](https://blog.trailofbits.com/2024/03/08/out-of-the-kernel-into-the-tokens/#:~:text=of%20expected%20algorithms.-,KASLR%20bypass%20in%20privilege%2Dless%20containers,-Next%20is%20a) - detailing a Linux  vulnerability which allowed for leaking kernel modules addresses and bypassing the kernel address space layout randomization (KASLR) mitigation
 * [[2023.04.20] Typos that omit security features and how to test for them](https://blog.trailofbits.com/2023/04/20/typos-that-omit-security-features-and-how-to-test-for-them/) - about some `_FORTIFY_SOURCE` compiler mitigations typos
 * [[2020.06.09] How to check if a mutex is locked in Go](https://blog.trailofbits.com/2020/06/09/how-to-check-if-a-mutex-is-locked-in-go/)
