@@ -24,7 +24,7 @@ Here is also a bunch of info on me ;).
 
 * Captain of [justCatTheFish](https://ctftime.org/team/33893) CTF team (previously captain of [Just Hit the Core](https://ctftime.org/team/13830))
 
-* Maintainer of [Pwndbg -- a plugin for GDB and LLDB for low level debugging, security research, reverse engineering and exploit development](https://github.com/pwndbg/pwndbg)
+* Maintainer of [Pwndbg](https://github.com/pwndbg/pwndbg) -- a plugin for GDB and LLDB for low level debugging, security research, reverse engineering and exploit development ([Sponsor us!](https://github.com/sponsors/pwndbg/))
 
 * I am a reviewer of [Paged Out!](https://pagedout.institute/) free magazine about programming, security, hacking, computers, electronics, demoscene and other similar topics.
 
