@@ -6,6 +6,18 @@ permalink: /talks/
 
 Below you can see a list of talks I gave on various events with slides/videos links. The `[PL]` tag means it was in Polish and `[lightning talk]` means it was a quick, usually <5 min talk, likely improvised or prepared just before giving it.
 
+### 2026.03.27 [Pykonik Tech Talks #82](https://www.pykonik.org/tech-talks/81/)
+* [PL][lightning talk] Trail of Bits:  PEP 543 / PEP 748 – A Unified TLS API for Python ([video](https://youtu.be/89XFjye_3Xk?t=641))
+* [PL][lightning talk] GitHub releases are mutable tags, GitHub immutable releases, recent supply chain attacks (ts-action, trivy, llmlite), dependency cooldowns ([video](https://youtu.be/89XFjye_3Xk?t=8288))
+* [PL][lightning talk] Reforma języka polskiego 2026 ([video](https://youtu.be/89XFjye_3Xk?t=8593))
+* [PL][lightning talk] Python Multiprocessing followup/insights ([video](https://youtu.be/89XFjye_3Xk?t=9844))
+
+### 2026.03.18 AGH University of Science and Technology, talks for KNI Kernel students club
+* [PL] Debugowanie niskopoziomowe: strace, GDB, Pwndbg ([event](https://www.facebook.com/events/1717960196229621)) - prezentacja o tym jak można badać działanie programów na Linuxie wykorzystując narzędzia takie jak strace, GDB czy Pwndbg
+ 
+### 2026.03.05 [Pykonik Tech Talks #81](https://www.pykonik.org/tech-talks/81/)
+* [lightning talk] Trail of Bits spotlight - [ToB skills for Claude](https://github.com/trailofbits/skills), sandboxing Claude and [claude-code-devcontainer](https://github.com/trailofbits/claude-code-devcontainer) project ([video](https://youtu.be/aiO4Ly7cwqw?t=12155))
+
 ### 2026.01.29 [Pykonik Tech Talks #80](https://www.pykonik.org/tech-talks/80/)
 * Docker DNS wtf - a talk about "Folly" challenge from HXP CTF 2025 and a potential unintended solution ([slides](https://docs.google.com/presentation/d/1Qef7uKRktO-6GiqjjYNqqrCw3bWy4UPvrvGRIShFPcs/), [video](https://youtu.be/YPGz2NeGH0E?t=7682)) + lightning talks about a Time magazine XSS and about Claude Code context size
 
@@ -37,7 +49,7 @@ Below you can see a list of talks I gave on various events with slides/videos li
 ### 2025.07.17 [EuroPython 2025](https://ep2025.europython.eu/)
 * ["Pwndbg: Low level debugging and exploit development with Python"](https://ep2025.europython.eu/session/pwndbg-low-level-debugging-and-exploit-development-with-python) ([slides](https://docs.google.com/presentation/d/1m9yYOeHxkKznseTakYeKixOUcCEjk7e-goirNE93ISs/), [video](https://www.youtube.com/watch?v=3KAMNJgC_vw))
 
-### 2025.07.17 [Invited talk for Applied Binary Exploitation course at University of Bonn (remote)](https://abe.seclab-bonn.de/)
+### 2025.07.17 [Invited talk for Applied Binary Exploitation course at University of Bonn in Germany (remote)](https://abe.seclab-bonn.de/)
 * "Escaping the matrix: exploiting custom QEMU cpu bugs from a HXP CTF 2024 task with Pwndbg" ([slides](https://docs.google.com/presentation/d/1u0koAAJ5ssjVOY-DLt2h9GOqInNxfFHZ98Ld8nti_O4/)) - talk about a QEMU escape challenge from HXP CTF 2024 + some tips and tricks about Pwndbg
 
 ### 2025.05.15 [Sekurak Cyberstart 2025](https://sklep.securitum.pl/sekurak-cyberstarter-2025)
