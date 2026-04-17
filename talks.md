@@ -6,6 +6,10 @@ permalink: /talks/
 
 Below you can see a list of talks I gave on various events with slides/videos links. The `[PL]` tag means it was in Polish and `[lightning talk]` means it was a quick, usually <5 min talk, likely improvised or prepared just before giving it.
 
+### 2026.04.17 [NYC Systems](https://nycsystems.xyz/2026/april.html)
+* [lightning talk] Coordination (or shared state) kills performance - a lightning talk on false sharing of data in multicore systems ([slides](https://docs.google.com/presentation/d/1BgR0GXrC7n-bJ1LlC_7MaIXbkmUCOYXwle3ocB6PNg4/))
+* [lightning talk] Hacking kiosk interfaces ([slides](https://docs.google.com/presentation/d/1BgR0GXrC7n-bJ1LlC_7MaIXbkmUCOYXwle3ocB6PNg4/edit?slide=id.g3d6d19c07e3_0_1781#slide=id.g3d6d19c07e3_0_1781))
+* 
 ### 2026.03.27 [Pykonik Tech Talks #82](https://www.pykonik.org/tech-talks/81/)
 * [PL][lightning talk] Trail of Bits:  PEP 543 / PEP 748 – A Unified TLS API for Python ([video](https://youtu.be/89XFjye_3Xk?t=641))
 * [PL][lightning talk] GitHub releases are mutable tags, GitHub immutable releases, recent supply chain attacks (ts-action, trivy, llmlite), dependency cooldowns ([video](https://youtu.be/89XFjye_3Xk?t=8288))
