@@ -12,3 +12,6 @@ markdown: kramdown
 permalink: pretty
 timezone: Europe/Warsaw
 
+exclude:
+  - CLAUDE.md
+
