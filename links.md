@@ -5,9 +5,9 @@ permalink: /links/
 ---
 
 ### Friends or just cool blogs
-* [Gynvael Coldwind](http://gynvael.coldwind.pl/)
-* [j00ru](http://j00ru.vexillium.org)
-* [lcamtuf](http://lcamtuf.coredump.cx/)
+* [Gynvael Coldwind](https://gynvael.coldwind.pl/)
+* [j00ru](https://j00ru.vexillium.org)
+* [lcamtuf](https://lcamtuf.coredump.cx/)
 * [oshogbo](https://oshogbo.vexillium.org/)
 * [rewolf](http://blog.rewolf.pl/blog/)
 * [hasherezade](https://hshrzd.wordpress.com/)
@@ -15,7 +15,7 @@ permalink: /links/
 * [foxtrot\_charlie](https://s3gm3nt4ti0nf4ult.github.io/)
 * [Gros](https://grosquildu.github.io/)
 * [terjanq](https://medium.com/@terjanq)
-* [Eternal](http://eternal.red/)
+* [Eternal](https://eternal.red/)
 * [Eli Bendersky](https://eli.thegreenplace.net/)
 * [Trail of Bits](https://blog.trailofbits.com/)
 * [Invisible Things Lab](https://blog.invisiblethings.org/)
