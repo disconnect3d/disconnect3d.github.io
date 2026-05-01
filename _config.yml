@@ -12,6 +12,9 @@ markdown: kramdown
 permalink: pretty
 timezone: Europe/Warsaw
 
+plugins:
+  - jekyll-sitemap
+
 exclude:
   - CLAUDE.md
 
