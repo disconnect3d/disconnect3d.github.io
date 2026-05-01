@@ -25,14 +25,9 @@ a         { color: #006f87; text-decoration: none; }
 a:hover   { color: #006f87; text-decoration: underline; }
 a:visited { color: #75aab6; }
 
-.site-nav div a:before, .post-date:before, .post-header .meta:before { font-family: FontAwesome; font-style: normal; font-weight: normal; text-decoration: inherit; margin-right: 5px; }
 .site-nav div a:hover { text-decoration: none; opacity: 0.7; }
 
-
-.post-date:before, .post-header .meta:before {content: "\f073"; } 
-
-.site-nav div a[href*="about"]:before { content: "\f2bd"; }
-/*aby dodać kolejną ikonę musisz skopiować jeden z powyższych selektorów, w [href*=""] zawierasz unikalny fragment jej adresu, a w content: ""; wpisujesz wartość ikony w Unicode ze strony ikony na FontAwesome*/
+.inline-icon { vertical-align: -2px; }
 
 
 
