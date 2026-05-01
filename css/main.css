@@ -32,7 +32,6 @@ a:visited { color: #75aab6; }
 .post-date:before, .post-header .meta:before {content: "\f073"; } 
 
 .site-nav div a[href*="about"]:before { content: "\f2bd"; }
-.site-nav div a[href*="archive"]:before { content: "\f187"; }
 /*aby dodać kolejną ikonę musisz skopiować jeden z powyższych selektorów, w [href*=""] zawierasz unikalny fragment jej adresu, a w content: ""; wpisujesz wartość ikony w Unicode ze strony ikony na FontAwesome*/
 
 
