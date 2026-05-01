@@ -161,7 +161,7 @@ font-weight: bold;
 
 .home h1 { margin-bottom: 25px; }
 
-.posts { list-style-type: none; }
+.posts { list-style-type: none; padding-left: 0; }
 
 .posts li { padding-top: 15px; border-top: #e8e8e8 1px solid;}
 .posts li:first-child { border-top: none; }
