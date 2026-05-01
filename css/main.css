@@ -203,7 +203,11 @@ font-weight: bold;
   margin-top: 5px;
 }
 
-.post-content { margin: 0 0; }
+.post-content {
+  margin: 0 0;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
 
 /* psuje tabele */
 /*.post-content > * { margin: 20px 0; }*/
