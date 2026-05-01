@@ -15,6 +15,7 @@ timezone: Europe/Warsaw
 
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
 
 exclude:
   - CLAUDE.md
