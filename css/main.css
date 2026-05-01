@@ -36,6 +36,14 @@ a:visited { color: #75aab6; }
 .tag-posts .post-date { display: inline-block; min-width: 6em; color: #818181; font-size: 0.9em; }
 .post-tags a { color: #818181; }
 
+.recent-talks { margin-top: 40px; padding-top: 25px; border-top: #e8e8e8 1px solid; }
+.recent-talks h2 { font-size: 24px; letter-spacing: -1px; margin-bottom: 15px; }
+.recent-talks > ul { list-style: none; padding-left: 0; }
+.recent-talks > ul > li { margin-bottom: 18px; }
+.recent-talks .talk-event { margin: 0 0 4px; }
+.recent-talks .talk-date { color: #818181; font-size: 14px; margin-right: 6px; }
+.recent-talks ul ul { margin: 0; padding-left: 20px; }
+
 
 
 /* Utility */

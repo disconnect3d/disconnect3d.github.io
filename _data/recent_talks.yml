@@ -1,0 +1,27 @@
+# Latest talks shown on the homepage. Update this when adding entries
+# at the top of talks.md. Three to five entries is plenty.
+- date: 2026-04-24
+  event: NYU OSIRIS Lab Cybersecurity Club
+  location: New York City, USA
+  talks:
+    - title: "Pwndbg & Escaping the matrix: exploiting custom QEMU cpu bugs from a HXP CTF 2024 task"
+      slides: https://docs.google.com/presentation/d/1RljBJ2uYIVyg4UVbeffFCPtWM0qTOYSC4A5Uk3wb21Y
+
+- date: 2026-04-24
+  event: Bug Bash 2026
+  event_url: https://antithesis.com/bugbash/conference2026/
+  location: Washington DC, USA
+  talks:
+    - title: "Hacking kiosk interfaces v1.1"
+      slides: https://docs.google.com/presentation/d/1TWsT84NCICx0dDKumEYjWcj8_tk4EZYphvk02fOUvM0/
+
+- date: 2026-04-17
+  event: NYC Systems
+  event_url: https://nycsystems.xyz/2026/april.html
+  location: New York City, USA
+  talks:
+    - title: "Coordination (or shared state) kills performance"
+      tag: lightning talk
+      slides: https://docs.google.com/presentation/d/1BgR0GXrC7n-bJ1LlC_7MaIXbkmUCOYXwle3ocB6PNg4/
+    - title: "Hacking kiosk interfaces v1.0"
+      slides: https://docs.google.com/presentation/d/1BgR0GXrC7n-bJ1LlC_7MaIXbkmUCOYXwle3ocB6PNg4/edit?slide=id.g3d6d19c07e3_0_1781#slide=id.g3d6d19c07e3_0_1781

@@ -23,4 +23,26 @@ layout: default
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
+  {% if site.data.recent_talks %}
+  <section class="recent-talks">
+    <h2>Latest talks</h2>
+    <ul>
+    {% for event in site.data.recent_talks %}
+      <li>
+        <p class="talk-event">
+          <span class="talk-date">{{ event.date | date: "%Y-%m-%d" }}</span>
+          {% if event.event_url %}<a href="{{ event.event_url }}">{{ event.event }}</a>{% else %}{{ event.event }}{% endif %}{% if event.location %}, {{ event.location }}{% endif %}
+        </p>
+        <ul>
+        {% for talk in event.talks %}
+          <li>{% if talk.tag %}<em>[{{ talk.tag }}]</em> {% endif %}{{ talk.title }}{% if talk.slides %} (<a href="{{ talk.slides }}">slides</a>){% endif %}{% if talk.video %} (<a href="{{ talk.video }}">video</a>){% endif %}</li>
+        {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+    </ul>
+    <p><a href="{{ '/talks/' | relative_url }}">All talks →</a></p>
+  </section>
+  {% endif %}
+
 </div>
