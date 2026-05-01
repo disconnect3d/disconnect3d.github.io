@@ -169,6 +169,13 @@ font-weight: bold;
 
 .home h1 { margin-bottom: 25px; }
 
+.site-tagline {
+  margin: 20px 0 30px;
+  color: #555;
+  font-size: 17px;
+  line-height: 1.45;
+}
+
 .posts { list-style-type: none; padding-left: 0; }
 
 .posts li { padding-top: 15px; border-top: #e8e8e8 1px solid;}
