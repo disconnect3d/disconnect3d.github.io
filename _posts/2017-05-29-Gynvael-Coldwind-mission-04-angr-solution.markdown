@@ -2,7 +2,7 @@
 layout:     post
 title:      "Gynvael's PL stream 004 mission solved with angr"
 date:       2017-05-29 00:30:30
-tags:       gynvaelstream, angr
+tags: [gynvaelstream, angr]
 ---
 
 This is an angr writeup to a "spaghetti code" task from [Gynvael Coldwind's polish stream](https://www.youtube.com/watch?v=CR1kLHxMMmg) 4th mission (there are small tasks at the end of his livestreams).

@@ -2,7 +2,7 @@
 layout:     post
 title:      "Security PWNing Conference 2016 oraz CTF od P4"
 date:       2016-11-09 16:16:16
-tags:       conference, ctf
+tags: [conferences, ctf]
 ---
 
 Niedawno wróciłem z [Security PWNing Conference 2016](https://www.instytutpwn.pl/konferencja/pwning2016/) organizowanej przez wydawnictwo PWN oraz Gynvaela Coldwinda. Z całą pewnością można powiedzieć, że to jedna z lepszych konferencji poświęconych tematyce bezpieczeństwa IT w Polsce.

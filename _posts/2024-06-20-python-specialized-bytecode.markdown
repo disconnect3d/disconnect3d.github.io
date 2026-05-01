@@ -2,7 +2,7 @@
 layout:     post
 title:      "Python specialized bytecode and pycjail returns challenge solution"
 date:       2024-06-20 12:13:37
-tags:       python, ctf
+tags: [python, ctf]
 ---
 
 I gave a talk on "Python specialized bytecode" on Pykonik #70 where I also made a walkthrough over the "pycjail returns" challenge from ångstrom CTF 2024. The [video can be found here](https://www.youtube.com/watch?v=RlNM5n5C_wg&t=5034s) and its [slides here](https://docs.google.com/presentation/d/13ZiJPzQrNVC5azJPlryfrPtHulCvohts0rZJFepTmis).

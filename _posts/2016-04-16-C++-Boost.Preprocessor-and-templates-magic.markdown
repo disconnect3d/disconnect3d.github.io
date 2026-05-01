@@ -2,7 +2,7 @@
 layout:     post
 title:      "C++ Boost.Preprocessor and template loops"
 date:       2016-04-01 18:16:33
-tags:       cpp, boost, preprocessor, macros
+tags: [cpp, boost, preprocessor, macros]
 ---
 
 Today I will write a story about how I saved myself a lot of writing with just a few lines of code (that doesn't mean it took little time :P).

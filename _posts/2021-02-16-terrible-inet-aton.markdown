@@ -2,7 +2,7 @@
 layout:     post
 title:      "Terrible inet_aton in glibc"
 date:       2021-02-16 01:00:00
-tags:       c, security, python
+tags: [c, security, python]
 ---
 
 TLDR: The `man inet_aton` states that "`inet_aton()` returns nonzero if the address is valid, zero if not" ...and so it is sometimes used to check if a string is a valid IP address. **Which should be fine, but isn't, because some implementations are weird**.

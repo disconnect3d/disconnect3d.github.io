@@ -2,7 +2,7 @@
 layout:     post
 title:      "Logs injection or why is logs tailing unsafe"
 date:       2018-02-24 09:00:30
-tags:       security
+tags: [security]
 ---
 
 I have been playing with one of Android apps that pushes some messages to logs based on user input recently and I have noticed that `adb logcat` is as bad as `tail -f` when it comes to following logs.

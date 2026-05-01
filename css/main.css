@@ -29,6 +29,13 @@ a:visited { color: #75aab6; }
 
 .inline-icon { vertical-align: -2px; }
 
+.tag-cloud { line-height: 2.2; }
+.tag-cloud .tag-count { color: #818181; font-size: 0.85em; }
+.tag-posts { list-style: none; padding-left: 0; }
+.tag-posts li { padding: 4px 0; }
+.tag-posts .post-date { display: inline-block; min-width: 6em; color: #818181; font-size: 0.9em; }
+.post-tags a { color: #818181; }
+
 
 
 /* Utility */

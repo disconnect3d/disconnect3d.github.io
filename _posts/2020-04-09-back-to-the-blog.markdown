@@ -2,7 +2,7 @@
 layout:     post
 title:      "Back to the blog"
 date:       2020-04-09 08:13:37
-tags:       random
+tags: [random]
 ---
 
 I haven't written any post in here for some time and I want to fix that. For now, it is probably worth mentioning that in the meantime I gave many talks, reviewed some articles in [Paged Out!](https://pagedout.institute/) and wrote two articles:

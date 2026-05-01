@@ -2,7 +2,7 @@
 layout:     post
 title:      "Google CTF 2017 - Inst Prof [pwn]"
 date:       2017-06-25 14:20:10
-tags:       ctf, pwn
+tags: [ctf, pwn]
 ---
 
 This post is a full writeup and walkthrough of a 'Inst Prof' binary exploitation challenge from Google Quals CTF 2017. I have used a return-oriented programming exploitation technique to solve it.

@@ -2,7 +2,7 @@
 layout:     post
 title:      "Reboot your pc from a docker container"
 date:       2018-11-12 09:00:30
-tags:       security, docker
+tags: [security, docker]
 ---
 
 I came back from a [PUT Security Day](https://www.meetup.com/Poznan-Security-Meetup/events/255244492/) where I gave a talk about Docker security. One of the questions I asked myself when preparing the talk is whether one can reboot their PC (aka host machine) from a docker container.

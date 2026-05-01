@@ -2,7 +2,7 @@
 layout:     post
 title:      "One extract to rule them all"
 date:       2015-10-10 19:44:01
-tags:       bash
+tags: [bash]
 ---
 
 From time to time everyone has to extract an archive. When living in a command line the problem of such task is to remember all of the arguments to every of the tools/programs that let you extract different types of archives.

@@ -2,7 +2,7 @@
 layout:     post
 title:      "Debugging running Python scripts with PDB via GDB" 
 date:       2024-08-04 17:13:37
-tags:       python, debugging, programming
+tags: [python, debugging, programming]
 ---
 
 A friend of mine had an interesting case recently where they wanted to debug an already running Python script on Linux and after some testing it turned out this is possible, so let's see how it can be done in CPython :).

@@ -2,7 +2,7 @@
 layout: post
 title:  "Google CTF 2016 - For2 [Forensics]"
 date:   2016-05-01 22:02:10
-tags:   ctf, forensics
+tags: [ctf, forensics]
 excerpt_separator: <!--more-->
 ---
 

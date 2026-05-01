@@ -2,7 +2,7 @@
 layout:     post
 title:      "Understanding AddressSanitizer blog post"
 date:       2024-05-16 17:00:00
-tags:       posts, publications
+tags: [posts, publications]
 ---
 
 Some time ago during an audit I found an out-of-bounds bug that was not detected by AddressSanitizer. This spawned a whole research at Trail of Bits which I talked and wrote about in details!

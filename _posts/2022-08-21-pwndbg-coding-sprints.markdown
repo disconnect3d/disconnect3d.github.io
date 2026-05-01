@@ -2,7 +2,7 @@
 layout:     post
 title:      "Pwndbg coding sprints report"
 date:       2022-08-21 20:13:37
-tags:       pwndbg, conferences
+tags: [pwndbg, conferences]
 ---
 
 This blog post is a report of the two coding sprints for the [Pwndbg project](https://github.com/pwndbg/pwndbg) that I organized first on the EuroPython 2022 conference and then, taking inspiration from the previous one, in the Hackerspace Kraków, located in Cracow, Poland.

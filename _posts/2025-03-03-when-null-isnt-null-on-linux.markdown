@@ -2,7 +2,7 @@
 layout:     post
 title:      "When NULL isn't null: mapping memory at 0x0 on Linux"
 date:       2025-03-03 18:00:00
-tags:       linux, security, c, cpp, programming
+tags: [linux, security, c, cpp, programming]
 ---
 
 When we think of a null pointer, `NULL` in C or `nullptr` in C++, we typically assume it is "invalid" or "not pointing to a valid memory location". But what if I tell you that a null pointer can actually point to valid memory under certain conditions? In this post, we will see this on Linux.

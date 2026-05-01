@@ -2,7 +2,7 @@
 layout: post
 title:  "Confidence CTF Teaser 2016 - GoBox and GoBox2 [pwn]"
 date:   2016-06-01 20:12:59
-tags:   ctf, pwn
+tags: [ctf, pwn]
 excerpt_separator: <!--more-->
 ---
 

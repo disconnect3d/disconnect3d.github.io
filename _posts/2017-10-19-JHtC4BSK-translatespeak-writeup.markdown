@@ -2,7 +2,7 @@
 layout:     post
 title:      "JHtC4BSK translatespeak [web] writeup"
 date:       2017-10-20 23:10:30
-tags:       ctf, web, python
+tags: [ctf, web, python]
 ---
 
 This is a writeup of translatespeak{1,2,3} web security related tasks I have prepared for [JHtC4BSK CTF](https://bsk.jhtc.pl/) that was held mainly for [MIMUW](https://www.mimuw.edu.pl/) students by JHtC.

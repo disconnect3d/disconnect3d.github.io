@@ -2,7 +2,7 @@
 layout:     post
 title:      "Hijacking a Python upload server: writeup from Insomni'hack CTF 2025"
 date:       2025-03-16 13:00:00
-tags:       linux, security, programming, python
+tags: [linux, security, programming, python]
 ---
 
 This blog post is a write up of an "Upload Server" challenge where we had to hack a simple server written in Python and steal a secret file (flag) from it. The task is from the Insomni'hack CTF 2025 competition that I played with my team, justCatTheFish in Lausanne, Switzerland. We scored 4th place (or 5th overall, though academic teams had separate ranking). Below you can see how it looked like :).

@@ -2,7 +2,7 @@
 layout:     post
 title:      "Gynvael's PL stream 006 mission solution"
 date:       2017-06-29 19:50:30
-tags:       gynvaelstream, stegano, python
+tags: [gynvaelstream, stegano, python]
 ---
 
 This is a writeup to small stegano task from [Gynvael Coldwind's polish stream](https://www.youtube.com/watch?v=w-7vLvTKJbI) 6th mission (there are small tasks at the end of his livestreams).
