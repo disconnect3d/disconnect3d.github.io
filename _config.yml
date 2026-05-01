@@ -6,6 +6,7 @@ baseurl: ""
 url: "https://disconnect3d.pl/"
 twitter_username: disconnect3d_pl
 github_username:  disconnect3d
+mastodon_url:     https://infosec.exchange/@disconnect3d
 
 # Build settings
 markdown: kramdown
