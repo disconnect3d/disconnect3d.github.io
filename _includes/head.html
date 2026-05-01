@@ -16,8 +16,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{{ site.description }}">
+    {% assign meta_description = page.description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 200 %}
+    <meta name="description" content="{{ meta_description | xml_escape }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <!-- Open Graph / social card -->
+    {% assign og_title = page.title | default: site.title %}
+    {% assign og_image = page.image | default: '/assets/disconnect3d.jpg' | absolute_url %}
+    <meta property="og:title" content="{{ og_title | xml_escape }}">
+    <meta property="og:description" content="{{ meta_description | xml_escape }}">
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
+    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+    <meta property="og:image" content="{{ og_image }}">
+    <meta property="og:site_name" content="{{ site.title | xml_escape }}">
+    <meta name="twitter:card" content="summary_large_image">
+    {% if site.twitter_username %}<meta name="twitter:site" content="@{{ site.twitter_username }}">
+    <meta name="twitter:creator" content="@{{ site.twitter_username }}">{% endif %}
 
     <script src="https://use.fontawesome.com/4a31870267.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Orbitron:400,900" rel="stylesheet"> 
