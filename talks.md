@@ -7,7 +7,7 @@ permalink: /talks/
 Below you can see a list of talks I gave on various events with slides/videos links. The `[PL]` tag means it was in Polish and `[lightning talk]` means it was a quick, usually <5 min talk, likely improvised or prepared just before giving it.
 
 ### 2026.04.24 NYU OSIRIS Lab Cybersecurity Club, New York City, USA
-* Pwndbg & Escaping the matrix: exploiting custom QEMU cpu bugs from a HXP CTF 2024 task ([slides](https://docs.google.com/presentation/d/1RljBJ2uYIVyg4UVbeffFCPtWM0qTOYSC4A5Uk3wb21Y)) - an intro to the [Pwndbg tool](https://pwndbg.re/dev/) as well as walkthrough over a QEMU escape CTF challenge ([writeup](https://github.com/justcatthefish/ctf-writeups/blob/master/hxp2024/hxp_silicon_foundaries_hack4/README.md))
+* Pwndbg & Escaping the matrix: escaping QEMU in a HXP CTF 2024 task ([slides](https://docs.google.com/presentation/d/1RljBJ2uYIVyg4UVbeffFCPtWM0qTOYSC4A5Uk3wb21Y)) - an intro to the [Pwndbg tool](https://pwndbg.re/dev/) as well as walkthrough over a QEMU escape CTF challenge ([writeup](https://github.com/justcatthefish/ctf-writeups/blob/master/hxp2024/hxp_silicon_foundaries_hack4/README.md))
 
 ### 2026.04.24 [Bug Bash 2026](https://antithesis.com/bugbash/conference2026/), Washington DC, USA
 * Hacking kiosk interfaces v1.1 ([slides](https://docs.google.com/presentation/d/1TWsT84NCICx0dDKumEYjWcj8_tk4EZYphvk02fOUvM0/))
@@ -54,13 +54,13 @@ Below you can see a list of talks I gave on various events with slides/videos li
 * Fwiw, I also played in HexaCon's "speed hacking challenge" where I scored 3rd place :)
 
 ### 2025.09.11-13 [AlligatorCon EU 2025](https://alligatorcon.eu/)
-* "Escaping the matrix: exploiting custom QEMU cpu bugs in a HXP CTF 2024 task" ([slides](https://docs.google.com/presentation/d/1u0koAAJ5ssjVOY-DLt2h9GOqInNxfFHZ98Ld8nti_O4/))
+* "Escaping the matrix: escaping QEMU in a HXP CTF 2024 task" ([slides](https://docs.google.com/presentation/d/1u0koAAJ5ssjVOY-DLt2h9GOqInNxfFHZ98Ld8nti_O4/))
 
 ### 2025.07.17 [EuroPython 2025](https://ep2025.europython.eu/)
 * ["Pwndbg: Low level debugging and exploit development with Python"](https://ep2025.europython.eu/session/pwndbg-low-level-debugging-and-exploit-development-with-python) ([slides](https://docs.google.com/presentation/d/1m9yYOeHxkKznseTakYeKixOUcCEjk7e-goirNE93ISs/), [video](https://www.youtube.com/watch?v=3KAMNJgC_vw))
 
 ### 2025.07.17 [Invited talk for Applied Binary Exploitation course at University of Bonn in Germany (remote)](https://abe.seclab-bonn.de/)
-* "Escaping the matrix: exploiting custom QEMU cpu bugs from a HXP CTF 2024 task with Pwndbg" ([slides](https://docs.google.com/presentation/d/1u0koAAJ5ssjVOY-DLt2h9GOqInNxfFHZ98Ld8nti_O4/)) - talk about a QEMU escape challenge from HXP CTF 2024 + some tips and tricks about Pwndbg
+* "Escaping the matrix: escaping QEMU in a HXP CTF 2024 task with Pwndbg" ([slides](https://docs.google.com/presentation/d/1u0koAAJ5ssjVOY-DLt2h9GOqInNxfFHZ98Ld8nti_O4/)) - talk about a QEMU escape challenge from HXP CTF 2024 + some tips and tricks about Pwndbg
 
 ### 2025.05.15 [Sekurak Cyberstart 2025](https://sklep.securitum.pl/sekurak-cyberstarter-2025)
 * [PL] "Ciekawe przykłady insecurity z życia i CTF-ów. W tej prezentacji przyjrzymy się różnym przypadkom błędów bezpieczeństwa – na przykładach."
