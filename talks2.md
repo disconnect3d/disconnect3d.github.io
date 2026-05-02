@@ -4,47 +4,9 @@ title: My talks (v2)
 permalink: /talks2/
 ---
 
-<div class="talks-page" markdown="0">
+<div class="talks-page" id="top" markdown="0">
 
 <p class="talks-intro">100+ talks since 2012 across conferences, meetups and university clubs — on low-level security, exploit dev, Pwndbg, CTFs and Python internals. <span class="tag tag-pl">PL</span> = Polish-language, <span class="tag tag-lt">⚡</span> = lightning talk (~5 min, often improvised).</p>
-
-<section class="featured">
-<h2>Selected talks</h2>
-<ul class="featured-list">
-<li>
-<div class="featured-meta"><a href="https://ep2025.europython.eu/">EuroPython 2025</a> · 2025</div>
-<div class="featured-title">Pwndbg: Low level debugging and exploit development with Python</div>
-<div class="featured-links"><a href="https://docs.google.com/presentation/d/1m9yYOeHxkKznseTakYeKixOUcCEjk7e-goirNE93ISs/">slides</a><a href="https://www.youtube.com/watch?v=3KAMNJgC_vw">video</a></div>
-</li>
-<li>
-<div class="featured-meta"><a href="https://www.pykonik.org/tech-talks/76/">Pykonik Tech Talks #76</a> · 2025</div>
-<div class="featured-title">Open source development study: Pwndbg</div>
-<div class="featured-links"><a href="https://docs.google.com/presentation/d/1lSrd-Brf0D9bRejP15d7xmuWHya7O2j4SjodHg-EWPY">slides</a><a href="https://www.youtube.com/watch?t=4922&amp;v=euK_S81Qnuo">video</a></div>
-</li>
-<li>
-<div class="featured-meta"><a href="https://alligatorcon.eu/">AlligatorCon EU 2025</a> · 2025</div>
-<div class="featured-title">Escaping the matrix: exploiting custom QEMU cpu bugs in a HXP CTF 2024 task</div>
-<div class="featured-links"><a href="https://docs.google.com/presentation/d/1u0koAAJ5ssjVOY-DLt2h9GOqInNxfFHZ98Ld8nti_O4/">slides</a></div>
-</li>
-<li>
-<div class="featured-meta"><a href="https://confidence-conference.org/bio-2024/#id=55600">Confidence Conference 2024</a> · 2024</div>
-<div class="featured-title">Linux privesc via arbitrary x86 MSRs read/write bug — case study from a CTF challenge</div>
-<div class="featured-links"><a href="https://docs.google.com/presentation/d/16r6gJSRvoa7DaDxixn8Pi-En2rcWujwX_vuqh7kz8u0/">slides</a><a href="https://www.youtube.com/watch?v=aCNM_ub7XR8">video</a></div>
-</li>
-<li>
-<div class="featured-meta"><a href="https://ep2022.europython.eu/">EuroPython 2022</a> · 2022</div>
-<div class="featured-title">CPython bugs</div>
-<div class="featured-links"><a href="https://docs.google.com/presentation/d/1gHBsvxK9QgYOSeAnOFuN7R2B_zoZVhGlUeUHwT7nI5E">slides</a><a href="https://youtu.be/tRtxCCRdZOs?t=12251">video</a></div>
-</li>
-<li>
-<div class="featured-meta"><a href="https://absoluteappsec.com/cons/midwinter-2020/">A Midwinter Night's Con 2020</a> · 2020</div>
-<div class="featured-title">Various interesting (and not) bugs case studies</div>
-<div class="featured-links"><a href="https://docs.google.com/presentation/d/1VpXqzPIPrfIPSIiua5ClNkjKAzM3uKlyAKUf0jBqoUI">slides</a><a href="https://www.youtube.com/watch?v=cSb1ZWFhE1w">video</a></div>
-</li>
-</ul>
-</section>
-
-<h2 class="section-heading">All talks</h2>
 
 <nav class="year-nav">
   <a href="#y-2026">2026</a>
@@ -62,7 +24,7 @@ permalink: /talks2/
 </nav>
 
 <section id="y-2026" class="year-block">
-<h2>2026</h2>
+<h2>2026 <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">04.24</div>
@@ -141,7 +103,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-2025" class="year-block">
-<h2>2025</h2>
+<h2>2025 <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">12.26–29</div>
@@ -318,7 +280,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-2024" class="year-block">
-<h2>2024</h2>
+<h2>2024 <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">11.21</div>
@@ -430,7 +392,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-2023" class="year-block">
-<h2>2023</h2>
+<h2>2023 <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">12.26–29</div>
@@ -568,7 +530,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-2022" class="year-block">
-<h2>2022</h2>
+<h2>2022 <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">11.17</div>
@@ -664,7 +626,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-2021" class="year-block">
-<h2>2021</h2>
+<h2>2021 <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">12.16</div>
@@ -709,7 +671,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-2020" class="year-block">
-<h2>2020</h2>
+<h2>2020 <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">12.17</div>
@@ -734,7 +696,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-2019" class="year-block">
-<h2>2019</h2>
+<h2>2019 <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">11.14–15</div>
@@ -825,7 +787,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-2018" class="year-block">
-<h2>2018</h2>
+<h2>2018 <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">11.19–20</div>
@@ -936,7 +898,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-2017" class="year-block">
-<h2>2017</h2>
+<h2>2017 <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">08.25–26</div>
@@ -963,7 +925,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-2016" class="year-block">
-<h2>2016</h2>
+<h2>2016 <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">12.05</div>
@@ -999,7 +961,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-series" class="year-block">
-<h2>Recurring series</h2>
+<h2>Recurring series <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">2016–17</div>
