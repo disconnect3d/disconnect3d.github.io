@@ -6,7 +6,7 @@ permalink: /talks2/
 
 <div class="talks-page" id="top" markdown="0">
 
-<p class="talks-intro">100+ talks since 2012 across conferences, meetups and university clubs — on low-level security, exploit dev, Pwndbg, CTFs and Python internals. <span class="tag tag-pl">PL</span> = Polish-language, <span class="tag tag-lt">⚡</span> = lightning talk (~5 min, often improvised).</p>
+<p class="talks-intro">100+ talks since 2012 across conferences, meetups and university clubs — on low-level security, exploit dev, Pwndbg, CTFs and Python internals. <span class="tag tag-pl" title="Polish-language">PL</span> = Polish-language, <span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span> = lightning talk (~5 min, often improvised).</p>
 
 <nav class="year-nav">
   <a href="#y-2026">2026</a>
@@ -51,7 +51,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://nycsystems.xyz/2026/april.html">NYC Systems</a><span class="loc">, New York City, USA</span></div>
 <ul class="talks">
-<li><span class="tag tag-lt">⚡</span><span class="title">Coordination (or shared state) kills performance</span> <a href="https://docs.google.com/presentation/d/1BgR0GXrC7n-bJ1LlC_7MaIXbkmUCOYXwle3ocB6PNg4/">slides</a><div class="desc">False sharing of data in multicore systems.</div></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Coordination (or shared state) kills performance</span> <a href="https://docs.google.com/presentation/d/1BgR0GXrC7n-bJ1LlC_7MaIXbkmUCOYXwle3ocB6PNg4/">slides</a><div class="desc">False sharing of data in multicore systems.</div></li>
 <li><span class="title">Hacking kiosk interfaces v1.0</span> <a href="https://docs.google.com/presentation/d/1BgR0GXrC7n-bJ1LlC_7MaIXbkmUCOYXwle3ocB6PNg4/edit?slide=id.g3d6d19c07e3_0_1781#slide=id.g3d6d19c07e3_0_1781">slides</a></li>
 </ul>
 </div>
@@ -62,10 +62,10 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://www.pykonik.org/tech-talks/81/">Pykonik Tech Talks #82</a><span class="loc">, Cracow, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="tag tag-lt">⚡</span><span class="title">Trail of Bits: PEP 543 / PEP 748 — A Unified TLS API for Python</span> <a href="https://youtu.be/89XFjye_3Xk?t=641">video</a></li>
-<li><span class="tag tag-pl">PL</span><span class="tag tag-lt">⚡</span><span class="title">GitHub releases are mutable tags, immutable releases, recent supply-chain attacks (ts-action, trivy, llmlite), dependency cooldowns</span> <a href="https://youtu.be/89XFjye_3Xk?t=8288">video</a></li>
-<li><span class="tag tag-pl">PL</span><span class="tag tag-lt">⚡</span><span class="title">Reforma języka polskiego 2026</span> <a href="https://youtu.be/89XFjye_3Xk?t=8593">video</a></li>
-<li><span class="tag tag-pl">PL</span><span class="tag tag-lt">⚡</span><span class="title">Python Multiprocessing followup/insights</span> <a href="https://youtu.be/89XFjye_3Xk?t=9844">video</a></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Trail of Bits: PEP 543 / PEP 748 — A Unified TLS API for Python</span> <a href="https://youtu.be/89XFjye_3Xk?t=641">video</a></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">GitHub releases are mutable tags, immutable releases, recent supply-chain attacks (ts-action, trivy, llmlite), dependency cooldowns</span> <a href="https://youtu.be/89XFjye_3Xk?t=8288">video</a></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Reforma języka polskiego 2026</span> <a href="https://youtu.be/89XFjye_3Xk?t=8593">video</a></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Python Multiprocessing followup/insights</span> <a href="https://youtu.be/89XFjye_3Xk?t=9844">video</a></li>
 </ul>
 </div>
 </div>
@@ -75,7 +75,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head">AGH UST — KNI Kernel student club<span class="loc">, Kraków, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">Debugowanie niskopoziomowe: strace, GDB, Pwndbg</span> <a href="https://www.facebook.com/events/1717960196229621">event</a><div class="desc">Prezentacja o badaniu działania programów na Linuxie z użyciem strace, GDB i Pwndbg.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Debugowanie niskopoziomowe: strace, GDB, Pwndbg</span> <a href="https://www.facebook.com/events/1717960196229621">event</a><div class="desc">Prezentacja o badaniu działania programów na Linuxie z użyciem strace, GDB i Pwndbg.</div></li>
 </ul>
 </div>
 </div>
@@ -85,7 +85,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://www.pykonik.org/tech-talks/81/">Pykonik Tech Talks #81</a><span class="loc">, Cracow, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-lt">⚡</span><span class="title">Trail of Bits spotlight</span> <a href="https://youtu.be/aiO4Ly7cwqw?t=12155">video</a><div class="desc"><a href="https://github.com/trailofbits/skills">ToB skills for Claude</a>, sandboxing Claude, and the <a href="https://github.com/trailofbits/claude-code-devcontainer">claude-code-devcontainer</a> project.</div></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Trail of Bits spotlight</span> <a href="https://youtu.be/aiO4Ly7cwqw?t=12155">video</a><div class="desc"><a href="https://github.com/trailofbits/skills">ToB skills for Claude</a>, sandboxing Claude, and the <a href="https://github.com/trailofbits/claude-code-devcontainer">claude-code-devcontainer</a> project.</div></li>
 </ul>
 </div>
 </div>
@@ -120,7 +120,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://www.pykonik.org/tech-talks/79/">Pykonik Tech Talks #79</a><span class="loc">, Cracow, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-lt">⚡</span><span class="title">Let's talk about cool tools in da web</span> <a href="https://docs.google.com/presentation/d/1y5T9ijKyNDUnmn7bYVxwBbx8F21Tp8QAIJhg6Pf3rrI">slides</a> <a href="https://youtu.be/pm43V7ekkWo?t=8379">video</a><div class="desc">Based on the "Stop Putting Your Passwords on Random Websites" article.</div></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Let's talk about cool tools in da web</span> <a href="https://docs.google.com/presentation/d/1y5T9ijKyNDUnmn7bYVxwBbx8F21Tp8QAIJhg6Pf3rrI">slides</a> <a href="https://youtu.be/pm43V7ekkWo?t=8379">video</a><div class="desc">Based on the "Stop Putting Your Passwords on Random Websites" article.</div></li>
 </ul>
 </div>
 </div>
@@ -160,7 +160,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head">AGH UST — KNI Kernel student club<span class="loc">, Kraków, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">IT 101</span> <a href="https://docs.google.com/presentation/d/19vk305CfqWtjwActUqZ-_-Xlst5mD0J6BE8fOKi0F2s/">slides</a><div class="desc">Talk for KNI Kernel students about IT/CS, how to learn, what you can do.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">IT 101</span> <a href="https://docs.google.com/presentation/d/19vk305CfqWtjwActUqZ-_-Xlst5mD0J6BE8fOKi0F2s/">slides</a><div class="desc">Talk for KNI Kernel students about IT/CS, how to learn, what you can do.</div></li>
 </ul>
 </div>
 </div>
@@ -170,7 +170,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://www.hexacon.fr/">HexaCon 2025</a><span class="loc">, Paris, France</span></div>
 <ul class="talks">
-<li><span class="tag tag-lt">⚡</span><span class="title">Pwndbg and escaping QEMU cpu bugs</span> <a href="https://docs.google.com/presentation/d/1WP3uUj340Ddhsd_b-3iyXU-jXasAKnWGFWd5kAXYNCo/">slides</a></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Pwndbg and escaping QEMU cpu bugs</span> <a href="https://docs.google.com/presentation/d/1WP3uUj340Ddhsd_b-3iyXU-jXasAKnWGFWd5kAXYNCo/">slides</a></li>
 </ul>
 <p class="event-note">Also placed 3rd in HexaCon's "speed hacking challenge".</p>
 </div>
@@ -211,7 +211,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://sklep.securitum.pl/sekurak-cyberstarter-2025">Sekurak Cyberstart 2025</a><span class="loc"> (remote)</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">Ciekawe przykłady insecurity z życia i CTF-ów</span><div class="desc">Różne przypadki błędów bezpieczeństwa — na przykładach.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Ciekawe przykłady insecurity z życia i CTF-ów</span><div class="desc">Różne przypadki błędów bezpieczeństwa — na przykładach.</div></li>
 </ul>
 </div>
 </div>
@@ -222,7 +222,7 @@ permalink: /talks2/
 <div class="event-head"><a href="https://www.pykonik.org/tech-talks/76/">Pykonik Tech Talks #76</a><span class="loc">, Cracow, Poland</span></div>
 <ul class="talks">
 <li><span class="title">Open source development study: Pwndbg</span> <a href="https://docs.google.com/presentation/d/1lSrd-Brf0D9bRejP15d7xmuWHya7O2j4SjodHg-EWPY">slides</a> <a href="https://www.youtube.com/watch?t=4922&amp;v=euK_S81Qnuo">video</a><div class="desc">Journey of OSS development and maintaining Pwndbg, a free &amp; open-source GDB/LLDB plugin written in Python for security research, low-level debugging, RE and exploit dev.</div></li>
-<li><span class="tag tag-lt">⚡</span><span class="title">Vermin, GitHub Copilot reviews, MyPy annotations</span> <a href="https://youtu.be/euK_S81Qnuo?t=8820">video</a><div class="desc">Extension of the main Pwndbg talk above.</div></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Vermin, GitHub Copilot reviews, MyPy annotations</span> <a href="https://youtu.be/euK_S81Qnuo?t=8820">video</a><div class="desc">Extension of the main Pwndbg talk above.</div></li>
 </ul>
 </div>
 </div>
@@ -232,7 +232,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://www.pykonik.org/tech-talks/75/">Pykonik Tech Talks #75</a><span class="loc">, Cracow, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-lt">⚡</span><span class="title">6–7 lightning talks (EN &amp; PL)</span> <a href="https://docs.google.com/presentation/d/1gKJE_1JAEXMCyi-TsTKlJh584RM9bcnBCVO4hNZYcdE">slides</a>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">6–7 lightning talks (EN &amp; PL)</span> <a href="https://docs.google.com/presentation/d/1gKJE_1JAEXMCyi-TsTKlJh584RM9bcnBCVO4hNZYcdE">slides</a>
 <ul class="subtalks">
 <li>Hans the clever horse story (non-technical, <a href="https://en.wikipedia.org/wiki/Clever_Hans">source</a>)</li>
 <li>Insomni'hack 2025 talk on hacking "non-touch" buttons</li>
@@ -262,7 +262,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://www.pykonik.org/tech-talks/74/">Pykonik Tech Talks #74</a><span class="loc">, Cracow, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="tag tag-lt">⚡</span><span class="title">vimdiff-ing GitHub roles and CPython 3.14 tail-call interpreter (that it exists)</span> <a href="https://youtu.be/OdL2woO5N8A?t=2262">video</a></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">vimdiff-ing GitHub roles and CPython 3.14 tail-call interpreter (that it exists)</span> <a href="https://youtu.be/OdL2woO5N8A?t=2262">video</a></li>
 </ul>
 </div>
 </div>
@@ -272,7 +272,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://www.pykonik.org/tech-talks/73/">Pykonik Tech Talks #73</a><span class="loc">, Cracow, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="tag tag-lt">⚡</span><span class="title">Linux kernel 6.14rc — protecting interpreters from executing random code (<code>AT_EXECVE_CHECK</code> for <code>execveat</code> + securebits)</span> <a href="https://youtu.be/RhI4tWJ2hfE?t=8682">video</a></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Linux kernel 6.14rc — protecting interpreters from executing random code (<code>AT_EXECVE_CHECK</code> for <code>execveat</code> + securebits)</span> <a href="https://youtu.be/RhI4tWJ2hfE?t=8682">video</a></li>
 </ul>
 </div>
 </div>
@@ -287,8 +287,8 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://www.pykonik.org/tech-talks/72/">Pykonik Tech Talks #72</a><span class="loc">, Cracow, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">Python 3.13 JIT experiment: hot or not?</span> <a href="https://docs.google.com/presentation/d/1OaPR5b86FkzefKhZmq-XZm7t1h6EMZH7cc706uSbz5k/">slides</a> <a href="https://youtu.be/YNnnr7G9IP0?t=5282">video</a><div class="desc">On the recently added experimental JIT in CPython (disabled by default).</div></li>
-<li><span class="tag tag-pl">PL</span><span class="tag tag-lt">⚡</span><span class="title">Pdb vs ipdb import time and the peephole optimizer</span> <a href="https://www.youtube.com/watch?v=YNnnr7G9IP0&amp;t=9377s">video</a></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Python 3.13 JIT experiment: hot or not?</span> <a href="https://docs.google.com/presentation/d/1OaPR5b86FkzefKhZmq-XZm7t1h6EMZH7cc706uSbz5k/">slides</a> <a href="https://youtu.be/YNnnr7G9IP0?t=5282">video</a><div class="desc">On the recently added experimental JIT in CPython (disabled by default).</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Pdb vs ipdb import time and the peephole optimizer</span> <a href="https://www.youtube.com/watch?v=YNnnr7G9IP0&amp;t=9377s">video</a></li>
 </ul>
 </div>
 </div>
@@ -308,7 +308,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head">Meet.js meetup<span class="loc">, Cracow, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-lt">⚡</span><span class="title">justCTF 2024 Finals and NFC Flag Market challenge</span> <a href="https://docs.google.com/presentation/d/1iLIuosc1LYuHGtznc1t69Qb-8vahoq2uSZH5rT5rba8">slides</a></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">justCTF 2024 Finals and NFC Flag Market challenge</span> <a href="https://docs.google.com/presentation/d/1iLIuosc1LYuHGtznc1t69Qb-8vahoq2uSZH5rT5rba8">slides</a></li>
 </ul>
 </div>
 </div>
@@ -329,7 +329,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://prasec.cz/">PraSec 10</a><span class="loc">, Prague, Czech Republic</span></div>
 <ul class="talks">
-<li><span class="tag tag-lt">⚡</span><span class="title">CTFTime name squatting and "Funny LFR" web challenge (SEKAI CTF 2024)</span> <a href="https://docs.google.com/presentation/d/1ejD-ZOzmXzPD9B7ERmikJ7XK2G_G-lXxOF1jhrvTxb4/">slides</a><div class="desc">Showed leaking environment variables in a local-file-inclusion case via a TOCTOU vulnerability.</div></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">CTFTime name squatting and "Funny LFR" web challenge (SEKAI CTF 2024)</span> <a href="https://docs.google.com/presentation/d/1ejD-ZOzmXzPD9B7ERmikJ7XK2G_G-lXxOF1jhrvTxb4/">slides</a><div class="desc">Showed leaking environment variables in a local-file-inclusion case via a TOCTOU vulnerability.</div></li>
 </ul>
 </div>
 </div>
@@ -350,7 +350,7 @@ permalink: /talks2/
 <div class="event-head"><a href="https://www.pykonik.org/tech-talks/70/">Pykonik Tech Talks #70</a><span class="loc">, Cracow, Poland</span></div>
 <ul class="talks">
 <li><span class="title">Python specialized bytecode: hacking a Python jail</span> <a href="https://docs.google.com/presentation/d/13ZiJPzQrNVC5azJPlryfrPtHulCvohts0rZJFepTmis">slides</a> <a href="https://youtu.be/RlNM5n5C_wg?t=5034">video</a><div class="desc">Solving a "pycjail returns" challenge from Angstrom CTF 2024 — what specialized bytecode is, where such jails appear in real code, and how to do them better (hint: usually don't).</div></li>
-<li><span class="tag tag-lt">⚡</span><span class="title">Lightning talks</span>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Lightning talks</span>
 <ul class="subtalks">
 <li>justCTF 2024 Teaser competition</li>
 <li>Zero-gravity flight</li>
@@ -376,7 +376,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://www.pykonik.org/tech-talks/69/">Pykonik Tech Talks #69</a><span class="loc">, Cracow, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="tag tag-lt">⚡</span><span class="title">Lightning talks</span> <a href="https://youtu.be/EkjVMlaOF9w?t=6627">video</a>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Lightning talks</span> <a href="https://youtu.be/EkjVMlaOF9w?t=6627">video</a>
 <ul class="subtalks">
 <li>Django admin used for CTF management</li>
 <li>Attaching to and debugging already-running Python scripts</li>
@@ -409,7 +409,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head">AGH UST — KNI Kernel student club<span class="loc">, Kraków, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">Information Security</span> <a href="https://www.facebook.com/events/359725210079331">event</a> <a href="https://docs.google.com/presentation/d/14A2vWTtFr3y3lZQK8NKOz5JLYQf-C7ZVGlHWCEMzZT0">slides</a><div class="desc">Intro talk about cybersecurity / information security.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Information Security</span> <a href="https://www.facebook.com/events/359725210079331">event</a> <a href="https://docs.google.com/presentation/d/14A2vWTtFr3y3lZQK8NKOz5JLYQf-C7ZVGlHWCEMzZT0">slides</a><div class="desc">Intro talk about cybersecurity / information security.</div></li>
 </ul>
 </div>
 </div>
@@ -419,7 +419,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head">AGH UST — KNI Kernel student club<span class="loc">, Kraków, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">AddressSanitizer — detecting memory corruption bugs in native programs</span> <a href="https://www.facebook.com/events/333721859389867">event</a> <a href="https://youtube.com/live/UGX852Fpf4s">video</a><div class="desc">ASan internals, container overflows, Valgrind, sanitizers and fuzzing.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">AddressSanitizer — detecting memory corruption bugs in native programs</span> <a href="https://www.facebook.com/events/333721859389867">event</a> <a href="https://youtube.com/live/UGX852Fpf4s">video</a><div class="desc">ASan internals, container overflows, Valgrind, sanitizers and fuzzing.</div></li>
 </ul>
 </div>
 </div>
@@ -429,7 +429,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head">AGH UST — KNI Kernel student club<span class="loc">, Kraków, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">Blockchains 101</span> <a href="https://www.facebook.com/events/727456802767643/">event</a> <a href="https://docs.google.com/presentation/d/1-zJK2NGr8fI2lN8-SuRSZSStdo43m-Frzh_XOMhTniw">slides</a><div class="desc">Entry-level talk: blockchains, consensus, PoW vs PoS, mining, wallets, EVM smart contracts and various security pitfalls.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Blockchains 101</span> <a href="https://www.facebook.com/events/727456802767643/">event</a> <a href="https://docs.google.com/presentation/d/1-zJK2NGr8fI2lN8-SuRSZSStdo43m-Frzh_XOMhTniw">slides</a><div class="desc">Entry-level talk: blockchains, consensus, PoW vs PoS, mining, wallets, EVM smart contracts and various security pitfalls.</div></li>
 </ul>
 </div>
 </div>
@@ -439,7 +439,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://thehacksummit.com/">The H@ck Summit</a><span class="loc">, Warsaw, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">Hakowanie CTFowego hypervisora (x86-64) i przypadkowy 0day</span> <a href="https://docs.google.com/presentation/d/1ryHtxmnSlieoZqkq6ndAl9nloNDUkqRQHzKwyOTcxZ8">slides</a><div class="desc">A QEMU emulation 0day related to nested VMs.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Hakowanie CTFowego hypervisora (x86-64) i przypadkowy 0day</span> <a href="https://docs.google.com/presentation/d/1ryHtxmnSlieoZqkq6ndAl9nloNDUkqRQHzKwyOTcxZ8">slides</a><div class="desc">A QEMU emulation 0day related to nested VMs.</div></li>
 </ul>
 </div>
 </div>
@@ -449,7 +449,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://www.meetup.com/krakow-rust-meetup-group/events/295974593/">Rust Cracow #1 meetup</a><span class="loc">, Kraków, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-lt">⚡</span><span class="title">Taint Tracking in Rust + Serde's <code>serialize_struct</code> quirk</span> <a href="https://docs.google.com/presentation/d/1MHPJ_s7Dub-nS8-42B704rtBEvNGcUbKPLO-QRMyxU8">slides</a> <a href="https://www.youtube.com/watch?v=zeI1MAVLZ7A">video</a></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Taint Tracking in Rust + Serde's <code>serialize_struct</code> quirk</span> <a href="https://docs.google.com/presentation/d/1MHPJ_s7Dub-nS8-42B704rtBEvNGcUbKPLO-QRMyxU8">slides</a> <a href="https://www.youtube.com/watch?v=zeI1MAVLZ7A">video</a></li>
 </ul>
 </div>
 </div>
@@ -460,9 +460,9 @@ permalink: /talks2/
 <div class="event-head"><a href="https://www.alligatorcon.eu/">AlligatorCon Europe 2023</a><span class="loc">, Budapest, Hungary</span></div>
 <ul class="talks">
 <li><span class="title">Hacking a toy hypervisor and finding a QEMU emulation 0day</span> <a href="https://docs.google.com/presentation/d/115BPgapOqfOBfvThK5poiobCMykWsRWaoE-P1Wnjg1o/edit?usp=sharing">slides</a><div class="desc">Live demos too.</div></li>
-<li><span class="tag tag-lt">⚡</span><span class="title">Hacking kiosks</span> <a href="https://docs.google.com/presentation/d/1w__xPjgIu-K0vG6m8Bv8AX66m8DMxey0zUEdGirxo-4">slides</a></li>
-<li><span class="tag tag-lt">⚡</span><span class="title">GDB &amp; QEMU improvements and <code>set scheduler-locking on</code></span> <a href="https://docs.google.com/presentation/d/1olgtAqNX4--Iwnd9RNABt4zF_uuWzGlsB5R7kD11-a8/">slides</a></li>
-<li><span class="tag tag-lt">⚡</span><span class="title">"Collector" task from PlaidCTF 2023 — Postgres replica "bug"</span> <a href="https://docs.google.com/presentation/d/1Y7K_6yP8hdc8WprhvavZouF2l7UmhSY4txc4Nhxz6H0">slides</a></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Hacking kiosks</span> <a href="https://docs.google.com/presentation/d/1w__xPjgIu-K0vG6m8Bv8AX66m8DMxey0zUEdGirxo-4">slides</a></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">GDB &amp; QEMU improvements and <code>set scheduler-locking on</code></span> <a href="https://docs.google.com/presentation/d/1olgtAqNX4--Iwnd9RNABt4zF_uuWzGlsB5R7kD11-a8/">slides</a></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">"Collector" task from PlaidCTF 2023 — Postgres replica "bug"</span> <a href="https://docs.google.com/presentation/d/1Y7K_6yP8hdc8WprhvavZouF2l7UmhSY4txc4Nhxz6H0">slides</a></li>
 </ul>
 </div>
 </div>
@@ -492,7 +492,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head">AGH UST — KNI Kernel student club<span class="loc">, Kraków, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">Close to low level: from CPU and compilers to fast code</span> <a href="https://www.facebook.com/events/664242619046690/">event</a> <a href="https://docs.google.com/presentation/d/11l3_oJVp-U1iMEQIq-epa5rPMKD1IOWiMAOJ6A7TKPA">slides</a> <a href="https://www.youtube.com/watch?v=APeHuKs3Gnk">video</a><div class="desc">How CPUs work / why they are fast, then benchmarks from my bachelor thesis to see why certain things were fast or slow.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Close to low level: from CPU and compilers to fast code</span> <a href="https://www.facebook.com/events/664242619046690/">event</a> <a href="https://docs.google.com/presentation/d/11l3_oJVp-U1iMEQIq-epa5rPMKD1IOWiMAOJ6A7TKPA">slides</a> <a href="https://www.youtube.com/watch?v=APeHuKs3Gnk">video</a><div class="desc">How CPUs work / why they are fast, then benchmarks from my bachelor thesis to see why certain things were fast or slow.</div></li>
 </ul>
 </div>
 </div>
@@ -512,7 +512,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://www.pykonik.org/tech-talks/62/">Pykonik Tech Talks #62</a><span class="loc">, Cracow, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-lt">⚡</span><span class="title">Weird .pyc file that executes unexpected code due to a Python zip importer bug</span> <a href="https://www.youtube.com/watch?v=gM7Jz85pDLw">video</a><div class="desc">Based on a tweet from David Buchanan; see also <a href="https://x.com/disconnect3d_pl/status/1641712283565928448">this tweet</a>.</div></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Weird .pyc file that executes unexpected code due to a Python zip importer bug</span> <a href="https://www.youtube.com/watch?v=gM7Jz85pDLw">video</a><div class="desc">Based on a tweet from David Buchanan; see also <a href="https://x.com/disconnect3d_pl/status/1641712283565928448">this tweet</a>.</div></li>
 </ul>
 </div>
 </div>
@@ -522,7 +522,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head">AGH UST — KNI Kernel student club<span class="loc">, Kraków, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">Virtualization and security</span> <a href="https://www.facebook.com/events/651663106718022/">event</a> <a href="https://docs.google.com/presentation/d/1BgC1pwLG85CuwMDZlpoGDKPnCeoOTU6ti-WiWa1LvoQ/edit?usp=sharing">slides</a> <a href="https://www.youtube.com/watch?v=iZ9NEiCSLtk">video</a><div class="desc">Background on emulation/virtualization, then exploiting a buggy hypervisor in HXP CTF 2022's "Hypersecure" to escalate privileges on Linux.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Virtualization and security</span> <a href="https://www.facebook.com/events/651663106718022/">event</a> <a href="https://docs.google.com/presentation/d/1BgC1pwLG85CuwMDZlpoGDKPnCeoOTU6ti-WiWa1LvoQ/edit?usp=sharing">slides</a> <a href="https://www.youtube.com/watch?v=iZ9NEiCSLtk">video</a><div class="desc">Background on emulation/virtualization, then exploiting a buggy hypervisor in HXP CTF 2022's "Hypersecure" to escalate privileges on Linux.</div></li>
 </ul>
 </div>
 </div>
@@ -537,7 +537,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head">AGH UST — KNI Kernel student club<span class="loc">, Kraków, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">What the CTF?</span> <a href="https://www.facebook.com/events/1347340702669345/">event</a> <a href="https://docs.google.com/presentation/d/1kwknEby7c0tbz4n5Pc-vVz-k3m14fNJ_5M3xazp_wv8">slides</a> <a href="https://www.youtube.com/watch?v=QBP1uOKb-dA">video</a></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">What the CTF?</span> <a href="https://www.facebook.com/events/1347340702669345/">event</a> <a href="https://docs.google.com/presentation/d/1kwknEby7c0tbz4n5Pc-vVz-k3m14fNJ_5M3xazp_wv8">slides</a> <a href="https://www.youtube.com/watch?v=QBP1uOKb-dA">video</a></li>
 </ul>
 </div>
 </div>
@@ -557,7 +557,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head">AGH UST — KNI Kernel student club<span class="loc">, Kraków, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">C/C++ vs Security?</span> <a href="https://www.facebook.com/events/629485885547366/">event</a> <a href="https://docs.google.com/presentation/d/1PTuHvXSDbFhv9LeyP5Oosu-JY0Qrshu8pfod5sjZWJg/">slides</a> <a href="https://www.youtube.com/watch?v=VS2tcmFcfGc">video</a></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">C/C++ vs Security?</span> <a href="https://www.facebook.com/events/629485885547366/">event</a> <a href="https://docs.google.com/presentation/d/1PTuHvXSDbFhv9LeyP5Oosu-JY0Qrshu8pfod5sjZWJg/">slides</a> <a href="https://www.youtube.com/watch?v=VS2tcmFcfGc">video</a></li>
 </ul>
 </div>
 </div>
@@ -567,7 +567,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head">AGH UST — KNI Kernel student club<span class="loc">, Kraków, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">Hacking a single-player game on Linux</span> <a href="https://www.facebook.com/events/630252765263412">event</a><div class="desc">Live demo of applying cheats to games with GDB and Pwndbg.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Hacking a single-player game on Linux</span> <a href="https://www.facebook.com/events/630252765263412">event</a><div class="desc">Live demo of applying cheats to games with GDB and Pwndbg.</div></li>
 </ul>
 </div>
 </div>
@@ -588,7 +588,7 @@ permalink: /talks2/
 <div class="event-head"><a href="https://ep2022.europython.eu/">EuroPython 2022</a><span class="loc">, Dublin, Ireland</span></div>
 <ul class="talks">
 <li><span class="title">CPython bugs</span> <a href="https://docs.google.com/presentation/d/1gHBsvxK9QgYOSeAnOFuN7R2B_zoZVhGlUeUHwT7nI5E">slides</a> <a href="https://youtu.be/tRtxCCRdZOs?t=12251">video</a></li>
-<li><span class="tag tag-lt">⚡</span><span class="title">Programming is hard pt. 1</span> <a href="https://docs.google.com/presentation/d/16eZwKTKfLdTsMwca-238dw1qKsGol6-azNki7pJephQ">slides</a> <a href="https://youtu.be/tRtxCCRdZOs?t=35227">video</a></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Programming is hard pt. 1</span> <a href="https://docs.google.com/presentation/d/16eZwKTKfLdTsMwca-238dw1qKsGol6-azNki7pJephQ">slides</a> <a href="https://youtu.be/tRtxCCRdZOs?t=35227">video</a></li>
 </ul>
 </div>
 </div>
@@ -618,7 +618,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head">AGH UST — KNI Kernel student club<span class="loc">, Kraków, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">How does Docker work under the hood?</span> <a href="https://www.facebook.com/events/447764623792488">event</a> <a href="https://docs.google.com/presentation/d/1VY9Y2yqdU4magBpIVyIlpsXTFY-oX0RDJF4oVviLICA/">slides</a> <a href="https://www.youtube.com/watch?v=HEuOcIolwiw">video</a><div class="desc">Overview of Docker (CLI &amp; daemon) and a deep dive into namespaces, cgroups, capabilities, plus security flags.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">How does Docker work under the hood?</span> <a href="https://www.facebook.com/events/447764623792488">event</a> <a href="https://docs.google.com/presentation/d/1VY9Y2yqdU4magBpIVyIlpsXTFY-oX0RDJF4oVviLICA/">slides</a> <a href="https://www.youtube.com/watch?v=HEuOcIolwiw">video</a><div class="desc">Overview of Docker (CLI &amp; daemon) and a deep dive into namespaces, cgroups, capabilities, plus security flags.</div></li>
 </ul>
 </div>
 </div>
@@ -633,7 +633,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head">AGH UST — KNI Kernel student club<span class="loc">, Kraków, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">Linux &amp; Security part 2</span> <a href="https://www.facebook.com/events/694784598091948">event</a> <a href="https://docs.google.com/presentation/d/1pZXTmdZuFEOhhWmtZnNVoP0LkhbW9hKBlhgFtFL1RX4/">slides</a><div class="desc">Logs (dmesg, rsyslogd, journald), log injection, a logrotate race condition, and safer proc filesystem mount options.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Linux &amp; Security part 2</span> <a href="https://www.facebook.com/events/694784598091948">event</a> <a href="https://docs.google.com/presentation/d/1pZXTmdZuFEOhhWmtZnNVoP0LkhbW9hKBlhgFtFL1RX4/">slides</a><div class="desc">Logs (dmesg, rsyslogd, journald), log injection, a logrotate race condition, and safer proc filesystem mount options.</div></li>
 </ul>
 </div>
 </div>
@@ -653,7 +653,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head">AGH UST — KNI Kernel student club<span class="loc">, Kraków, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">Linux &amp; Security</span> <a href="https://www.facebook.com/events/223808806522924">event</a> <a href="https://docs.google.com/presentation/d/1VT1-6HLrTebluk5TdFu9Z-kWCGshcdurJ6salQo2aOI/">slides</a><div class="desc">User vs kernel space isolation, syscalls, what a "user", uid or pid is, PID-reuse attacks, file types, permissions, suid binaries.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Linux &amp; Security</span> <a href="https://www.facebook.com/events/223808806522924">event</a> <a href="https://docs.google.com/presentation/d/1VT1-6HLrTebluk5TdFu9Z-kWCGshcdurJ6salQo2aOI/">slides</a><div class="desc">User vs kernel space isolation, syscalls, what a "user", uid or pid is, PID-reuse attacks, file types, permissions, suid binaries.</div></li>
 </ul>
 </div>
 </div>
@@ -663,7 +663,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head">AGH UST — KNI Kernel student club<span class="loc">, Kraków, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">How to learn IT</span> <a href="https://docs.google.com/presentation/d/1ed4RgmuZRrZ0rLS4DIeG1TyGG4EI4B8_33-VkAi8uPQ/">slides</a><div class="desc">Non-technical talk on how to learn IT/CS.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">How to learn IT</span> <a href="https://docs.google.com/presentation/d/1ed4RgmuZRrZ0rLS4DIeG1TyGG4EI4B8_33-VkAi8uPQ/">slides</a><div class="desc">Non-technical talk on how to learn IT/CS.</div></li>
 </ul>
 </div>
 </div>
@@ -688,7 +688,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://remote.python.pizza/">Python Pizza</a><span class="loc">, remote @ your couch</span></div>
 <ul class="talks">
-<li><span class="tag tag-lt">⚡</span><span class="title"><code>sudo python</code> is a trap, use isolated mode</span> <a href="https://docs.google.com/presentation/d/11HV4e0wqXxl_9xTpHBKfON6oUJP6MBaj9pUjNP6ETdw">slides</a> <a href="https://www.youtube.com/watch?t=2530&amp;v=sOXVxjPjF9E">video</a><div class="desc">Showcase of the "Readline module loading in interactive mode" Python security bug.</div></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title"><code>sudo python</code> is a trap, use isolated mode</span> <a href="https://docs.google.com/presentation/d/11HV4e0wqXxl_9xTpHBKfON6oUJP6MBaj9pUjNP6ETdw">slides</a> <a href="https://www.youtube.com/watch?t=2530&amp;v=sOXVxjPjF9E">video</a><div class="desc">Showcase of the "Readline module loading in interactive mode" Python security bug.</div></li>
 </ul>
 </div>
 </div>
@@ -703,7 +703,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://www.instytutpwn.pl/konferencja/pwning/">Security PWNing Conference 2019</a><span class="loc">, Warsaw, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">Attacking via Linux's procfs, and countermeasures for app developers</span> <a href="https://docs.google.com/presentation/d/1OmrIAxrfDoCFPd0Iw7uQYsUKJhDny-zYCN5F96K7DgY/">slides</a><div class="desc">procfs internals, arbitrary file reads, directory listings via path traversal, <code>readlink /proc/PID/exe</code> quirks, PID-reuse attacks and pidfd, plus hidepid/gid mount options.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Attacking via Linux's procfs, and countermeasures for app developers</span> <a href="https://docs.google.com/presentation/d/1OmrIAxrfDoCFPd0Iw7uQYsUKJhDny-zYCN5F96K7DgY/">slides</a><div class="desc">procfs internals, arbitrary file reads, directory listings via path traversal, <code>readlink /proc/PID/exe</code> quirks, PID-reuse attacks and pidfd, plus hidepid/gid mount options.</div></li>
 </ul>
 </div>
 </div>
@@ -723,7 +723,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://nocinformatyka.pl/poprzednie-edycje/">Noc Informatyka 1.2</a><span class="loc">, Kraków, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">Bebechy kontenerów Dockerowych oraz Grand Theft Ucieczki z uprzywilejowanych kontenerów</span> <a href="https://docs.google.com/presentation/d/1CZiv5QpAKYqox5eGyrITk712l6cPybZrq3msH5g4gv8/">slides</a><div class="desc">Same as the AlligatorCon presentation. Title ended up too baity though.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Bebechy kontenerów Dockerowych oraz Grand Theft Ucieczki z uprzywilejowanych kontenerów</span> <a href="https://docs.google.com/presentation/d/1CZiv5QpAKYqox5eGyrITk712l6cPybZrq3msH5g4gv8/">slides</a><div class="desc">Same as the AlligatorCon presentation. Title ended up too baity though.</div></li>
 </ul>
 </div>
 </div>
@@ -735,11 +735,11 @@ permalink: /talks2/
 <ul class="talks">
 <li><span class="title">Python internals — how does CPython work?</span> <a href="https://docs.google.com/presentation/d/1EZlxdYMLykCFd9BYz6ZnnbebKmIs4LCD4xkGixkfwGs/">slides</a><div class="desc">~2h deep dive into CPython and its VM: bytecode, .pyc files, disassembling, decompiling, full execution flow.</div></li>
 <li><span class="title">Python internals — let's talk about dicts</span><div class="desc">Same as Pykonik #43.</div></li>
-<li><span class="tag tag-lt">⚡</span><span class="title">Regexes WT#?</span> <a href="https://docs.google.com/presentation/d/1Fo9tOk8xJFrLEXabyNxH6-u2t-QcwG5tkWLlAHxoA90/">slides</a><div class="desc">A DoS in Django, a wrong Signal-Desktop regex, and a reminder about <code>re.VERBOSE</code>.</div></li>
-<li><span class="tag tag-lt">⚡</span><span class="title">PagedOut!</span> <a href="https://docs.google.com/presentation/d/1zv2mhLRJUfYaDSUClAd5Kg4iQFwrkDw1K37FtLs21Sc/">slides</a><div class="desc">The <a href="https://pagedout.institute/">PagedOut! free zine</a> + my article on hacking Python's ellipsis.</div></li>
-<li><span class="tag tag-lt">⚡</span><span class="title">Python security issues</span> <a href="https://docs.google.com/presentation/d/15VI1Uilukb6bCw6wEhNQxAw85dc5f-zLToZoxH8IL7o/">slides</a><div class="desc">Overview of random existing Python security bugs.</div></li>
-<li><span class="tag tag-lt">⚡</span><span class="title">PyYAML WT#</span><div class="desc">A rant about PyYAML: 4.1 changed <code>safe_load</code> into <code>load</code> (<a href="https://github.com/yaml/pyyaml/commit/ccc40f3e2ba384858c0d32263ac3e3a6626ab15e">reverted</a> and <a href="https://github.com/yaml/pyyaml/issues/192">removed</a> from <a href="https://github.com/yaml/pyyaml/issues/190">pypi</a>); 5.1 was supposed to make <code>load</code> safer but <a href="https://github.com/yaml/pyyaml/issues/321">still insecure</a>.</div></li>
-<li><span class="tag tag-lt">⚡</span><span class="title">A story of a 3d nickname</span> <a href="https://docs.google.com/presentation/d/1MhsfHxMWtfedxBPWIgE53oHb-5WOg82RahIqKafuGSo/">slides</a> <a href="https://youtu.be/OFOHSCnvUwQ?t=6">video</a><div class="desc">Origin of the '3d' in my nickname and a bit about IRC communities.</div></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Regexes WT#?</span> <a href="https://docs.google.com/presentation/d/1Fo9tOk8xJFrLEXabyNxH6-u2t-QcwG5tkWLlAHxoA90/">slides</a><div class="desc">A DoS in Django, a wrong Signal-Desktop regex, and a reminder about <code>re.VERBOSE</code>.</div></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">PagedOut!</span> <a href="https://docs.google.com/presentation/d/1zv2mhLRJUfYaDSUClAd5Kg4iQFwrkDw1K37FtLs21Sc/">slides</a><div class="desc">The <a href="https://pagedout.institute/">PagedOut! free zine</a> + my article on hacking Python's ellipsis.</div></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Python security issues</span> <a href="https://docs.google.com/presentation/d/15VI1Uilukb6bCw6wEhNQxAw85dc5f-zLToZoxH8IL7o/">slides</a><div class="desc">Overview of random existing Python security bugs.</div></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">PyYAML WT#</span><div class="desc">A rant about PyYAML: 4.1 changed <code>safe_load</code> into <code>load</code> (<a href="https://github.com/yaml/pyyaml/commit/ccc40f3e2ba384858c0d32263ac3e3a6626ab15e">reverted</a> and <a href="https://github.com/yaml/pyyaml/issues/192">removed</a> from <a href="https://github.com/yaml/pyyaml/issues/190">pypi</a>); 5.1 was supposed to make <code>load</code> safer but <a href="https://github.com/yaml/pyyaml/issues/321">still insecure</a>.</div></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">A story of a 3d nickname</span> <a href="https://docs.google.com/presentation/d/1MhsfHxMWtfedxBPWIgE53oHb-5WOg82RahIqKafuGSo/">slides</a> <a href="https://youtu.be/OFOHSCnvUwQ?t=6">video</a><div class="desc">Origin of the '3d' in my nickname and a bit about IRC communities.</div></li>
 </ul>
 </div>
 </div>
@@ -759,7 +759,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head">AGH UST — KNI Kernel student club<span class="loc">, Kraków, Poland</span> (<a href="https://www.facebook.com/events/2192736794372737/">event</a>)</div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">How does CPython work</span> <a href="https://docs.google.com/presentation/d/1JWRcds_nJByQTz9JaS5ijhjYqbu9W3NkFbt8BUOKZJ0">slides</a><div class="desc">~2h talk going deeply into the CPython VM with an emulation example.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">How does CPython work</span> <a href="https://docs.google.com/presentation/d/1JWRcds_nJByQTz9JaS5ijhjYqbu9W3NkFbt8BUOKZJ0">slides</a><div class="desc">~2h talk going deeply into the CPython VM with an emulation example.</div></li>
 </ul>
 </div>
 </div>
@@ -794,7 +794,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://www.instytutpwn.pl/konferencja/pwning2018-eng/#:~:text=Low%20level%20debugging,Pwndbg">Security PWNing Conference 2018</a><span class="loc">, Warsaw, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">Low level debugging with Pwndbg</span> <a href="https://docs.google.com/presentation/d/1odAM9Rw2-fMI4cGgBWJWnfqMtzJz-NHmXWa5ksJ4rMk/">slides</a></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Low level debugging with Pwndbg</span> <a href="https://docs.google.com/presentation/d/1odAM9Rw2-fMI4cGgBWJWnfqMtzJz-NHmXWa5ksJ4rMk/">slides</a></li>
 </ul>
 </div>
 </div>
@@ -804,7 +804,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://www.meetup.com/Poznan-Security-Meetup/events/255244492/">PUT Security Day</a><span class="loc">, Poznań, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">Docker security</span> <a href="https://docs.google.com/presentation/d/1khzyfemmeoqNrUbsd4Sp6wF-rLfFSanLZaKeCcE8BtU">slides</a> <a href="https://www.youtube.com/watch?v=GnGMz3Bx0vY&amp;list=PLSfzNwWc8jhTLLhhWvCqi_Fo2NX1K9Ci1&amp;index=3">video</a><div class="desc">Talk in Polish, slides in English.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Docker security</span> <a href="https://docs.google.com/presentation/d/1khzyfemmeoqNrUbsd4Sp6wF-rLfFSanLZaKeCcE8BtU">slides</a> <a href="https://www.youtube.com/watch?v=GnGMz3Bx0vY&amp;list=PLSfzNwWc8jhTLLhhWvCqi_Fo2NX1K9Ci1&amp;index=3">video</a><div class="desc">Talk in Polish, slides in English.</div></li>
 </ul>
 </div>
 </div>
@@ -834,7 +834,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://www.meetup.com/Pykonik/events/254438400/">Pykonik Tech Talks #38</a><span class="loc">, Cracow, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-lt">⚡</span><span class="title">Soft and hard links on Linux: symbolic and physical links</span><div class="desc">Demo about links and some flaws (long paths, interesting links in /proc, etc.). No slides.</div></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Soft and hard links on Linux: symbolic and physical links</span><div class="desc">Demo about links and some flaws (long paths, interesting links in /proc, etc.). No slides.</div></li>
 </ul>
 </div>
 </div>
@@ -845,11 +845,11 @@ permalink: /talks2/
 <div class="event-head"><a href="https://pl.pycon.org/2018/">PyCon PL 2018</a><span class="loc">, Ossa, Poland</span></div>
 <ul class="talks">
 <li><span class="title">Insecure Things to Avoid in Python</span> <a href="https://docs.google.com/presentation/d/1LTIuStnvlKvkyRdpFmXrJ6-fxYE0roU_gHJ-83nk0zU/">slides</a><div class="desc">ThaiPy talk + info on hosting my <a href="https://python-challenges.com/">'Python-challenges'</a> challenge.</div></li>
-<li><span class="tag tag-lt">⚡</span><span class="title">Random cool stuff in Python</span> <a href="https://docs.google.com/presentation/d/1ZaqkKDkAQoXbM-SYnc8F8XmdA1jgirI8pb2nXSl_2PI/">slides</a><div class="desc"><code>__dict__</code>, <code>__slots__</code>, <code>exec</code> usages in CPython (namedtuple, Python 3.7 dataclasses).</div></li>
-<li><span class="tag tag-lt">⚡</span><span class="title">How does CPython work?</span> <a href="https://docs.google.com/presentation/d/1_C2bapgRyxxSxOeW-CdSdOGzBC1v1GyXUugzlPQPy2c/">slides</a></li>
-<li><span class="tag tag-lt">⚡</span><span class="title">How to be a better developer</span> <a href="https://docs.google.com/presentation/d/1aBsyLrKRqcj87iZ8mUl_CNjFOBvNNJstJStCZhAITlc/">slides</a></li>
-<li><span class="tag tag-lt">⚡</span><span class="title">Decrypting Android Ransomware</span> <a href="https://docs.google.com/presentation/d/1_IqTmHe-Uz9a-FisK_CQ7F7QIImwJNrXWTzRKHVWoqA/">slides</a></li>
-<li><span class="tag tag-lt">⚡</span><span class="title">"I hate Portals" — ReverseMe challenge</span> <a href="https://docs.google.com/presentation/d/1ARiS5JSu9u4LGbiveSVY4Uzo27aHuw--lwCr8JKtEFU/">slides</a><div class="desc">Cool solutions to my <a href="https://python-challenges.com/">'Python-challenges'</a> challenge.</div></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Random cool stuff in Python</span> <a href="https://docs.google.com/presentation/d/1ZaqkKDkAQoXbM-SYnc8F8XmdA1jgirI8pb2nXSl_2PI/">slides</a><div class="desc"><code>__dict__</code>, <code>__slots__</code>, <code>exec</code> usages in CPython (namedtuple, Python 3.7 dataclasses).</div></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">How does CPython work?</span> <a href="https://docs.google.com/presentation/d/1_C2bapgRyxxSxOeW-CdSdOGzBC1v1GyXUugzlPQPy2c/">slides</a></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">How to be a better developer</span> <a href="https://docs.google.com/presentation/d/1aBsyLrKRqcj87iZ8mUl_CNjFOBvNNJstJStCZhAITlc/">slides</a></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Decrypting Android Ransomware</span> <a href="https://docs.google.com/presentation/d/1_IqTmHe-Uz9a-FisK_CQ7F7QIImwJNrXWTzRKHVWoqA/">slides</a></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">"I hate Portals" — ReverseMe challenge</span> <a href="https://docs.google.com/presentation/d/1ARiS5JSu9u4LGbiveSVY4Uzo27aHuw--lwCr8JKtEFU/">slides</a><div class="desc">Cool solutions to my <a href="https://python-challenges.com/">'Python-challenges'</a> challenge.</div></li>
 </ul>
 </div>
 </div>
@@ -890,7 +890,7 @@ permalink: /talks2/
 <div class="event-head"><a href="https://www.meetup.com/ThaiPy-Bangkok-Python-Meetup/events/246228255/">Thai Py</a><span class="loc">, Bangkok, Thailand</span></div>
 <ul class="talks">
 <li><span class="title">Insecure Things to Avoid in Python</span> <a href="https://docs.google.com/presentation/d/1SJyjXuenqReI4SpRJ5fXWLWB9zICfU9NLb1d0s6e9Hk/">slides</a></li>
-<li><span class="tag tag-lt">⚡</span><span class="title">Unix wildcards gone wild</span><div class="desc">See PyCon PL 2016 link.</div></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Unix wildcards gone wild</span><div class="desc">See PyCon PL 2016 link.</div></li>
 </ul>
 </div>
 </div>
@@ -916,8 +916,8 @@ permalink: /talks2/
 <div class="event-head"><a href="https://pl.pycon.org/2017/index_en.html">PyCon PL 2017</a><span class="loc">, Ossa, Poland</span></div>
 <ul class="talks">
 <li><span class="title">Python as a hacker's toolbox vol 2</span> <a href="https://docs.google.com/presentation/d/1oHD8X9-qqJzEcMI94C05uzEqTnX8P4VqeDv1pIaLAxY/">slides</a></li>
-<li><span class="tag tag-lt">⚡</span><span class="title">A simple step for better security when using Python</span> <a href="https://docs.google.com/presentation/d/1kulgvzQ5vxnmHlmy8Kz9bN-uzhutIcMJ8TCLeBJ9XtA/">slides</a></li>
-<li><span class="tag tag-lt">⚡</span><span class="title">Python AST rewriting: 'how does PyTest do that'</span> <a href="https://docs.google.com/presentation/d/1wIFInPCSN-i03YSmDIIzJ4JAAzZiujFLFauNleXtaMA">slides</a></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">A simple step for better security when using Python</span> <a href="https://docs.google.com/presentation/d/1kulgvzQ5vxnmHlmy8Kz9bN-uzhutIcMJ8TCLeBJ9XtA/">slides</a></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Python AST rewriting: 'how does PyTest do that'</span> <a href="https://docs.google.com/presentation/d/1wIFInPCSN-i03YSmDIIzJ4JAAzZiujFLFauNleXtaMA">slides</a></li>
 </ul>
 </div>
 </div>
@@ -932,7 +932,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head">Code Europe Cracow 2016<span class="loc">, Kraków, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">Capture The Flag: an interesting way of spending time</span> <a href="https://docs.google.com/presentation/d/1k85e6xYnTKPbkkxTvCHO9YbmEPsze7HRzhNG67RXFLI">slides</a></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Capture The Flag: an interesting way of spending time</span> <a href="https://docs.google.com/presentation/d/1k85e6xYnTKPbkkxTvCHO9YbmEPsze7HRzhNG67RXFLI">slides</a></li>
 </ul>
 </div>
 </div>
@@ -942,8 +942,8 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://pl.pycon.org/2016/index_en.html">PyCon PL 2016</a><span class="loc">, Ossa, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-lt">⚡</span><span class="title">Capture The Flag</span> <a href="https://docs.google.com/presentation/d/1dP9_QSI4aCHb2MtSVH9iEnnXP4HvrzU5EYl5q35__y8">slides</a></li>
-<li><span class="tag tag-lt">⚡</span><span class="title">Unix wildcards gone wild</span> <a href="https://docs.google.com/presentation/d/1ielgFWmmKWDNlgXYVgiIy2j1ncGNm43qD47ypzl8VAs">slides</a></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Capture The Flag</span> <a href="https://docs.google.com/presentation/d/1dP9_QSI4aCHb2MtSVH9iEnnXP4HvrzU5EYl5q35__y8">slides</a></li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">Unix wildcards gone wild</span> <a href="https://docs.google.com/presentation/d/1ielgFWmmKWDNlgXYVgiIy2j1ncGNm43qD47ypzl8VAs">slides</a></li>
 </ul>
 </div>
 </div>
@@ -953,7 +953,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="http://nocinformatyka.pl/historia.html#2016">Noc informatyka 1.0</a><span class="loc">, Kraków, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">Unusual debugging tools</span> <a href="https://github.com/disconnect3d/unusual_dbg_presentation">slides &amp; examples</a></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Unusual debugging tools</span> <a href="https://github.com/disconnect3d/unusual_dbg_presentation">slides &amp; examples</a></li>
 </ul>
 </div>
 </div>
@@ -968,10 +968,10 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head">University class assignments — AGH UST<span class="loc">, Kraków, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">SQLi, XSS, CSRF: vulnerabilities from web applications</span> <a href="https://github.com/disconnect3d/websec_presentation/blob/master/websec.pdf">slides</a><div class="desc">Demoed common web vulns and exploitation techniques. Co-authored with Magdalena Jaroszyńska.</div></li>
-<li><span class="tag tag-pl">PL</span><span class="title">Reverse engineering and exploiting bugs in native x86/x86_64 apps — 1/3 (intro)</span> <a href="https://docs.google.com/presentation/d/1HKuW69NFD2IFSdkdD7ul3aWriHXHDLfPOvJV0wsiwH0">slides</a><div class="desc">Diploma seminar intro: registers, basic x86, call/leave/ret flow and bug sources.</div></li>
-<li><span class="tag tag-pl">PL</span><span class="title">Reverse engineering ... — 2/3 (mid-semester)</span> <a href="https://docs.google.com/presentation/d/1rWcOBc2dSUCzCfc1IXQSUWYopQ6eX4Cgc4yLg4cpA5Y/">slides</a><div class="desc">RE walkthrough of a CTF challenge: disassembly via IDA Pro, dynamic analysis, Z3 for the win condition; ASan, ELF mitigations, exploitation techniques.</div></li>
-<li><span class="tag tag-pl">PL</span><span class="title">Reverse engineering ... — 3/3 (summary)</span> <a href="https://docs.google.com/presentation/d/1j5ws3G7YLxeezjmPrEG9Q-iFD3GLsrpXi1wW7h7NAwo/">slides</a><div class="desc">ELF mapping to memory, fuzzing, symbolic execution, an interesting heap-related bug, and more.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">SQLi, XSS, CSRF: vulnerabilities from web applications</span> <a href="https://github.com/disconnect3d/websec_presentation/blob/master/websec.pdf">slides</a><div class="desc">Demoed common web vulns and exploitation techniques. Co-authored with Magdalena Jaroszyńska.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Reverse engineering and exploiting bugs in native x86/x86_64 apps — 1/3 (intro)</span> <a href="https://docs.google.com/presentation/d/1HKuW69NFD2IFSdkdD7ul3aWriHXHDLfPOvJV0wsiwH0">slides</a><div class="desc">Diploma seminar intro: registers, basic x86, call/leave/ret flow and bug sources.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Reverse engineering ... — 2/3 (mid-semester)</span> <a href="https://docs.google.com/presentation/d/1rWcOBc2dSUCzCfc1IXQSUWYopQ6eX4Cgc4yLg4cpA5Y/">slides</a><div class="desc">RE walkthrough of a CTF challenge: disassembly via IDA Pro, dynamic analysis, Z3 for the win condition; ASan, ELF mitigations, exploitation techniques.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Reverse engineering ... — 3/3 (summary)</span> <a href="https://docs.google.com/presentation/d/1j5ws3G7YLxeezjmPrEG9Q-iFD3GLsrpXi1wW7h7NAwo/">slides</a><div class="desc">ELF mapping to memory, fuzzing, symbolic execution, an interesting heap-related bug, and more.</div></li>
 </ul>
 </div>
 </div>
@@ -981,12 +981,12 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head">KNI Kernel CS Organisation, AGH UST<span class="loc">, Kraków, Poland</span></div>
 <ul class="talks">
-<li><span class="tag tag-pl">PL</span><span class="title">CTFs</span><div class="desc">Similar to the Code Europe 2016 talk.</div></li>
-<li><span class="tag tag-pl">PL</span><span class="title">Shells, buffering and IPython</span> <a href="https://docs.google.com/presentation/d/1pJ-MNWSE7vatkYejR4_713G9DSh6P_aIuNWJGs3Umzc">slides</a></li>
-<li><span class="tag tag-pl">PL</span><span class="title">How to learn IT</span> <a href="https://docs.google.com/presentation/d/10Lka0sY_SEeGQ04jGFpT2O-9l4HBXqdm4kTbUSnXJiY/">slides</a></li>
-<li><span class="tag tag-pl">PL</span><span class="title">Not working for me either — debugging tools for Linux and Windows</span><div class="desc">GDB, ltrace, strace, Valgrind, Sysinternals, Dependency Walker, debugging via PyCharm/Visual Studio. Co-presented with <a href="https://github.com/Alexander3">Alex</a>.</div></li>
-<li><span class="tag tag-pl">PL</span><span class="title">Python from scratch course</span> <a href="https://github.com/disconnect3d/kni-kernel-python-course">materials</a><div class="desc">With <a href="https://github.com/Alexander3">Alex</a>.</div></li>
-<li><span class="tag tag-pl">PL</span><span class="title">CTF workshops (2016, 2017)</span> <a href="https://github.com/JustHitTheCore/ctf_workshops">materials</a><div class="desc">Many topics, mainly low-level.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">CTFs</span><div class="desc">Similar to the Code Europe 2016 talk.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Shells, buffering and IPython</span> <a href="https://docs.google.com/presentation/d/1pJ-MNWSE7vatkYejR4_713G9DSh6P_aIuNWJGs3Umzc">slides</a></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">How to learn IT</span> <a href="https://docs.google.com/presentation/d/10Lka0sY_SEeGQ04jGFpT2O-9l4HBXqdm4kTbUSnXJiY/">slides</a></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Not working for me either — debugging tools for Linux and Windows</span><div class="desc">GDB, ltrace, strace, Valgrind, Sysinternals, Dependency Walker, debugging via PyCharm/Visual Studio. Co-presented with <a href="https://github.com/Alexander3">Alex</a>.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">Python from scratch course</span> <a href="https://github.com/disconnect3d/kni-kernel-python-course">materials</a><div class="desc">With <a href="https://github.com/Alexander3">Alex</a>.</div></li>
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="title">CTF workshops (2016, 2017)</span> <a href="https://github.com/JustHitTheCore/ctf_workshops">materials</a><div class="desc">Many topics, mainly low-level.</div></li>
 </ul>
 </div>
 </div>
