@@ -32,7 +32,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head">NYU OSIRIS Lab Cybersecurity Club<span class="loc">, New York City, USA</span></div>
 <ul class="talks">
-<li><span class="title">Pwndbg &amp; Escaping the matrix: escaping QEMU in a HXP CTF 2024 task</span> <a href="https://docs.google.com/presentation/d/1RljBJ2uYIVyg4UVbeffFCPtWM0qTOYSC4A5Uk3wb21Y">slides</a> <a href="https://github.com/justcatthefish/ctf-writeups/blob/master/hxp2024/hxp_silicon_foundaries_hack4/README.md">writeup</a><div class="desc">Intro to Pwndbg + walkthrough of a QEMU escape CTF challenge.</div></li>
+<li><span class="title">Pwndbg &amp; Escaping QEMU in a HXP CTF 2024 task</span> <a href="https://docs.google.com/presentation/d/1RljBJ2uYIVyg4UVbeffFCPtWM0qTOYSC4A5Uk3wb21Y">slides</a> <a href="https://github.com/justcatthefish/ctf-writeups/blob/master/hxp2024/hxp_silicon_foundaries_hack4/README.md">writeup</a><div class="desc">Intro to Pwndbg + walkthrough of a QEMU escape CTF challenge.</div></li>
 </ul>
 </div>
 </div>
@@ -182,7 +182,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://alligatorcon.eu/">AlligatorCon EU 2025</a><span class="loc">, Cracow, Poland</span></div>
 <ul class="talks">
-<li><span class="title">Escaping the matrix: escaping QEMU in a HXP CTF 2024 task</span> <a href="https://docs.google.com/presentation/d/1u0koAAJ5ssjVOY-DLt2h9GOqInNxfFHZ98Ld8nti_O4/">slides</a></li>
+<li><span class="title">Escaping QEMU in a HXP CTF 2024 task</span> <a href="https://docs.google.com/presentation/d/1u0koAAJ5ssjVOY-DLt2h9GOqInNxfFHZ98Ld8nti_O4/">slides</a></li>
 </ul>
 </div>
 </div>
@@ -202,7 +202,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://abe.seclab-bonn.de/">Applied Binary Exploitation course, University of Bonn</a><span class="loc"> (remote)</span></div>
 <ul class="talks">
-<li><span class="title">Escaping the matrix: escaping QEMU in a HXP CTF 2024 task with Pwndbg</span> <a href="https://docs.google.com/presentation/d/1u0koAAJ5ssjVOY-DLt2h9GOqInNxfFHZ98Ld8nti_O4/">slides</a><div class="desc">QEMU escape challenge from HXP CTF 2024 + Pwndbg tips and tricks.</div></li>
+<li><span class="title">Escaping QEMU in a HXP CTF 2024 task with Pwndbg</span> <a href="https://docs.google.com/presentation/d/1u0koAAJ5ssjVOY-DLt2h9GOqInNxfFHZ98Ld8nti_O4/">slides</a><div class="desc">QEMU escape challenge from HXP CTF 2024 + Pwndbg tips and tricks.</div></li>
 </ul>
 </div>
 </div>
