@@ -45,7 +45,12 @@ a:visited { color: #75aab6; }
 .recent-talks ul ul { margin: 0; padding-left: 20px; }
 
 /* Talks page */
-.talks-page .talks-intro { font-size: 15px; color: #444; margin: 0 0 16px; }
+.talks-page .talks-intro { font-size: 15px; color: #444; margin: 0 0 6px; }
+.talks-page .talks-legend {
+  font-size: 13px; color: #818181;
+  margin: 0 0 18px;
+}
+.talks-page .talks-legend .tag { margin-right: 2px; }
 
 .talks-page .year-nav {
   display: flex; flex-wrap: wrap; gap: 4px 6px;
@@ -61,13 +66,17 @@ a:visited { color: #75aab6; }
 }
 .talks-page .year-nav a:hover { background: #014351; color: #fff; text-decoration: none; }
 
-.talks-page .year-block { margin-top: 32px; }
+.talks-page .year-block { margin-top: 40px; }
 .talks-page .year-block:first-of-type { margin-top: 0; }
 .talks-page .year-block h2 {
-  font-size: 28px; margin: 0 0 14px;
-  padding-bottom: 4px; border-bottom: 1px solid #e8e8e8;
-  letter-spacing: -1px; line-height: 1;
+  font-size: 24px; margin: 0 0 14px;
+  letter-spacing: -0.5px; line-height: 1;
   display: flex; align-items: baseline; justify-content: space-between;
+}
+.talks-page .year-block h2 .year-count {
+  font-size: 12px; font-weight: 400;
+  color: #aaa; letter-spacing: 0;
+  margin-left: 8px;
 }
 .talks-page .year-block h2 a.to-top {
   font-size: 12px; font-weight: 400;
@@ -82,14 +91,14 @@ a:visited { color: #75aab6; }
   margin: 0 0 14px; align-items: baseline;
 }
 .talks-page .event-date {
-  flex: 0 0 56px;
+  flex: 0 0 64px;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 13px; color: #818181;
   text-align: right; white-space: nowrap;
   padding-top: 2px;
 }
 .talks-page .event-body { flex: 1 1 auto; min-width: 0; }
-.talks-page .event-head { font-weight: 600; font-size: 16px; line-height: 1.35; }
+.talks-page .event-head { font-weight: 600; font-size: 17px; line-height: 1.35; }
 .talks-page .event-head a { color: #014351; }
 .talks-page .event-head .loc { font-weight: 400; color: #818181; font-size: 13px; }
 .talks-page .event-note {

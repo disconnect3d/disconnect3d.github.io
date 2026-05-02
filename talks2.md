@@ -6,7 +6,8 @@ permalink: /talks2/
 
 <div class="talks-page" id="top" markdown="0">
 
-<p class="talks-intro">100+ talks since 2012 across conferences, meetups and university clubs — on low-level security, exploit dev, Pwndbg, CTFs and Python internals. <span class="tag tag-pl" title="Polish-language">PL</span> = Polish-language, <span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span> = lightning talk (~5 min, often improvised).</p>
+<p class="talks-intro">100+ talks since 2012 across conferences, meetups and university clubs — on low-level security, exploit dev, Pwndbg, CTFs and Python internals.</p>
+<p class="talks-legend"><span class="tag tag-pl" title="Polish-language">PL</span> Polish-language &nbsp;·&nbsp; <span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span> lightning talk (~5 min, often improvised)</p>
 
 <nav class="year-nav">
   <a href="#y-2026">2026</a>
@@ -24,7 +25,7 @@ permalink: /talks2/
 </nav>
 
 <section id="y-2026" class="year-block">
-<h2>2026 <a class="to-top" href="#top">↑ top</a></h2>
+<h2><span>2026 <span class="year-count">11 talks</span></span> <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">04.24</div>
@@ -103,7 +104,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-2025" class="year-block">
-<h2>2025 <a class="to-top" href="#top">↑ top</a></h2>
+<h2><span>2025 <span class="year-count">17 talks</span></span> <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">12.26–29</div>
@@ -280,7 +281,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-2024" class="year-block">
-<h2>2024 <a class="to-top" href="#top">↑ top</a></h2>
+<h2><span>2024 <span class="year-count">12 talks</span></span> <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">11.21</div>
@@ -392,7 +393,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-2023" class="year-block">
-<h2>2023 <a class="to-top" href="#top">↑ top</a></h2>
+<h2><span>2023 <span class="year-count">16 talks</span></span> <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">12.26–29</div>
@@ -530,7 +531,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-2022" class="year-block">
-<h2>2022 <a class="to-top" href="#top">↑ top</a></h2>
+<h2><span>2022 <span class="year-count">10 talks</span></span> <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">11.17</div>
@@ -626,7 +627,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-2021" class="year-block">
-<h2>2021 <a class="to-top" href="#top">↑ top</a></h2>
+<h2><span>2021 <span class="year-count">4 talks</span></span> <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">12.16</div>
@@ -671,7 +672,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-2020" class="year-block">
-<h2>2020 <a class="to-top" href="#top">↑ top</a></h2>
+<h2><span>2020 <span class="year-count">2 talks</span></span> <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">12.17</div>
@@ -696,7 +697,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-2019" class="year-block">
-<h2>2019 <a class="to-top" href="#top">↑ top</a></h2>
+<h2><span>2019 <span class="year-count">14 talks</span></span> <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">11.14–15</div>
@@ -787,7 +788,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-2018" class="year-block">
-<h2>2018 <a class="to-top" href="#top">↑ top</a></h2>
+<h2><span>2018 <span class="year-count">16 talks</span></span> <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">11.19–20</div>
@@ -898,7 +899,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-2017" class="year-block">
-<h2>2017 <a class="to-top" href="#top">↑ top</a></h2>
+<h2><span>2017 <span class="year-count">4 talks</span></span> <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">08.25–26</div>
@@ -925,7 +926,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-2016" class="year-block">
-<h2>2016 <a class="to-top" href="#top">↑ top</a></h2>
+<h2><span>2016 <span class="year-count">4 talks</span></span> <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">12.05</div>
@@ -961,7 +962,7 @@ permalink: /talks2/
 </section>
 
 <section id="y-series" class="year-block">
-<h2>Recurring series <a class="to-top" href="#top">↑ top</a></h2>
+<h2><span>Recurring series <span class="year-count">10 talks</span></span> <a class="to-top" href="#top">↑ top</a></h2>
 
 <div class="event">
 <div class="event-date">2016–17</div>
