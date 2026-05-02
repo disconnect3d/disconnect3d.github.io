@@ -44,8 +44,45 @@ a:visited { color: #75aab6; }
 .recent-talks .talk-date { color: #818181; font-size: 14px; margin-right: 6px; }
 .recent-talks ul ul { margin: 0; padding-left: 20px; }
 
-/* Talks page (alt /talks2/) */
-.talks-page .talks-intro { font-size: 15px; color: #444; margin: 0 0 18px; }
+/* Talks page */
+.talks-page .talks-intro { font-size: 15px; color: #444; margin: 0 0 16px; }
+
+.talks-page .featured {
+  margin: 0 0 28px;
+  padding: 14px 18px;
+  background: #f6f8fa;
+  border-left: 4px solid #014351;
+  border-radius: 0 6px 6px 0;
+}
+.talks-page .featured h2 {
+  font-size: 20px; letter-spacing: -0.5px;
+  margin: 0 0 8px; line-height: 1;
+}
+.talks-page .featured-list { list-style: none; margin: 0; padding: 0; }
+.talks-page .featured-list > li {
+  padding: 7px 0;
+  border-top: 1px solid #e3e8ec;
+}
+.talks-page .featured-list > li:first-child { border-top: none; padding-top: 2px; }
+.talks-page .featured-meta { font-size: 12px; color: #818181; }
+.talks-page .featured-meta a { color: #014351; font-weight: 600; }
+.talks-page .featured-title {
+  font-size: 15px; margin: 2px 0 5px;
+  line-height: 1.4; color: #222;
+}
+.talks-page .featured-links a {
+  display: inline-block; font-size: 12px;
+  padding: 0 8px; border-radius: 3px;
+  background: #014351; color: #fff;
+  margin-right: 4px; font-weight: 500;
+}
+.talks-page .featured-links a:hover { background: #006f87; text-decoration: none; }
+
+.talks-page h2.section-heading {
+  font-size: 22px; letter-spacing: -0.5px;
+  margin: 28px 0 12px; line-height: 1;
+}
+
 .talks-page .year-nav {
   display: flex; flex-wrap: wrap; gap: 4px 6px;
   margin: 0 0 30px; padding: 10px 12px;
@@ -81,19 +118,31 @@ a:visited { color: #75aab6; }
 .talks-page .event-head { font-weight: 600; font-size: 16px; line-height: 1.35; }
 .talks-page .event-head a { color: #014351; }
 .talks-page .event-head .loc { font-weight: 400; color: #818181; font-size: 13px; }
+.talks-page .event-note {
+  font-size: 13px; color: #818181;
+  font-style: italic; margin: 4px 0 0;
+}
 
 .talks-page ul.talks { list-style: none; margin: 3px 0 0; padding: 0; }
 .talks-page ul.talks > li { margin: 4px 0; font-size: 15px; line-height: 1.45; }
 .talks-page ul.talks .title { color: #222; }
-.talks-page ul.talks a {
-  font-size: 13px; margin-left: 4px;
-  color: #006f87; white-space: nowrap;
+.talks-page ul.talks > li > a {
+  display: inline-block;
+  font-size: 12px; line-height: 1.6;
+  padding: 0 7px; border-radius: 3px;
+  background: #eef3f6; color: #014351;
+  margin: 0 2px 0 4px;
+  font-weight: 500;
+  white-space: nowrap;
+  vertical-align: 1px;
 }
-.talks-page ul.talks a::before { content: "["; color: #aaa; }
-.talks-page ul.talks a::after { content: "]"; color: #aaa; }
+.talks-page ul.talks > li > a:hover {
+  background: #014351; color: #fff;
+  text-decoration: none;
+}
 .talks-page .desc {
   display: block; color: #666; font-size: 13px;
-  margin-top: 1px; line-height: 1.4;
+  margin-top: 2px; line-height: 1.4;
 }
 .talks-page ul.subtalks {
   margin: 3px 0 0 0; padding-left: 18px;
