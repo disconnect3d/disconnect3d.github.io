@@ -146,7 +146,7 @@ permalink: /talks2/
 <div class="event">
 <div class="event-date">12.26–29</div>
 <div class="event-body">
-<div class="event-head">39th Chaos Communication Congress (39C3)</div>
+<div class="event-head">39th Chaos Communication Congress (39C3)<span class="loc">, Hamburg, Germany</span></div>
 <ul class="talks">
 <li><span class="title">Organized "All CTFers and PWNers welcome: Pwndbg meetup" with k4lizen</span> <a href="https://events.ccc.de/congress/2025/hub/de/event/detail/all-ctfers-and-pwners-welcome-pwndbg-meetup">event details</a></li>
 </ul>
@@ -166,7 +166,7 @@ permalink: /talks2/
 <div class="event">
 <div class="event-date">11.20</div>
 <div class="event-body">
-<div class="event-head">Secure Coding Challenge 2025</div>
+<div class="event-head">Secure Coding Challenge 2025<span class="loc"> (remote)</span></div>
 <ul class="talks">
 <li><span class="title">AI Security</span><div class="desc">Split into 4 parts: 1) AI &amp; LLM 101, 2) AI hygiene — data privacy &amp; security, 3) security when developing with LLMs / vibe coding, 4) AI products security (prompt injections, model attacks, LLM vuln scanners, guardrails).</div></li>
 </ul>
@@ -206,7 +206,7 @@ permalink: /talks2/
 <div class="event">
 <div class="event-date">10.11</div>
 <div class="event-body">
-<div class="event-head"><a href="https://www.hexacon.fr/">HexaCon 2025</a></div>
+<div class="event-head"><a href="https://www.hexacon.fr/">HexaCon 2025</a><span class="loc">, Paris, France</span></div>
 <ul class="talks">
 <li><span class="tag tag-lt">⚡</span><span class="title">Pwndbg and escaping QEMU cpu bugs</span> <a href="https://docs.google.com/presentation/d/1WP3uUj340Ddhsd_b-3iyXU-jXasAKnWGFWd5kAXYNCo/">slides</a></li>
 </ul>
@@ -217,7 +217,7 @@ permalink: /talks2/
 <div class="event">
 <div class="event-date">09.11–13</div>
 <div class="event-body">
-<div class="event-head"><a href="https://alligatorcon.eu/">AlligatorCon EU 2025</a></div>
+<div class="event-head"><a href="https://alligatorcon.eu/">AlligatorCon EU 2025</a><span class="loc">, Cracow, Poland</span></div>
 <ul class="talks">
 <li><span class="title">Escaping the matrix: exploiting custom QEMU cpu bugs in a HXP CTF 2024 task</span> <a href="https://docs.google.com/presentation/d/1u0koAAJ5ssjVOY-DLt2h9GOqInNxfFHZ98Ld8nti_O4/">slides</a></li>
 </ul>
@@ -227,7 +227,7 @@ permalink: /talks2/
 <div class="event">
 <div class="event-date">07.17</div>
 <div class="event-body">
-<div class="event-head"><a href="https://ep2025.europython.eu/">EuroPython 2025</a></div>
+<div class="event-head"><a href="https://ep2025.europython.eu/">EuroPython 2025</a><span class="loc">, Prague, Czech Republic</span></div>
 <ul class="talks">
 <li><span class="title"><a href="https://ep2025.europython.eu/session/pwndbg-low-level-debugging-and-exploit-development-with-python">Pwndbg: Low level debugging and exploit development with Python</a></span> <a href="https://docs.google.com/presentation/d/1m9yYOeHxkKznseTakYeKixOUcCEjk7e-goirNE93ISs/">slides</a> <a href="https://www.youtube.com/watch?v=3KAMNJgC_vw">video</a></li>
 </ul>
@@ -247,7 +247,7 @@ permalink: /talks2/
 <div class="event">
 <div class="event-date">05.15</div>
 <div class="event-body">
-<div class="event-head"><a href="https://sklep.securitum.pl/sekurak-cyberstarter-2025">Sekurak Cyberstart 2025</a></div>
+<div class="event-head"><a href="https://sklep.securitum.pl/sekurak-cyberstarter-2025">Sekurak Cyberstart 2025</a><span class="loc"> (remote)</span></div>
 <ul class="talks">
 <li><span class="tag tag-pl">PL</span><span class="title">Ciekawe przykłady insecurity z życia i CTF-ów</span><div class="desc">Różne przypadki błędów bezpieczeństwa — na przykładach.</div></li>
 </ul>
@@ -365,7 +365,7 @@ permalink: /talks2/
 <div class="event">
 <div class="event-date">09.14</div>
 <div class="event-body">
-<div class="event-head"><a href="https://prasec.cz/">PraSec 10</a></div>
+<div class="event-head"><a href="https://prasec.cz/">PraSec 10</a><span class="loc">, Prague, Czech Republic</span></div>
 <ul class="talks">
 <li><span class="tag tag-lt">⚡</span><span class="title">CTFTime name squatting and "Funny LFR" web challenge (SEKAI CTF 2024)</span> <a href="https://docs.google.com/presentation/d/1ejD-ZOzmXzPD9B7ERmikJ7XK2G_G-lXxOF1jhrvTxb4/">slides</a><div class="desc">Showed leaking environment variables in a local-file-inclusion case via a TOCTOU vulnerability.</div></li>
 </ul>
@@ -375,7 +375,7 @@ permalink: /talks2/
 <div class="event">
 <div class="event-date">06.14</div>
 <div class="event-body">
-<div class="event-head"><a href="https://warcon.pl/">WarCon 2024</a></div>
+<div class="event-head"><a href="https://warcon.pl/">WarCon 2024</a><span class="loc">, Warsaw, Poland</span></div>
 <ul class="talks">
 <li><span class="title">Linux privesc via arbitrary x86 MSRs read/write bug — case study from a CTF challenge</span> <a href="https://docs.google.com/presentation/d/1sMTfGfO1pWFyiwnZq4XZLKQC7ola2PUhb1D0huA4Bgg/">slides</a><div class="desc">Walkthrough of "MSRable" from <a href="https://ctftime.org/event/2227/">KalmarCTF 2024</a> — x86-64 Linux kernel exploitation where unprivileged users can read/write arbitrary MSRs.</div></li>
 </ul>
@@ -435,7 +435,7 @@ permalink: /talks2/
 <div class="event">
 <div class="event-date">12.26–29</div>
 <div class="event-body">
-<div class="event-head">37th Chaos Communication Congress (37C3)</div>
+<div class="event-head">37th Chaos Communication Congress (37C3)<span class="loc">, Hamburg, Germany</span></div>
 <ul class="talks">
 <li><span class="title">Organized two PWNing meetups (Pwndbg, Pwntools)</span><div class="desc">Recap in the <a href="https://blog.trailofbits.com/2024/02/02/chaos-communication-congress-37c3-recap/#:~:text=recommend%20listening%20to.-,PWNing%20meetups,-Trail%20of%20Bits">Trail of Bits blog post</a>.</div></li>
 </ul>
@@ -623,7 +623,7 @@ permalink: /talks2/
 <div class="event">
 <div class="event-date">07.13–14</div>
 <div class="event-body">
-<div class="event-head"><a href="https://ep2022.europython.eu/">EuroPython 2022</a></div>
+<div class="event-head"><a href="https://ep2022.europython.eu/">EuroPython 2022</a><span class="loc">, Dublin, Ireland</span></div>
 <ul class="talks">
 <li><span class="title">CPython bugs</span> <a href="https://docs.google.com/presentation/d/1gHBsvxK9QgYOSeAnOFuN7R2B_zoZVhGlUeUHwT7nI5E">slides</a> <a href="https://youtu.be/tRtxCCRdZOs?t=12251">video</a></li>
 <li><span class="tag tag-lt">⚡</span><span class="title">Programming is hard pt. 1</span> <a href="https://docs.google.com/presentation/d/16eZwKTKfLdTsMwca-238dw1qKsGol6-azNki7pJephQ">slides</a> <a href="https://youtu.be/tRtxCCRdZOs?t=35227">video</a></li>
@@ -634,7 +634,7 @@ permalink: /talks2/
 <div class="event">
 <div class="event-date">06.24</div>
 <div class="event-body">
-<div class="event-head"><a href="https://warcon.pl/2022/">WarCon V</a></div>
+<div class="event-head"><a href="https://warcon.pl/2022/">WarCon V</a><span class="loc">, Warsaw, Poland</span></div>
 <ul class="talks">
 <li><span class="title">Extending AddressSanitizer support for C++ collections</span> <a href="https://docs.google.com/presentation/d/1cVoQUtB9d0kNPZMx1EsQ5C37ElDmg29s4mSpi6g3vyM">slides</a><div class="desc">Co-presented with Tacet — research project at Trail of Bits. See also this <a href="https://blog.trailofbits.com/2024/05/16/understanding-addresssanitizer-better-memory-safety-for-your-code/">blog post</a>.</div></li>
 </ul>
@@ -644,7 +644,7 @@ permalink: /talks2/
 <div class="event">
 <div class="event-date">06.04</div>
 <div class="event-body">
-<div class="event-head"><a href="https://nocinformatyka.pl/">Noc Informatyka 1.3</a></div>
+<div class="event-head"><a href="https://nocinformatyka.pl/">Noc Informatyka 1.3</a><span class="loc">, Cracow, Poland</span></div>
 <ul class="talks">
 <li><span class="title">Hacking a single-player game on Linux</span><div class="desc">Live demo with GDB and Pwndbg.</div></li>
 </ul>
@@ -714,7 +714,7 @@ permalink: /talks2/
 <div class="event">
 <div class="event-date">12.17</div>
 <div class="event-body">
-<div class="event-head"><a href="https://absoluteappsec.com/cons/midwinter-2020/">A Midwinter Night's Con 2020</a></div>
+<div class="event-head"><a href="https://absoluteappsec.com/cons/midwinter-2020/">A Midwinter Night's Con 2020</a><span class="loc"> (remote)</span></div>
 <ul class="talks">
 <li><span class="title">Various interesting (and not) bugs case studies</span> <a href="https://docs.google.com/presentation/d/1VpXqzPIPrfIPSIiua5ClNkjKAzM3uKlyAKUf0jBqoUI">slides</a> <a href="https://www.youtube.com/watch?v=cSb1ZWFhE1w">video</a><div class="desc">"cstrnfinder" research finding bugs in C string ops, an insufficient permission check enabling kASLR bypass in containers, and a small glibc allocator hardening idea.</div></li>
 </ul>
@@ -895,7 +895,7 @@ permalink: /talks2/
 <div class="event">
 <div class="event-date">08.01</div>
 <div class="event-body">
-<div class="event-head"><a href="https://www.alligatorcon.eu/index-2018.html#Talks">AlligatorCon 2018</a></div>
+<div class="event-head"><a href="https://www.alligatorcon.eu/index-2018.html#Talks">AlligatorCon 2018</a><span class="loc">, Cracow, Poland</span></div>
 <ul class="talks">
 <li><span class="title">Python Reversing Challenge</span> <a href="https://docs.google.com/presentation/d/1P55nqXej8GSrOXQRrdSnd7SuIOPl_tBwJvnMqvWsLrs/">slides</a></li>
 </ul>
