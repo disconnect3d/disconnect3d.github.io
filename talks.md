@@ -6,6 +6,9 @@ permalink: /talks/
 
 Below you can see a list of talks I gave on various events with slides/videos links. The `[PL]` tag means it was in Polish and `[lightning talk]` means it was a quick, usually <5 min talk, likely improvised or prepared just before giving it.
 
+### 2026.05.18 [Build IT Club](https://www.meetup.com/build-it-club/events/314188052/), Cracow, Poland
+* LLMao: Large Language Mayhem ([slides](https://docs.google.com/presentation/d/1zY0CtG6k0znZWgBXENucGE1EsG1QTsbikqIujR0dVgE)) - a talk on LLMs security: from attacking LLM systems to attacking with LLMs
+
 ### 2026.04.24 NYU OSIRIS Lab Cybersecurity Club, New York City, USA
 * Pwndbg & Escaping the matrix: exploiting custom QEMU cpu bugs from a HXP CTF 2024 task ([slides](https://docs.google.com/presentation/d/1RljBJ2uYIVyg4UVbeffFCPtWM0qTOYSC4A5Uk3wb21Y)) - an intro to the [Pwndbg tool](https://pwndbg.re/dev/) as well as walkthrough over a QEMU escape CTF challenge ([writeup](https://github.com/justcatthefish/ctf-writeups/blob/master/hxp2024/hxp_silicon_foundaries_hack4/README.md))
 

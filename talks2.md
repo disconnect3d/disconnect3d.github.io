@@ -25,7 +25,17 @@ permalink: /talks2/
 </nav>
 
 <section id="y-2026" class="year-block">
-<h2><span>2026 <span class="year-count">11 talks</span></span> <a class="to-top" href="#top">↑ top</a></h2>
+<h2><span>2026 <span class="year-count">12 talks</span></span> <a class="to-top" href="#top">↑ top</a></h2>
+
+<div class="event">
+<div class="event-date">05.18</div>
+<div class="event-body">
+<div class="event-head"><a href="https://www.meetup.com/build-it-club/events/314188052/">Build IT Club</a><span class="loc">, Cracow, Poland</span></div>
+<ul class="talks">
+<li><span class="title">LLMao: Large Language Mayhem</span> <a href="https://docs.google.com/presentation/d/1zY0CtG6k0znZWgBXENucGE1EsG1QTsbikqIujR0dVgE">slides</a><div class="desc">LLMs security: from attacking LLM systems to attacking with LLMs.</div></li>
+</ul>
+</div>
+</div>
 
 <div class="event">
 <div class="event-date">04.24</div>
