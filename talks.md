@@ -10,6 +10,9 @@ Below you can see a list of talks I gave on various events with slides/videos li
 * [lightning talks] 4 lightning talks: LLM fine-tuning hijacking from a CTF challenge, Claude Mythos Preview, Mobile data roaming arbitrage, and a Claude Code newline directory bug ([slides](https://docs.google.com/presentation/d/1MEyFWctYqOSOWhE0w2-V7t9AvYG14ph9M254KPb8mb4), [video](https://youtu.be/IpFCXNkPHvA?t=7196))
 * [lightning talk] e2ee in messaging apps - using and verifying it, and shaming Instagram for disabling it ([video](https://youtu.be/IpFCXNkPHvA?t=9087))
 
+### 2026.05.18 [Build IT Club](https://www.meetup.com/build-it-club/events/314188052/), Cracow, Poland
+* LLMao: Large Language Mayhem ([slides](https://docs.google.com/presentation/d/1zY0CtG6k0znZWgBXENucGE1EsG1QTsbikqIujR0dVgE)) - a talk on LLMs security: from attacking LLM systems to attacking with LLMs
+
 ### 2026.04.24 NYU OSIRIS Lab Cybersecurity Club, New York City, USA
 * Pwndbg & Escaping QEMU in a HXP CTF 2024 task ([slides](https://docs.google.com/presentation/d/1RljBJ2uYIVyg4UVbeffFCPtWM0qTOYSC4A5Uk3wb21Y)) - an intro to the [Pwndbg tool](https://pwndbg.re/dev/) as well as walkthrough over a QEMU escape CTF challenge ([writeup](https://github.com/justcatthefish/ctf-writeups/blob/master/hxp2024/hxp_silicon_foundaries_hack4/README.md))
 
