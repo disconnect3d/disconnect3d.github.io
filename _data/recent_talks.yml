@@ -1,5 +1,18 @@
 # Latest talks shown on the homepage. Update this when adding entries
 # at the top of talks.md. Three to five entries is plenty.
+- date: 2026-05-21
+  event: "Pykonik Tech Talks #84"
+  event_url: https://www.pykonik.org/tech-talks/84/
+  location: Cracow, Poland
+  talks:
+    - title: "4 lightning talks: LLM fine-tuning hijacking from a CTF challenge, Claude Mythos Preview, Mobile data roaming arbitrage, and a Claude Code newline directory bug"
+      tag: lightning talks
+      slides: https://docs.google.com/presentation/d/1MEyFWctYqOSOWhE0w2-V7t9AvYG14ph9M254KPb8mb4
+      video: https://youtu.be/IpFCXNkPHvA?t=7196
+    - title: "e2ee in messaging apps - using and verifying it, and shaming Instagram for disabling it"
+      tag: lightning talk
+      video: https://youtu.be/IpFCXNkPHvA?t=9087
+
 - date: 2026-04-24
   event: NYU OSIRIS Lab Cybersecurity Club
   location: New York City, USA

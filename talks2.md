@@ -25,7 +25,25 @@ permalink: /talks2/
 </nav>
 
 <section id="y-2026" class="year-block">
-<h2><span>2026 <span class="year-count">11 talks</span></span> <a class="to-top" href="#top">↑ top</a></h2>
+<h2><span>2026 <span class="year-count">13 talks</span></span> <a class="to-top" href="#top">↑ top</a></h2>
+
+<div class="event">
+<div class="event-date">05.21</div>
+<div class="event-body">
+<div class="event-head"><a href="https://www.pykonik.org/tech-talks/84/">Pykonik Tech Talks #84</a><span class="loc">, Cracow, Poland</span></div>
+<ul class="talks">
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">4 lightning talks</span> <a href="https://docs.google.com/presentation/d/1MEyFWctYqOSOWhE0w2-V7t9AvYG14ph9M254KPb8mb4">slides</a> <a href="https://youtu.be/IpFCXNkPHvA?t=7196">video</a>
+<ul class="subtalks">
+<li>LLM fine-tuning hijacking from a CTF challenge</li>
+<li>Claude Mythos Preview</li>
+<li>Mobile data roaming arbitrage</li>
+<li>Claude Code newline directory bug</li>
+</ul>
+</li>
+<li><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">e2ee in messaging apps — using and verifying it, and shaming Instagram for disabling it</span> <a href="https://youtu.be/IpFCXNkPHvA?t=9087">video</a></li>
+</ul>
+</div>
+</div>
 
 <div class="event">
 <div class="event-date">04.24</div>
