@@ -17,7 +17,7 @@
   event: NYU OSIRIS Lab Cybersecurity Club
   location: New York City, USA
   talks:
-    - title: "Pwndbg & Escaping the matrix: exploiting custom QEMU cpu bugs from a HXP CTF 2024 task"
+    - title: "Pwndbg & Escaping QEMU in a HXP CTF 2024 task"
       slides: https://docs.google.com/presentation/d/1RljBJ2uYIVyg4UVbeffFCPtWM0qTOYSC4A5Uk3wb21Y
 
 - date: 2026-04-24
