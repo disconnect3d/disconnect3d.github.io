@@ -17,7 +17,7 @@ Below you can see a list of talks I gave on various events with slides/videos li
 * Pwndbg & Escaping QEMU in a HXP CTF 2024 task ([slides](https://docs.google.com/presentation/d/1RljBJ2uYIVyg4UVbeffFCPtWM0qTOYSC4A5Uk3wb21Y)) - an intro to the [Pwndbg tool](https://pwndbg.re/dev/) as well as walkthrough over a QEMU escape CTF challenge ([writeup](https://github.com/justcatthefish/ctf-writeups/blob/master/hxp2024/hxp_silicon_foundaries_hack4/README.md))
 
 ### 2026.04.24 [Bug Bash 2026](https://antithesis.com/bugbash/conference2026/), Washington DC, USA
-* Hacking kiosk interfaces v1.1 ([slides](https://docs.google.com/presentation/d/1TWsT84NCICx0dDKumEYjWcj8_tk4EZYphvk02fOUvM0/))
+* Hacking kiosk interfaces v1.1 ([slides](https://docs.google.com/presentation/d/1TWsT84NCICx0dDKumEYjWcj8_tk4EZYphvk02fOUvM0/), [video](https://www.youtube.com/watch?v=m0GumJCj83o))
 
 ### 2026.04.17 [NYC Systems](https://nycsystems.xyz/2026/april.html), New York City, USA
 * [lightning talk] Coordination (or shared state) kills performance - a lightning talk on false sharing of data in multicore systems ([slides](https://docs.google.com/presentation/d/1BgR0GXrC7n-bJ1LlC_7MaIXbkmUCOYXwle3ocB6PNg4/))

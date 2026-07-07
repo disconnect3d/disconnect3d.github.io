@@ -70,7 +70,7 @@ permalink: /talks2/
 <div class="event-body">
 <div class="event-head"><a href="https://antithesis.com/bugbash/conference2026/">Bug Bash 2026</a><span class="loc">, Washington DC, USA</span></div>
 <ul class="talks">
-<li><span class="title">Hacking kiosk interfaces v1.1</span> <a href="https://docs.google.com/presentation/d/1TWsT84NCICx0dDKumEYjWcj8_tk4EZYphvk02fOUvM0/">slides</a></li>
+<li><span class="title">Hacking kiosk interfaces v1.1</span> <a href="https://docs.google.com/presentation/d/1TWsT84NCICx0dDKumEYjWcj8_tk4EZYphvk02fOUvM0/">slides</a> <a href="https://www.youtube.com/watch?v=m0GumJCj83o">video</a></li>
 </ul>
 </div>
 </div>
