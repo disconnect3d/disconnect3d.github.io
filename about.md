@@ -26,9 +26,9 @@ Here is also a bunch of info on me ;).
 
 * Maintainer of [Pwndbg](https://github.com/pwndbg/pwndbg) -- a plugin for GDB and LLDB for low level debugging, security research, reverse engineering and exploit development ([Sponsor us!](https://github.com/sponsors/pwndbg/))
 
-* I am a reviewer of [Paged Out!](https://pagedout.institute/) free magazine about programming, security, hacking, computers, electronics, demoscene and other similar topics.
+* I am a reviewer of [Paged Out!](https://pagedout.institute/), a free magazine about programming, security, hacking, computers, electronics, demoscene and other similar topics.
 
-* I am an editor at [Programista](https://programistamag.pl/o-nas/#:~:text=Dominik%20%E2%80%9EDisconnect3d%E2%80%9D%20Czarnota), a Polish programming magazine.
+* I am a reviewer of [Programista](https://programistamag.pl/o-nas/#:~:text=Dominik%20%E2%80%9EDisconnect3d%E2%80%9D%20Czarnota), a Polish programming magazine.
 
 * Education: Applied Computer Science at AGH University of Science and Technology in Cracow, Poland
 
