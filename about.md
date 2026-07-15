@@ -28,6 +28,8 @@ Here is also a bunch of info on me ;).
 
 * I am a reviewer of [Paged Out!](https://pagedout.institute/) free magazine about programming, security, hacking, computers, electronics, demoscene and other similar topics.
 
+* I am an editor at [Programista](https://programistamag.pl/o-nas/#:~:text=Dominik%20%E2%80%9EDisconnect3d%E2%80%9D%20Czarnota), a Polish programming magazine.
+
 * Education: Applied Computer Science at AGH University of Science and Technology in Cracow, Poland
 
   * Master thesis (in Polish): [Reverse engineering, finding and exploiting bugs in native apps on x86 and x86-64]({{ site.url }}assets/about_me/disconnect3d_master_thesis.pdf). The reviews are inside.
