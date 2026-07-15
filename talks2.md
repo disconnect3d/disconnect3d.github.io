@@ -25,7 +25,17 @@ permalink: /talks2/
 </nav>
 
 <section id="y-2026" class="year-block">
-<h2><span>2026 <span class="year-count">14 talks</span></span> <a class="to-top" href="#top">↑ top</a></h2>
+<h2><span>2026 <span class="year-count">15 talks</span></span> <a class="to-top" href="#top">↑ top</a></h2>
+
+<div class="event">
+<div class="event-date">06.25</div>
+<div class="event-body">
+<div class="event-head"><a href="https://www.pykonik.org/tech-talks/85/">Pykonik Tech Talks #85</a><span class="loc">, Cracow, Poland</span></div>
+<ul class="talks">
+<li><span class="tag tag-pl" title="Polish-language">PL</span><span class="tag tag-lt" title="Lightning talk (~5 min, often improvised)">⚡</span><span class="title">TLS/mTLS/Noise protocol, Bluetooth during flight, and smartphone vs car nausea</span> <a href="https://youtu.be/XVod4wEv8MU?t=8506">video</a></li>
+</ul>
+</div>
+</div>
 
 <div class="event">
 <div class="event-date">05.21</div>

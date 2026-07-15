@@ -1,5 +1,14 @@
 # Latest talks shown on the homepage. Update this when adding entries
 # at the top of talks.md. Three to five entries is plenty.
+- date: 2026-06-25
+  event: "Pykonik Tech Talks #85"
+  event_url: https://www.pykonik.org/tech-talks/85/
+  location: Cracow, Poland
+  talks:
+    - title: "TLS/mTLS/Noise protocol, Bluetooth during flight, and smartphone vs car nausea"
+      tag: PL, lightning talk
+      video: https://youtu.be/XVod4wEv8MU?t=8506
+
 - date: 2026-05-21
   event: "Pykonik Tech Talks #84"
   event_url: https://www.pykonik.org/tech-talks/84/

@@ -6,6 +6,9 @@ permalink: /talks/
 
 Below you can see a list of talks I gave on various events with slides/videos links. The `[PL]` tag means it was in Polish and `[lightning talk]` means it was a quick, usually <5 min talk, likely improvised or prepared just before giving it.
 
+### 2026.06.25 [Pykonik Tech Talks #85](https://www.pykonik.org/tech-talks/85/)
+* [PL][lightning talk] TLS/mTLS/Noise protocol, Bluetooth during flight, and smartphone vs car nausea ([video](https://youtu.be/XVod4wEv8MU?t=8506))
+
 ### 2026.05.21 [Pykonik Tech Talks #84](https://www.pykonik.org/tech-talks/84/)
 * [lightning talks] 4 lightning talks: LLM fine-tuning hijacking from a CTF challenge, Claude Mythos Preview, Mobile data roaming arbitrage, and a Claude Code newline directory bug ([slides](https://docs.google.com/presentation/d/1MEyFWctYqOSOWhE0w2-V7t9AvYG14ph9M254KPb8mb4), [video](https://youtu.be/IpFCXNkPHvA?t=7196))
 * [lightning talk] e2ee in messaging apps - using and verifying it, and shaming Instagram for disabling it ([video](https://youtu.be/IpFCXNkPHvA?t=9087))
