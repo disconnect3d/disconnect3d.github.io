@@ -6,6 +6,9 @@ permalink: /talks/
 
 Below you can see a list of talks I gave on various events with slides/videos links. The `[PL]` tag means it was in Polish and `[lightning talk]` means it was a quick, usually <5 min talk, likely improvised or prepared just before giving it.
 
+### 2026.09.24 [Pykonik Tech Talks #86](https://www.pykonik.org/tech-talks/86/)
+* LLMao: Large Language Mayhem (v2) ([slides](https://docs.google.com/presentation/d/1cslgKNU_YUVYVBUr6LXERfQtA05jixjw6TcBiIb4HZQ/), [video](https://www.youtube.com/watch?v=hI8keIO4tWc&t=1100s)) - yolo is cool until it isn't; we will talk about LLM use insecurities, ways to sandbox your agents (locally & on prod) and about issues with skills and ways for evaluating them
+
 ### 2026.08.17 Build IT Club, Cracow, Poland
 * [lightning talk] Benchmarking/evaluating your agentic skills with `CLAUDE_CODE_WALNUT_SPIRE=1 claude plugin eval init` ([info](https://www.linkedin.com/posts/builditclub-krakow-artificialintelligence-share-7492928783868678146-SJtu))
 

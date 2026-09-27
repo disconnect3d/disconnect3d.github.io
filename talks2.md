@@ -25,7 +25,17 @@ permalink: /talks2/
 </nav>
 
 <section id="y-2026" class="year-block">
-<h2><span>2026 <span class="year-count">17 talks</span></span> <a class="to-top" href="#top">↑ top</a></h2>
+<h2><span>2026 <span class="year-count">18 talks</span></span> <a class="to-top" href="#top">↑ top</a></h2>
+
+<div class="event">
+<div class="event-date">09.24</div>
+<div class="event-body">
+<div class="event-head"><a href="https://www.pykonik.org/tech-talks/86/">Pykonik Tech Talks #86</a><span class="loc">, Cracow, Poland</span></div>
+<ul class="talks">
+<li><span class="title">LLMao: Large Language Mayhem (v2)</span> <a href="https://docs.google.com/presentation/d/1cslgKNU_YUVYVBUr6LXERfQtA05jixjw6TcBiIb4HZQ/">slides</a> <a href="https://www.youtube.com/watch?v=hI8keIO4tWc&amp;t=1100s">video</a><div class="desc">yolo is cool until it isn't; we will talk about LLM use insecurities, ways to sandbox your agents (locally &amp; on prod) and about issues with skills and ways for evaluating them.</div></li>
+</ul>
+</div>
+</div>
 
 <div class="event">
 <div class="event-date">08.17</div>
