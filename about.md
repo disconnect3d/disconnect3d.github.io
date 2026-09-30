@@ -50,6 +50,9 @@ Here is also a bunch of info on me ;).
 * [[2020] Cstrnfinder research](http://github.com/disconnect3d/cstrnfinder) - a research about finding stupid string related bugs in C/C++ codebases
 * [[2019.07.19] Understanding Docker container escapes](https://blog.trailofbits.com/2019/07/19/understanding-docker-container-escapes/) - a post where I broke down a privileged Docker escape technique published by Felix Wilhelm (@_fel1x) on Twitter/X
 
+**Articles for [Paged Out!](https://pagedout.institute/) magazine:**
+ * [[2019.08] from cpython_exploit_ellipsis import *](https://pagedout.institute/download/PagedOut_001.pdf) - a one-page article in Paged Out! #1 showing a module that, when imported, turns Python's `Ellipsis` (`...`) into a magic object allowing inline imports via `....module` and calling libc functions via `...['printf']`. How it works is left as a puzzle: the page contains the exploit's compiled CPython bytecode (`.pyc`) as a hexdump.
+
 **Articles for "Programista" polish programming magazine:**
  * [[2023] Debugowanie niskopoziomowe z Pwndbg](https://programistamag.pl/programista-42023-109-wrzesienpazdziernik-2023-debugowanie-niskopoziomowe-z-pwndbg/) - An article about [Pwndbg](https://github.com/pwndbg/pwndbg), a plugin for GDB for security research, reverse engineering and exploit development.
  * [[2021] Pułapki w języku Go]([https://szukaj.programistamag.pl/uuid/34796811fe73d50f4615a76ba993dba1c1ae383b](https://programistamag.pl/pulapki-w-jezyku-go/)) - Go programming language traps that may lead to security vulnerabilities.
