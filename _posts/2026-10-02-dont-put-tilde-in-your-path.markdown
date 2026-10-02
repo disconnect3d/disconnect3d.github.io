@@ -18,9 +18,11 @@ In other words, doing this in your `~/.bashrc` or `~/.zshrc`:
 export PATH="$PATH:~/.local/bin/"
 ```
 
-Will not expand the `~` (tilde) into the home path (or `$HOME`) as the tilde to home expansion happens only in unquoted inputs, as also the [bash documentation says](https://www.gnu.org/software/bash/manual/html_node/Tilde-Expansion.html):
+will not expand the `~` (tilde) into the home path (or `$HOME`) as the tilde to home expansion happens only in unquoted inputs, as also the [bash documentation says](https://www.gnu.org/software/bash/manual/html_node/Tilde-Expansion.html):
 
-> If a word begins with an unquoted tilde character ('~'), all of the characters preceding the first unquoted slash (...) are considered a tilde-prefix.
+> If a word begins with an unquoted tilde character (‘~’), all of the characters up to the first unquoted slash (...) are considered a tilde-prefix. (...)
+>
+> Bash checks each variable assignment for unquoted tilde-prefixes immediately following a ‘:’ or the first ‘=’, and performs tilde expansion in these cases. (...)
 
 So instead of having `/home/<user>/.local/bin/` added to `PATH` we end up with `./~/.local/bin/` added to `PATH`.
 
@@ -29,10 +31,10 @@ And to fix this, we can do this:
 export PATH="$PATH:$HOME/.local/bin/"
 ```
 
-Note that the unquoted version `export PATH=$PATH:~/.local/bin` actually works in Bash and Zsh, because tilde expansion is also performed in variable assignments after `=` and after each `:`. But relying on that is fragile — one day you add quotes "for safety" and silently break it — so just use `$HOME`.
+Note that the unquoted version `export PATH=$PATH:~/.local/bin` actually works in Bash and Zsh, because tilde expansion is also performed in variable assignments after `=` and after each `:`. But relying on that is fragile as for example, a whitespace will break the variable assignment.
 
 
-The whole problem can also be seen in here:
+The problem can also be seen here:
 
 ```sh
 $ ls -la
