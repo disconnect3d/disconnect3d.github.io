@@ -56,7 +56,7 @@ As we can see, the `kek` binary was found and executed from `./~/.local/bin/` â€
 
 ## Check your PATH
 
-Btw, you can quickly check whether you have this problem with:
+You can quickly check whether you have this problem with:
 
 ```sh
 $ echo "$PATH" | grep -- '~'
