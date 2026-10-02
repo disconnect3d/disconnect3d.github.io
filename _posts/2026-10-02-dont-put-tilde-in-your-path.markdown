@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "The tilde in your PATH is not your HOME"
-date:       2026-10-02 17:00:00
+date:       2026-10-02 11:00:00
 tags: [shell, bash, zsh, security]
 excerpt_separator: <!--more-->
 ---
