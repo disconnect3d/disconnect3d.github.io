@@ -8,6 +8,8 @@ excerpt_separator: <!--more-->
 
 I was playing with the [nono](https://nono.sh/) agent sandboxing tool and it greeted me with a warning: `PATH entries the sandbox can write to: ~/.local/bin/` which looked suspicious.
 
+![nono warning about PATH entries the sandbox can write to]({{ site.url }}assets/posts/tilde-in-path-nono-warning.png)
+
 <!--more-->
 
 In other words, doing this:
