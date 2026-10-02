@@ -54,6 +54,8 @@ $ tree -f
 4 directories, 2 files
 ```
 
+![Demo showing that a literal tilde in PATH resolves to a ./~/ directory in the current working directory]({{ site.url }}assets/posts/tilde-in-path.png)
+
 As we can see, the `kek` binary was found and executed from `./~/.local/bin/` — the home directory was never involved.
 
 ## Check your PATH
