@@ -12,7 +12,7 @@ I was playing with the [nono](https://nono.sh/) agent sandboxing tool and it gre
 
 <!--more-->
 
-In other words, doing this:
+In other words, doing this in your `~/.bashrc` or `~/.zshrc`:
 
 ```sh
 export PATH="$PATH:~/.local/bin/"
